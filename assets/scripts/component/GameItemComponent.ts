@@ -63,7 +63,7 @@ export class GameItemComponent extends Component {
         }
 
         // 先尝试加载本地图片
-        App.ResUtils.getSpriteFrame(`image/game/icon/${this.gameId}/spriteFrame`)
+        App.ResUtils.getSpriteFrameFromCommonBundle(`image/game/icon/${this.gameId}/spriteFrame`)
             .then((spr) => {
                 this.icon.spriteFrame = spr;
             })

@@ -1,0 +1,207 @@
+{
+  "name": "test",
+  "server": "",
+  "engineModulesConfigKey": "defaultConfig",
+  "platform": "android",
+  "buildPath": "project://build",
+  "debug": false,
+  "buildMode": "normal",
+  "mangleProperties": false,
+  "md5Cache": false,
+  "skipCompressTexture": false,
+  "sourceMaps": false,
+  "overwriteProjectSettings": {
+    "macroConfig": {
+      "cleanupImageCache": "inherit-project-setting"
+    },
+    "includeModules": {
+      "physics": "inherit-project-setting",
+      "physics-2d": "inherit-project-setting",
+      "gfx-webgl2": "off"
+    }
+  },
+  "nativeCodeBundleMode": "wasm",
+  "polyfills": {
+    "asyncFunctions": false
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "inlineEnum": true,
+  "useBuiltinServer": false,
+  "md5CacheOptions": {
+    "excludes": [],
+    "includes": [],
+    "replaceOnly": [],
+    "handleTemplateMd5Link": true
+  },
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": true,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "157603d5-c2eb-4627-93c2-728faa11ffa4",
+  "outputName": "android-test",
+  "taskName": "android-test",
+  "scenes": [
+    {
+      "url": "db://assets/hall/Hall.scene",
+      "uuid": "3ee4d9a2-50d0-4585-9b47-092fcd8e0284",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/main/HallPreload.scene",
+      "uuid": "cad74c3d-ee14-4c7d-8c25-0ae8744eb51f"
+    },
+    {
+      "url": "db://assets/main/Launch.scene",
+      "uuid": "157603d5-c2eb-4627-93c2-728faa11ffa4"
+    },
+    {
+      "url": "db://assets/main/Login.scene",
+      "uuid": "9fcb5b81-b5db-4bdd-9e5c-96f3acb088de"
+    },
+    {
+      "url": "db://assets/games/Crazy777I/Crazy777I.scene",
+      "uuid": "f4ff268c-ba34-409b-8533-79160d9e45fd",
+      "bundle": "db://assets/games/Crazy777I"
+    },
+    {
+      "url": "db://assets/games/Diamond777/Diamond777.scene",
+      "uuid": "b1979f22-c8d2-4504-9287-e7757a35c59d",
+      "bundle": "db://assets/games/Diamond777"
+    },
+    {
+      "url": "db://assets/games/GemsFrotuneI/GemsFrotuneI.scene",
+      "uuid": "f6245ccb-f00e-454a-adf5-f2c6bc609d6e",
+      "bundle": "db://assets/games/GemsFrotuneI"
+    },
+    {
+      "url": "db://assets/games/GemsFrotuneII/GemsFrotuneII.scene",
+      "uuid": "9973e633-0197-4776-ba18-9e03918c303f",
+      "bundle": "db://assets/games/GemsFrotuneII"
+    },
+    {
+      "url": "db://assets/games/JungleDelight/JungleDelight.scene",
+      "uuid": "283b8702-88f6-4fa1-9c87-b735d30cb8eb",
+      "bundle": "db://assets/games/JungleDelight"
+    },
+    {
+      "url": "db://assets/games/MoneyComing/MoneyComing.scene",
+      "uuid": "8b71fc84-7af5-449e-86cf-fa3ab6d46541",
+      "bundle": "db://assets/games/MoneyComing"
+    },
+    {
+      "url": "db://assets/games/Super777I/Super777I.scene",
+      "uuid": "eb904ad1-e01b-4b11-b9bd-dcbbec99bb83",
+      "bundle": "db://assets/games/Super777I"
+    },
+    {
+      "url": "db://assets/games/ThePanda/ThePanda.scene",
+      "uuid": "fe480cad-2f77-406b-ae0e-1da290d3b57d",
+      "bundle": "db://assets/games/ThePanda"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/Diamond777_loading.scene",
+      "uuid": "e01dfff9-b34f-4e8e-9394-11e506a44b9e",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/GemsFrotuneII_loading.scene",
+      "uuid": "7ba0424e-f6fe-4f93-8f4c-99c6cee90446",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/GemsFrotuneI_loading.scene",
+      "uuid": "f57129a1-3002-4d7e-bc4c-1a479b63feaf",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/JungleDelight_loading.scene",
+      "uuid": "408547cc-8ce6-4113-807e-2d1df97f4da8",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/MoneyComing_loading.scene",
+      "uuid": "94b0a3d9-d079-41c2-8999-2f57bf318c8a",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/Super777I_loading.scene",
+      "uuid": "db340fca-9173-418f-8c1f-1b448b068b8b",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/ThePanda_loading.scene",
+      "uuid": "a1a13bbf-c36b-474b-b40a-3c05d85a9b36",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/Crazy777I_loading.scene",
+      "uuid": "4791c9c5-2bdd-45ad-905b-d845c776b3ff",
+      "bundle": "db://assets/hall"
+    }
+  ],
+  "wasmCompressionMode": false,
+  "binGroupConfig": {
+    "threshold": 16,
+    "enable": false
+  },
+  "packages": {
+    "android": {
+      "packageName": "com.game.testGame",
+      "resizeableActivity": true,
+      "maxAspectRatio": "2.4",
+      "orientation": {
+        "portrait": true,
+        "upsideDown": false,
+        "landscapeRight": false,
+        "landscapeLeft": false
+      },
+      "apiLevel": 31,
+      "appABIs": [
+        "arm64-v8a"
+      ],
+      "useDebugKeystore": true,
+      "keystorePath": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/tools/keystore/debug.keystore",
+      "keystorePassword": "123456",
+      "keystoreAlias": "debug_keystore",
+      "keystoreAliasPassword": "123456",
+      "appBundle": false,
+      "androidInstant": false,
+      "inputSDK": false,
+      "remoteUrl": "",
+      "sdkPath": "/Users/lin/Library/Android/sdk",
+      "ndkPath": "/Users/lin/Library/Android/sdk/ndk/21.1.6352462",
+      "javaHome": "",
+      "javaPath": "",
+      "renderBackEnd": {
+        "vulkan": false,
+        "gles3": true,
+        "gles2": true
+      },
+      "swappy": false,
+      "__version__": "1.0.1"
+    },
+    "native": {
+      "encrypted": false,
+      "xxteaKey": "b8/0mE3r9DuISmJD",
+      "compressZip": false,
+      "JobSystem": "none",
+      "__version__": "1.0.2"
+    },
+    "cocos-service": {
+      "configID": "43e991",
+      "services": [],
+      "__version__": "3.0.9"
+    },
+    "gg-hot-update": {
+      "enable": true,
+      "packageVersion": "1.0.0",
+      "configPath": "./settings/hotupdate/hot-update-template-config.json",
+      "__version__": "3.1.3"
+    }
+  },
+  "__version__": "1.3.9",
+  "logDest": "project://temp/builder/log/android12-25-2025 10-26.log"
+}

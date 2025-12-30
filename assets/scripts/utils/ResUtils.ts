@@ -172,6 +172,19 @@ export class ResUtils {
         });
     }
 
+    static getSpriteFrameFromCommonBundle(url: string): Promise<SpriteFrame> {
+        return new Promise((resolve, reject) => {
+            const commonBundle = App.GameManager.getCommonBundle();
+            commonBundle.load(url, SpriteFrame, (err, spriteFrame: SpriteFrame) => {
+                if (!err && spriteFrame) {
+                    resolve(spriteFrame);
+                } else {
+                    reject('SpriteFrame加载失败: ' + err);
+                }   
+            });
+        });
+    }
+
     static getSpriteFrame(url: string): Promise<SpriteFrame> {
         return new Promise((resolve, reject) => {
             const subGameBundle = App.SubGameManager.getGameBundle();
@@ -194,7 +207,8 @@ export class ResUtils {
                                 });
                             }
                         });
-                    } else {
+                    } 
+                    else {
                         resources.load(url, SpriteFrame, (err3, spriteFrame3: SpriteFrame) => {
                             if (!err3 && spriteFrame3) {
                                 resolve(spriteFrame3);
@@ -218,7 +232,8 @@ export class ResUtils {
                         });
                     }
                 });
-            } else {
+            } 
+            else {
                 resources.load(url, SpriteFrame, (err, spriteFrame: SpriteFrame) => {
                     if (!err && spriteFrame) {
                         resolve(spriteFrame);
@@ -325,9 +340,80 @@ export class ResUtils {
     }
 
     static loadBundle1(bundleName: string, callback: (progress: number, path: string, asset: any, bundleAA: AssetManager.Bundle) => void) {
+        // 先尝试使用 bundle 名称加载
         assetManager.loadBundle(bundleName, (err: Error, bundle: AssetManager.Bundle) => {
-            if (err) { console.error(`loadBundle加载bundle失败！(${bundleName})`); return; }
+            if (err) { 
+                console.error(`loadBundle加载bundle失败！(${bundleName})`, err);
+                // 尝试列出搜索路径，帮助调试
+                if (typeof native !== 'undefined' && native.fileUtils) {
+                    try {
+                        const searchPaths = native.fileUtils.getSearchPaths();
+                        console.error(`当前搜索路径:`, searchPaths);
+                        const expectedPath = bundleName.includes('/') ? bundleName : `assets/${bundleName}`;
+                        console.error(`期望的 bundle 路径:`, expectedPath);
+                        
+                        // 检查热更新目录中是否存在该 bundle
+                        // 动态导入 zipHotUpdateManager（避免循环依赖）
+                        let zipHotUpdateManager: any = null;
+                        try {
+                            zipHotUpdateManager = require('db://assets/scripts/hotupdate/ZipHotUpdateManager').zipHotUpdateManager;
+                        } catch (e) {
+                            console.warn('无法导入 zipHotUpdateManager:', e);
+                        }
+                        
+                        if (!zipHotUpdateManager) {
+                            return;
+                        }
+                        
+                        const extractPath = zipHotUpdateManager.getBundleExtractPath(bundleName);
+                        const configPath = extractPath + '/cc.config.json';
+                        const hasConfig = native.fileUtils.isFileExist(configPath);
+                        console.error(`热更新目录检查:`, {
+                            extractPath,
+                            configPath,
+                            hasConfig,
+                            dirExists: native.fileUtils.isDirectoryExist(extractPath)
+                        });
+                        
+                        // 如果热更新目录存在，尝试使用完整路径加载
+                        if (hasConfig) {
+                            console.log(`尝试使用完整路径加载 bundle: ${extractPath}`);
+                            assetManager.loadBundle(extractPath, (err2: Error, bundle2: AssetManager.Bundle) => {
+                                if (err2 || !bundle2) {
+                                    console.error(`使用完整路径加载也失败:`, err2);
+                                    return;
+                                }
+                                // 使用完整路径加载成功，继续处理
+                                this._processBundleFiles(bundle2, bundleName, callback);
+                            });
+                            return;
+                        }
+                    } catch (e) {
+                        console.error(`无法获取搜索路径:`, e);
+                    }
+                }
+                return; 
+            }
+            
+            // 加载成功，处理文件
+            this._processBundleFiles(bundle, bundleName, callback);
+        });
+    }
+    
+    private static _processBundleFiles(bundle: AssetManager.Bundle, bundleName: string, callback: (progress: number, path: string, asset: any, bundleAA: AssetManager.Bundle) => void) {
+            
+            if (!bundle) {
+                console.error(`loadBundle加载bundle失败：bundle 为 null (${bundleName})`);
+                return;
+            }
+            
             let files = bundle.getDirWithPath('');
+            if (!files || files.length === 0) {
+                console.warn(`loadBundle: bundle 中没有找到资源文件 (${bundleName})`);
+                callback(1, null, null, bundle);
+                return;
+            }
+            
             let cur = 0, total = files.length;
             for (let i = 0; i < total; ++i) {
                 let name = files[i].path;
@@ -339,12 +425,15 @@ export class ResUtils {
                 }
                 bundle.load(name, type, (err: Error, asset: any) => {
                     let key = `${bundleName}/${type === SpriteFrame && name.endsWith('spriteFrame') ? name.substring(0, name.lastIndexOf('/')) : name}`;
-                    if (err) { console.error(`loadBundle加载资源失败！(${key})`); callback(++cur / total, null, null, bundle); return; }
+                    if (err) { 
+                        console.error(`loadBundle加载资源失败！(${key})`, err); 
+                        callback(++cur / total, null, null, bundle); 
+                        return; 
+                    }
                     resources[key] = asset;
                     callback(++cur / total, key, type === JsonAsset ? asset.json : asset, bundle);
                 });
             }
-        });
     }
 
     /**

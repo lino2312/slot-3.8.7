@@ -1,0 +1,457 @@
+{
+  "name": "YonoHot",
+  "server": "",
+  "engineModulesConfigKey": "defaultConfig",
+  "platform": "android",
+  "buildPath": "project://build",
+  "debug": false,
+  "buildMode": "normal",
+  "mangleProperties": false,
+  "md5Cache": false,
+  "skipCompressTexture": false,
+  "sourceMaps": false,
+  "overwriteProjectSettings": {
+    "macroConfig": {
+      "cleanupImageCache": "inherit-project-setting"
+    },
+    "includeModules": {
+      "physics": "inherit-project-setting",
+      "physics-2d": "inherit-project-setting",
+      "gfx-webgl2": "off"
+    }
+  },
+  "nativeCodeBundleMode": "wasm",
+  "polyfills": {
+    "targets": "chrome 80",
+    "asyncFunctions": false
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "inlineEnum": true,
+  "useBuiltinServer": false,
+  "md5CacheOptions": {
+    "excludes": [
+      "/Users/lin/project/project_dz/cocos3.8.7/build/android-YonoHot/data/src/effect.bin"
+    ],
+    "includes": [
+      "/Users/lin/project/project_dz/cocos3.8.7/build/android-YonoHot/data/application.js"
+    ],
+    "replaceOnly": [
+      "/Users/lin/project/project_dz/cocos3.8.7/build/android-YonoHot/data/main.js"
+    ],
+    "handleTemplateMd5Link": true
+  },
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": true,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "157603d5-c2eb-4627-93c2-728faa11ffa4",
+  "outputName": "android-YonoHot",
+  "taskName": "android-YonoHot",
+  "scenes": [
+    {
+      "url": "db://assets/hall/Hall.scene",
+      "uuid": "3ee4d9a2-50d0-4585-9b47-092fcd8e0284",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/main/HallPreload.scene",
+      "uuid": "cad74c3d-ee14-4c7d-8c25-0ae8744eb51f"
+    },
+    {
+      "url": "db://assets/main/Launch.scene",
+      "uuid": "157603d5-c2eb-4627-93c2-728faa11ffa4"
+    },
+    {
+      "url": "db://assets/main/Login.scene",
+      "uuid": "9fcb5b81-b5db-4bdd-9e5c-96f3acb088de"
+    },
+    {
+      "url": "db://assets/games/Crazy777I/Crazy777I.scene",
+      "uuid": "f4ff268c-ba34-409b-8533-79160d9e45fd",
+      "bundle": "db://assets/games/Crazy777I"
+    },
+    {
+      "url": "db://assets/games/Diamond777/Diamond777.scene",
+      "uuid": "b1979f22-c8d2-4504-9287-e7757a35c59d",
+      "bundle": "db://assets/games/Diamond777"
+    },
+    {
+      "url": "db://assets/games/GemsFrotuneI/GemsFrotuneI.scene",
+      "uuid": "f6245ccb-f00e-454a-adf5-f2c6bc609d6e",
+      "bundle": "db://assets/games/GemsFrotuneI"
+    },
+    {
+      "url": "db://assets/games/GemsFrotuneII/GemsFrotuneII.scene",
+      "uuid": "9973e633-0197-4776-ba18-9e03918c303f",
+      "bundle": "db://assets/games/GemsFrotuneII"
+    },
+    {
+      "url": "db://assets/games/JungleDelight/JungleDelight.scene",
+      "uuid": "283b8702-88f6-4fa1-9c87-b735d30cb8eb",
+      "bundle": "db://assets/games/JungleDelight"
+    },
+    {
+      "url": "db://assets/games/MoneyComing/MoneyComing.scene",
+      "uuid": "8b71fc84-7af5-449e-86cf-fa3ab6d46541",
+      "bundle": "db://assets/games/MoneyComing"
+    },
+    {
+      "url": "db://assets/games/Super777I/Super777I.scene",
+      "uuid": "eb904ad1-e01b-4b11-b9bd-dcbbec99bb83",
+      "bundle": "db://assets/games/Super777I"
+    },
+    {
+      "url": "db://assets/games/ThePanda/ThePanda.scene",
+      "uuid": "fe480cad-2f77-406b-ae0e-1da290d3b57d",
+      "bundle": "db://assets/games/ThePanda"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/Crazy777I_loading.scene",
+      "uuid": "4791c9c5-2bdd-45ad-905b-d845c776b3ff",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/Diamond777_loading.scene",
+      "uuid": "e01dfff9-b34f-4e8e-9394-11e506a44b9e",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/GemsFrotuneII_loading.scene",
+      "uuid": "7ba0424e-f6fe-4f93-8f4c-99c6cee90446",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/GemsFrotuneI_loading.scene",
+      "uuid": "f57129a1-3002-4d7e-bc4c-1a479b63feaf",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/JungleDelight_loading.scene",
+      "uuid": "408547cc-8ce6-4113-807e-2d1df97f4da8",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/MoneyComing_loading.scene",
+      "uuid": "94b0a3d9-d079-41c2-8999-2f57bf318c8a",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/Super777I_loading.scene",
+      "uuid": "db340fca-9173-418f-8c1f-1b448b068b8b",
+      "bundle": "db://assets/hall"
+    },
+    {
+      "url": "db://assets/hall/loadingScene/ThePanda_loading.scene",
+      "uuid": "a1a13bbf-c36b-474b-b40a-3c05d85a9b36",
+      "bundle": "db://assets/hall"
+    }
+  ],
+  "wasmCompressionMode": false,
+  "binGroupConfig": {
+    "threshold": 16,
+    "enable": false
+  },
+  "packages": {
+    "android": {
+      "packageName": "com.game.YonoHot",
+      "resizeableActivity": true,
+      "maxAspectRatio": "2.4",
+      "orientation": {
+        "landscapeRight": false,
+        "landscapeLeft": false,
+        "portrait": true,
+        "upsideDown": false
+      },
+      "apiLevel": 31,
+      "appABIs": [
+        "arm64-v8a"
+      ],
+      "useDebugKeystore": true,
+      "keystorePath": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/tools/keystore/debug.keystore",
+      "keystorePassword": "123456",
+      "keystoreAlias": "debug_keystore",
+      "keystoreAliasPassword": "123456",
+      "appBundle": false,
+      "androidInstant": false,
+      "inputSDK": false,
+      "remoteUrl": "",
+      "sdkPath": "/Users/lin/Library/Android/sdk",
+      "ndkPath": "/Users/lin/Library/Android/sdk/ndk/21.1.6352462",
+      "javaHome": "",
+      "javaPath": "",
+      "swappy": false,
+      "renderBackEnd": {
+        "vulkan": false,
+        "gles3": true,
+        "gles2": true
+      }
+    },
+    "native": {
+      "encrypted": false,
+      "xxteaKey": "b8/0mE3r9DuISmJD",
+      "compressZip": false,
+      "JobSystem": "none",
+      "__version__": "1.0.2"
+    },
+    "cocos-service": {
+      "configID": "43e991",
+      "services": [],
+      "__version__": "3.0.9"
+    },
+    "gg-hot-update": {
+      "enable": true,
+      "packageVersion": "1.0.0",
+      "configPath": "./settings/hotupdate/hot-update-template-config.json",
+      "__version__": "3.1.3"
+    }
+  },
+  "__version__": "1.3.9",
+  "logDest": "project://temp/builder/log/android12-18-2025 14-28.log",
+  "useCache": true,
+  "platformType": "ANDROID",
+  "includeModules": [
+    "2d",
+    "affine-transform",
+    "animation",
+    "audio",
+    "base",
+    "custom-pipeline",
+    "dragon-bones",
+    "graphics",
+    "intersection-2d",
+    "mask",
+    "particle-2d",
+    "physics-2d-box2d",
+    "profiler",
+    "rich-text",
+    "spine-3.8",
+    "tiled-map",
+    "tween",
+    "ui",
+    "video",
+    "websocket",
+    "websocket-server",
+    "webview",
+    "custom-pipeline-builtin-scripts"
+  ],
+  "flags": {
+    "LOAD_BULLET_MANUALLY": false,
+    "LOAD_SPINE_MANUALLY": false
+  },
+  "designResolution": {
+    "width": 1080,
+    "height": 1920,
+    "fitWidth": true,
+    "fitHeight": true
+  },
+  "renderPipeline": "fd8ec536-a354-4a17-9c74-4f3883c378c8",
+  "physicsConfig": {
+    "gravity": {
+      "x": 0,
+      "y": -10,
+      "z": 0
+    },
+    "allowSleep": true,
+    "sleepThreshold": 0.1,
+    "autoSimulation": true,
+    "fixedTimeStep": 0.0166667,
+    "maxSubSteps": 1,
+    "defaultMaterial": "ba21476f-2866-4f81-9c4d-6e359316e448"
+  },
+  "customLayers": [],
+  "sortingLayers": [],
+  "macroConfig": {},
+  "customPipeline": true,
+  "useBuildAssetCache": true,
+  "useBuildEngineCache": true,
+  "useBuildTextureCompressCache": true,
+  "useBuildAutoAtlasCache": true,
+  "resolution": {
+    "width": 1080,
+    "height": 1920,
+    "policy": 2
+  },
+  "engineInfo": {
+    "typescript": {
+      "type": "builtin",
+      "custom": "",
+      "builtin": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine",
+      "path": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine"
+    },
+    "native": {
+      "type": "builtin",
+      "custom": "",
+      "builtin": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/native",
+      "path": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/native"
+    }
+  },
+  "appTemplateData": {
+    "debugMode": false,
+    "renderMode": false,
+    "showFPS": false,
+    "resolution": {
+      "width": 1080,
+      "height": 1920,
+      "policy": 2
+    },
+    "md5Cache": false,
+    "cocosTemplate": "",
+    "settingsJsonPath": "src/settings.json",
+    "hasPhysicsAmmo": false,
+    "versionTips": "The version of application.ejs need upgrade",
+    "customVersion": "1.0.0",
+    "versionCheckTemplate": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/templates/launcher/version-check.ejs"
+  },
+  "buildEngineParam": {
+    "entry": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine",
+    "debug": false,
+    "mangleProperties": false,
+    "inlineEnum": true,
+    "sourceMaps": false,
+    "includeModules": [
+      "2d",
+      "affine-transform",
+      "animation",
+      "audio",
+      "base",
+      "custom-pipeline",
+      "dragon-bones",
+      "graphics",
+      "intersection-2d",
+      "mask",
+      "particle-2d",
+      "physics-2d-box2d",
+      "profiler",
+      "rich-text",
+      "spine-3.8",
+      "tiled-map",
+      "tween",
+      "ui",
+      "video",
+      "websocket",
+      "websocket-server",
+      "webview",
+      "custom-pipeline-builtin-scripts"
+    ],
+    "engineVersion": "3.8.7",
+    "md5Map": [],
+    "engineName": "cocos-js",
+    "output": "/Users/lin/project/project_dz/cocos3.8.7/build/android-YonoHot/data/src/cocos-js",
+    "platformType": "ANDROID",
+    "useCache": true,
+    "nativeCodeBundleMode": "wasm",
+    "wasmCompressionMode": false,
+    "targets": "chrome 80",
+    "flags": {
+      "DEBUG": false,
+      "LOAD_BULLET_MANUALLY": false,
+      "LOAD_SPINE_MANUALLY": false
+    }
+  },
+  "buildScriptParam": {
+    "experimentalEraseModules": false,
+    "outputName": "project",
+    "flags": {
+      "DEBUG": false,
+      "LOAD_BULLET_MANUALLY": false,
+      "LOAD_SPINE_MANUALLY": false
+    },
+    "polyfills": {
+      "targets": "chrome 80"
+    },
+    "platform": "ANDROID",
+    "commonDir": "/Users/lin/project/project_dz/cocos3.8.7/build/android-YonoHot/data/src/chunks",
+    "bundleCommonChunk": false,
+    "targets": "chrome 80",
+    "system": {
+      "preset": "commonjs-like"
+    }
+  },
+  "assetSerializeOptions": {
+    "cc.EffectAsset": {
+      "glsl1": true,
+      "glsl3": true,
+      "glsl4": false
+    }
+  },
+  "cocosParams": {
+    "buildDir": "/Users/lin/project/project_dz/cocos3.8.7/build/android-YonoHot",
+    "buildAssetsDir": "/Users/lin/project/project_dz/cocos3.8.7/build/android-YonoHot/data",
+    "projDir": "/Users/lin/project/project_dz/cocos3.8.7",
+    "cmakePath": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/tools/cmake/bin/cmake",
+    "nativeEnginePath": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/native",
+    "enginePath": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine",
+    "projectName": "YonoHot",
+    "debug": false,
+    "encrypted": false,
+    "xxteaKey": "b8/0mE3r9DuISmJD",
+    "compressZip": false,
+    "cMakeConfig": {
+      "APP_NAME": "set(APP_NAME \"YonoHot\")",
+      "COCOS_X_PATH": "set(COCOS_X_PATH \"/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/native\")",
+      "USE_JOB_SYSTEM_TASKFLOW": false,
+      "USE_JOB_SYSTEM_TBB": false,
+      "ENABLE_FLOAT_OUTPUT": false,
+      "USE_PHYSICS_PHYSX": "set(USE_PHYSICS_PHYSX OFF)",
+      "USE_BOX2D_JSB": "set(USE_BOX2D_JSB OFF)",
+      "USE_OCCLUSION_QUERY": "set(USE_OCCLUSION_QUERY OFF)",
+      "USE_GEOMETRY_RENDERER": "set(USE_GEOMETRY_RENDERER OFF)",
+      "USE_DEBUG_RENDERER": "set(USE_DEBUG_RENDERER OFF)",
+      "USE_AUDIO": "set(USE_AUDIO ON)",
+      "USE_VIDEO": "set(USE_VIDEO ON)",
+      "USE_WEBVIEW": "set(USE_WEBVIEW ON)",
+      "USE_SOCKET": "set(USE_SOCKET ON)",
+      "USE_WEBSOCKET_SERVER": "set(USE_WEBSOCKET_SERVER ON)",
+      "USE_VENDOR": "set(USE_VENDOR OFF)",
+      "USE_SPINE_3_8": "set(USE_SPINE_3_8 ON)",
+      "USE_SPINE_4_2": "set(USE_SPINE_4_2 OFF)",
+      "USE_DRAGONBONES": "set(USE_DRAGONBONES ON)",
+      "CC_USE_VULKAN": false,
+      "CC_USE_GLES3": true,
+      "CC_USE_GLES2": true,
+      "CC_ENABLE_SWAPPY": false,
+      "USE_ADPF": true
+    },
+    "platformParams": {
+      "packageName": "com.game.YonoHot",
+      "resizeableActivity": true,
+      "maxAspectRatio": "2.4",
+      "orientation": {
+        "landscapeRight": false,
+        "landscapeLeft": false,
+        "portrait": true,
+        "upsideDown": false
+      },
+      "apiLevel": 31,
+      "appABIs": [
+        "arm64-v8a"
+      ],
+      "useDebugKeystore": true,
+      "keystorePath": "/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/tools/keystore/debug.keystore",
+      "keystorePassword": "123456",
+      "keystoreAlias": "debug_keystore",
+      "keystoreAliasPassword": "123456",
+      "appBundle": false,
+      "androidInstant": false,
+      "inputSDK": false,
+      "remoteUrl": "",
+      "sdkPath": "/Users/lin/Library/Android/sdk",
+      "ndkPath": "/Users/lin/Library/Android/sdk/ndk/21.1.6352462",
+      "javaHome": "",
+      "javaPath": "",
+      "swappy": false,
+      "renderBackEnd": {
+        "vulkan": false,
+        "gles3": true,
+        "gles2": true
+      }
+    },
+    "platform": "android",
+    "packageName": "com.game.YonoHot"
+  },
+  "generateCompileConfig": true,
+  "dest": "/Users/lin/project/project_dz/cocos3.8.7/build/android-YonoHot/data/assets"
+}

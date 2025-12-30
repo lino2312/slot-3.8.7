@@ -46,7 +46,7 @@ export class SlotGameItemComponent extends Component {
         //     console.warn(err);
         // });
         console.log("gameName",gameName)
-        App.ResUtils.getSpriteFrame(`image/game/icon/${gameName}/spriteFrame`)
+        App.ResUtils.getSpriteFrameFromCommonBundle(`image/game/icon/${gameName}/spriteFrame`)
             .then((spr) => {
                 this.icon.spriteFrame = spr;
             })

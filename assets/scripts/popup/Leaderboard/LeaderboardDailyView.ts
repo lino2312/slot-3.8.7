@@ -130,7 +130,7 @@ export class LeaderboardDailyView extends Component {
                     const iconName: string | undefined = App.GameItemCfg[Number(element.gameID)]?.title;
                     if (iconName) {
                         try {//db://assets/hall/image/game/icon/287.png
-                            const spriteFrame: SpriteFrame = await App.ResUtils.getSpriteFrame(`image/game/icon/${iconName}/spriteFrame`);
+                            const spriteFrame: SpriteFrame = await App.ResUtils.getSpriteFrameFromCommonBundle(`image/game/icon/${iconName}/spriteFrame`);
                             if (spriteFrame) {
                                 item.children[0].children[0].getComponent(Sprite)!.spriteFrame = spriteFrame;
                             }
@@ -140,7 +140,7 @@ export class LeaderboardDailyView extends Component {
                     }
                 } else {
                     try {
-                        const spriteFrame: SpriteFrame = await App.ResUtils.getSpriteFrame(`image/game/icon/${element.gameID}/spriteFrame`);
+                        const spriteFrame: SpriteFrame = await App.ResUtils.getSpriteFrameFromCommonBundle(`image/game/icon/${element.gameID}/spriteFrame`);
                         if (spriteFrame) {
                             item.children[0].children[0].getComponent(Sprite)!.spriteFrame = spriteFrame;
                         }

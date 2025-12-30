@@ -29,17 +29,23 @@ export const Config = {
     haoUrl: "",
     PID_CFG: null as any, //PID配置,各自项目配置
     isSingleVersion: false,
-    // gameChannel: "D105", //游戏渠道号
     gameChannel: "test", //游戏渠道号
+    // gameChannel: "test", //游戏渠道号
 
     otpurl: "https://api.fastpay11.com/sms/dosend",
     loginServerAddress: "login.fastpay10.com",
     domainurl: "fastpay01.com",
     reqUrl: "https://ycapi.fastpay10.com",
     nativeVersion: "1.0.0",
-    hotupdateBaseUrl: "https://update.fastpay11.com/GameXVersion3",
+    // 热更新地址从ENV_CONFIG中读取，根据当前环境自动使用对应配置
+    hotupdateBaseUrl: "", // 从ENV_CONFIG中读取，如果环境配置中没有则使用空字符串
     up_type: 1, // 1: 热更新 2: 强制更新
     hotupdate_version: '1.0.0', //app热更新版本
+    // 压缩包热更新配置
+    useZipHotUpdate: true, // true: 使用zip压缩包热更新，false: 使用传统文件下载方式
+    zipHotUpdateSuffix: '.zip', // 压缩包后缀名（可选，默认.zip）
+    // 热更新日志开关
+    hotUpdateLogEnabled: true, // true: 启用热更新详细日志，false: 关闭详细日志（只显示关键信息）
     openFacebookLogin: false,
 
     //游戏默认方向
@@ -219,7 +225,8 @@ const ENV_CONFIG = {
         loginServerAddress: "login.fastpay10.com",
         domainurl: "fastpay11.com",
         reqUrl: "https://ycapi.fastpay10.com",
-        hotupdateBaseUrl: "https://update.fastpay11.com/GameXVersion3",
+        // hotupdateBaseUrl: "https://update.fastpay11.com/GameXVersion3",
+        hotupdateBaseUrl: "http://10.103.6.180:3000",
         currency: "",
         phoneNumber: "91",
     },
@@ -247,6 +254,7 @@ const ENV_CONFIG = {
         domainurl: "migame.win",
         reqUrl: "https://lotteryapi.migame66.com",
         hotupdateBaseUrl: "https://updateaws.fastpay11.com/GameXd105V3",
+        // hotupdateBaseUrl: "https://update.fastpay11.com/GameXd105V3",
         currency: "",
         phoneNumber: "91",
     },
