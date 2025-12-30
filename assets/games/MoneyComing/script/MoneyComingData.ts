@@ -33,7 +33,7 @@ export interface MoneyComingSpinMsgData extends SlotSpinMsgData {
 
 export default class MoneyComingData {
 
-    static BUNDLE_NAME = '';
+    static BUNDLE_NAME = 'MoneyComing';
     static COL_NUM = 4;
     static ROW_NUM = 5;
     static ITEM_NUM = 11;

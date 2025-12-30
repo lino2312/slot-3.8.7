@@ -86,13 +86,12 @@ export class AudioManager extends Component {
 
                 // ⭐ 关键：使用当前音效音量
                 audioSource.volume = AudioManager.effVolume;
-
-                audioSource.node.on(
-                    AudioSource.EventType.ENDED,
-                    () => {
-                        if (endCallback && typeof endCallback === 'function') endCallback();
-                    }
-                );
+                if (endCallback && typeof endCallback === 'function') {
+                    audioSource.node.once(
+                        AudioSource.EventType.ENDED,
+                        endCallback
+                    );
+                }
                 audioSource.play();
 
                 if (cb) cb();

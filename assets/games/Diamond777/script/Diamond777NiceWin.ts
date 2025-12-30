@@ -30,23 +30,24 @@ export default class Diamond777NiceWin extends Component {
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {
+    onLoad() {
 
     }
 
-    start () {
+    start() {
 
     }
 
     // update (dt) {}
 
-    onInit (cbRemove: Function, curRollingIndex: number, win: number, cbRollComplete: Function, ndParticle: Node) {
+    onInit(cbRemove: Function, curRollingIndex: number, win: number, cbRollComplete: Function, ndParticle: Node) {
         this.cbRemove = cbRemove;
         this.curRollingIndex = curRollingIndex;
         this.winScore = win;
         this.cbRollComplete = cbRollComplete;
         this.ndParticle = ndParticle;
-        this.ndParticle.getComponent(UIOpacity).opacity = 255;
+        // this.ndParticle.getComponent(UIOpacity).opacity = 255;
+        this.ndParticle.active = true;
         let spineLight = this.ndNiceWinLight.getComponent(MySpine)
         spineLight.playAni(0, false, () => {
             spineLight.playAni(1, true);
@@ -67,35 +68,43 @@ export default class Diamond777NiceWin extends Component {
             this.scrollEffectId = 0;
         }, (effectId: number) => {
             this.scrollEffectId = effectId;
-            rnWin.setScrollTime(Utils.getAudioDuration(effectId));
+            rnWin.setScrollTime(2);
             rnWin.scrollTo(this.winScore, () => {
-                if (this.cbRollComplete) {
-                    this.cbRollComplete();
-                }
-                spineLight.playAni(2, false);
-                spineText.playAni(2, false);
-                if (this.node.getComponent(UIOpacity).opacity > 0) {
-                    this.ndNiceWinNumTmp = instantiate(this.ndNiceWinNum);
-                    this.ndNiceWinNumTmp.parent = SlotGameData.scriptBottom.ndWinNum.parent;
-                    this.ndNiceWinNum.getComponent(UIOpacity).opacity = 0;
-                    let this_ndNiceWinNum_uiTransform = this.ndNiceWinNum.getComponent(UITransform) as UITransform;
-                    let worldPos = this_ndNiceWinNum_uiTransform.convertToWorldSpaceAR(v3());
-                    let SlotGameData_scriptBottom_ndWinNum_uiTransform = SlotGameData.scriptBottom.ndWinNum.getComponent(UITransform) as UITransform;
-                    this.ndNiceWinNumTmp.position = SlotGameData_scriptBottom_ndWinNum_uiTransform.convertToNodeSpaceAR(worldPos);
-                    tween(this.ndNiceWinNumTmp)
-                        .to(this.ndNiceWinText.getComponent(MySpine).getAniDuration(2), { position: SlotGameData.scriptBottom.ndWinNum.position })
-                        .call(() => {
-                            this.ndNiceWinNumTmp.destroy();
-                            this.ndNiceWinNumTmp = null;
-                            if (this.node.getComponent(UIOpacity).opacity > 0) {
-                                this.onRemove();
-                            }
+
+                tween(this.node)
+                    .delay(0.5)
+                    .call(() => {
+
+                        if (this.cbRollComplete) {
+                            this.cbRollComplete();
+                        }
+                        spineLight.playAni(2, false);
+                        spineText.playAni(2, false);
+                        if (this.node.getComponent(UIOpacity).opacity > 0) {
+                            this.ndNiceWinNumTmp = instantiate(this.ndNiceWinNum);
+                            this.ndNiceWinNumTmp.parent = SlotGameData.scriptBottom.ndWinNum.parent;
+                            this.ndNiceWinNum.getComponent(UIOpacity).opacity = 0;
+                            let this_ndNiceWinNum_uiTransform = this.ndNiceWinNum.getComponent(UITransform) as UITransform;
+                            let worldPos = this_ndNiceWinNum_uiTransform.convertToWorldSpaceAR(v3());
+                            let SlotGameData_scriptBottom_ndWinNum_uiTransform = SlotGameData.scriptBottom.ndWinNum.getComponent(UITransform) as UITransform;
+                            this.ndNiceWinNumTmp.position = SlotGameData_scriptBottom_ndWinNum_uiTransform.convertToNodeSpaceAR(worldPos);
+                            tween(this.ndNiceWinNumTmp)
+                                .to(this.ndNiceWinText.getComponent(MySpine).getAniDuration(2), { position: SlotGameData.scriptBottom.ndWinNum.position })
+                                .call(() => {
+                                    this.ndNiceWinNumTmp.destroy();
+                                    this.ndNiceWinNumTmp = null;
+                                    if (this.node.getComponent(UIOpacity).opacity > 0) {
+                                        this.onRemove();
+                                    }
+                                    this.node.destroy();
+                                })
+                                .start();
+                        } else {
                             this.node.destroy();
-                        })
-                        .start();
-                } else {
-                    this.node.destroy();
-                }
+                        }
+
+                    })
+                    .start();
             });
         });
         this.node.scale = new Vec3(0, 0, 0);
@@ -104,7 +113,7 @@ export default class Diamond777NiceWin extends Component {
             .start();
     }
 
-    onStop () {
+    onStop() {
         this.onRemove();
         if (this.scrollEffectId) {
             Utils.stopEffect(this.scrollEffectId);
@@ -123,9 +132,10 @@ export default class Diamond777NiceWin extends Component {
         }
     }
 
-    onRemove () {
+    onRemove() {
         this.node.getComponent(UIOpacity).opacity = 0;
-        this.ndParticle.getComponent(UIOpacity).opacity = 0;
+        // this.ndParticle.getComponent(UIOpacity).opacity = 0;
+        this.ndParticle.active = false;
         if (this.cbRemove) {
             this.cbRemove();
         }

@@ -1,10 +1,10 @@
 import { _decorator, Component, Node } from 'cc';
-import EventDispatcher from './EventDispatcher';
-import { PoolMng } from './PoolMng';
+import SlotsBottom from '../Slot/SlotsBottom';
 import SlotGameData from '../Slot/SlotsGameData';
 import SlotsTop from '../Slot/SlotsTop';
-import SlotsBottom from '../Slot/SlotsBottom';
-const {ccclass, property} = _decorator;
+import EventDispatcher from './EventDispatcher';
+import { PoolMng } from './PoolMng';
+const { ccclass, property } = _decorator;
 
 @ccclass('GameEnter')
 export default class GameEnter extends Component {
@@ -26,21 +26,21 @@ export default class GameEnter extends Component {
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {
+    onLoad() {
         SlotGameData.scriptTop = this.ndTop.getComponent(SlotsTop);
         SlotGameData.scriptBottom = this.ndBottom.getComponent(SlotsBottom);
     }
 
-    start () {
+    start() {
 
     }
 
     onEnable() {
-        
+
     }
 
     onDisable() {
-        
+
     }
 
     onDestroy() {
@@ -48,6 +48,6 @@ export default class GameEnter extends Component {
         PoolMng.clearNodePoolList();
     }
 
-    update (dt) {}
+    update(dt) { }
 
 }

@@ -3,12 +3,21 @@ import SlotGameMsgMgr from "db://assets/scripts/game/tsFrameCommon/Slot/SlotsGam
 import MoneyComingData, { MoneyComingSpinMsgData } from "db://assets/games/MoneyComing/script/MoneyComingData";
 
 import { _decorator } from 'cc';
+import { SlotGameBaseData } from "db://assets/scripts/game/slotgame/SlotGameBaseData";
+import { App } from "db://assets/scripts/App";
+import Cfg from "./MoneyComing_Cfg";
 const { ccclass, property } = _decorator;
 
 @ccclass('MoneyComingMsgMgr')
 export default class MoneyComingMsgMgr extends SlotGameMsgMgr {
 
     onLoad(): void {
+        let gameDataScript = this.node.addComponent(SlotGameBaseData);
+        //gameDataScript一定要最先set，否则后续取不到数据
+        App.SubGameManager.setSlotGameDataScript(gameDataScript);
+        let msgDic = App.SubGameManager.getMsgDic();
+        gameDataScript.init(msgDic.deskinfo, msgDic.gameid, msgDic.gameJackpot);
+        gameDataScript.setGameCfg(Cfg);
         SlotGameData.BUNDLE_NAME = 'MoneyComing';
         SlotGameData.scriptMsgMgr = this;
         super.onLoad();

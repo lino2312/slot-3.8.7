@@ -4660,7 +4660,7 @@ export class GameDataCfg {
             dataCmp: "LMSlots_GameData_Base",
             dataName: "gameData",
             cfgCmp: "MoneyComing_Cfg",
-            gameScene: "MoneyComing_loading",
+            gameScene: "MoneyComing",
             mainScene: "MoneyComing",
             orientation: "portrait",
             subpackage: "MoneyComing",

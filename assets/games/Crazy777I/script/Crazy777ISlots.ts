@@ -82,7 +82,7 @@ export default class Crazy777ISlots extends BaseComponent {
     }
     onWaitSpinMsg() {
         this.resetView();
-        //移除上一轮符号动画 add by peter
+        //移除上一轮符号动画 
         for (const key in this.itemDataList) {
             const itemData = this.itemDataList[key];
             if (itemData.ndItemAni) {

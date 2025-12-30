@@ -1,8 +1,11 @@
+import Diamond777Data from "db://assets/games/Diamond777/script/Diamond777Data";
 import SlotGameData, { SlotMapInfo, SlotRewardLineInfo, SlotRewardTypeInfo, SlotSpinMsgData } from "db://assets/scripts/game/tsFrameCommon/Slot/SlotsGameData";
 import SlotGameMsgMgr from "db://assets/scripts/game/tsFrameCommon/Slot/SlotsGameMsgMgr";
-import Diamond777Data from "db://assets/games/Diamond777/script/Diamond777Data";
 
 import { _decorator } from 'cc';
+import { App } from "db://assets/scripts/App";
+import { SlotGameBaseData } from "db://assets/scripts/game/slotgame/SlotGameBaseData";
+import { Diamond777Cfg } from "./Diamond777_Cfg";
 const { ccclass, property } = _decorator;
 
 @ccclass('Diamond777MsgMgr')
@@ -11,6 +14,12 @@ export default class Diamond777MsgMgr extends SlotGameMsgMgr {
     onLoad(): void {
         SlotGameData.BUNDLE_NAME = 'Diamond777';
         SlotGameData.scriptMsgMgr = this;
+        let gameDataScript = this.node.addComponent(SlotGameBaseData);
+        //gameDataScript一定要最先set，否则后续取不到数据
+        App.SubGameManager.setSlotGameDataScript(gameDataScript);
+        let msgDic = App.SubGameManager.getMsgDic();
+        gameDataScript.init(msgDic.deskinfo, msgDic.gameid, msgDic.gameJackpot);
+        gameDataScript.setGameCfg(Diamond777Cfg);
         super.onLoad();
         Diamond777Data.init();
     }
@@ -19,7 +28,7 @@ export default class Diamond777MsgMgr extends SlotGameMsgMgr {
         super.onDestroy();
     }
 
-    start () {
+    start() {
         super.start();
     }
 
@@ -29,7 +38,7 @@ export default class Diamond777MsgMgr extends SlotGameMsgMgr {
     }
 
     // 接收开奖数据
-    onEventMsg_StartSpin (msg: any) {
+    onEventMsg_StartSpin(msg: any) {
         console.log(msg);
         let data: SlotSpinMsgData = {
             mapInfo: {},
@@ -40,7 +49,7 @@ export default class Diamond777MsgMgr extends SlotGameMsgMgr {
         };
         SlotGameData.totalWinScore = msg.allFreeCnt > 0 ? msg.freeWinCoin : msg.wincoin;
         SlotGameData.totalRespinTimes = msg.allFreeCnt;
-        SlotGameData.respinTimes = msg.allFreeCnt-msg.freeCnt;
+        SlotGameData.respinTimes = msg.allFreeCnt - msg.freeCnt;
         for (let col = 0; col < Diamond777Data.COL_NUM; col++) {
             data.mapInfo[`${col}_0`] = {
                 type: 0
@@ -49,13 +58,13 @@ export default class Diamond777MsgMgr extends SlotGameMsgMgr {
         for (let i = 0; i < msg.resultCards.length; i++) {
             let type = this.getItemTypeByServer(msg.resultCards[i]);
             let pos = this.getItemPosByServerIndex(i, Diamond777Data.COL_NUM);
-            data.mapInfo[`${pos.col}_${pos.row+1}`] = {
+            data.mapInfo[`${pos.col}_${pos.row + 1}`] = {
                 type: type
             }
         }
         for (let i = 0; i < msg.lines.length; i++) {
             let lineData = msg.lines[i];
-            let rewardLineConfig = Diamond777Data.REWARD_LINE_CONFIG[lineData.id-1];
+            let rewardLineConfig = Diamond777Data.REWARD_LINE_CONFIG[lineData.id - 1];
             let rewardLineInfo: SlotRewardLineInfo = {
                 list: [],
                 winScore: lineData.fan,
@@ -90,7 +99,7 @@ export default class Diamond777MsgMgr extends SlotGameMsgMgr {
             data.rewardLineInfo.push(rewardLineInfo);
         }
         for (let col = 0; col < Diamond777Data.COL_NUM; col++) {
-            data.mapInfo[`${col}_${Diamond777Data.ROW_NUM-1}`] = {
+            data.mapInfo[`${col}_${Diamond777Data.ROW_NUM - 1}`] = {
                 type: 0
             }
         }
@@ -98,7 +107,7 @@ export default class Diamond777MsgMgr extends SlotGameMsgMgr {
     }
 
     // 模拟单机模式下的spin消息数据
-    getSingleModeSpinMsgData () {
+    getSingleModeSpinMsgData() {
         let mapList = this.getRandomMapList();
         let data: SlotSpinMsgData = {
             mapInfo: mapList.mapInfo,
@@ -109,7 +118,7 @@ export default class Diamond777MsgMgr extends SlotGameMsgMgr {
         };
         let rewardRow = 2;
         let isReward = true;
-        for (let col = 0; col < Diamond777Data.COL_NUM-1; col++) {
+        for (let col = 0; col < Diamond777Data.COL_NUM - 1; col++) {
             if (data.mapInfo[`${col}_${rewardRow}`].type == 0) {
                 isReward = false;
                 break;
@@ -128,9 +137,9 @@ export default class Diamond777MsgMgr extends SlotGameMsgMgr {
             if (isBlank) {
                 num += 1;
             }
-            let type = Math.floor(Math.random()*num);
+            let type = Math.floor(Math.random() * num);
             if (!isBlank) {
-                type ++;
+                type++;
             }
             return type;
         };

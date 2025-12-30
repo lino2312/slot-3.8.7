@@ -1,9 +1,9 @@
+import Super777IData, { Super777IWinType } from "db://assets/games/Super777I/script/Super777IData";
 import MySpine from "db://assets/scripts/game/tsFrameCommon/Base/MySpine";
 import Utils from "db://assets/scripts/game/tsFrameCommon/Base/MyUtils";
 import { RollNumber } from "db://assets/scripts/game/tsFrameCommon/Base/RollNumber";
 import ViewComponent from "db://assets/scripts/game/tsFrameCommon/Base/ViewComponent";
 import SlotGameData from "db://assets/scripts/game/tsFrameCommon/Slot/SlotsGameData";
-import Super777IData, { Super777IWinType } from "db://assets/games/Super777I/script/Super777IData";
 
 import { Node, UIOpacity, _decorator } from 'cc';
 const { ccclass, property } = _decorator;
@@ -12,13 +12,13 @@ const { ccclass, property } = _decorator;
 export default class Super777IBigWin extends ViewComponent {
 
     @property(Node)
-	ndAni: Node = null;
+    ndAni: Node = null;
 
     @property(Node)
-	ndKuang: Node = null;
+    ndKuang: Node = null;
 
     @property(Node)
-	ndWin: Node = null;
+    ndWin: Node = null;
 
     private curRollingIndex = 0;
     private winScore = 0;
@@ -38,17 +38,17 @@ export default class Super777IBigWin extends ViewComponent {
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {
+    onLoad() {
         super.onLoad();
     }
 
-    start () {
+    start() {
         super.start();
     }
 
     // update (dt) {}
 
-    onInit (cbClose: Function, curRollingIndex: number, win: number, cbRollComplete: Function, ndParticle: Node) {
+    onInit(cbClose: Function, curRollingIndex: number, win: number, cbRollComplete: Function, ndParticle: Node) {
         this.cbClose = cbClose;
         this.curRollingIndex = curRollingIndex;
         this.winScore = win;
@@ -63,13 +63,15 @@ export default class Super777IBigWin extends ViewComponent {
         this.readyTime = 0;
         this.winType = Super777IWinType.big;
         this.ndParticle = ndParticle;
-        this.ndParticle.getComponent(UIOpacity).opacity = 0;
+        this.ndParticle.active = false;
+        // this.ndParticle.getComponent(UIOpacity).opacity = 0;
         this.node.getComponent(UIOpacity).opacity = 0;
         let rnWin = this.ndWin.getComponent(RollNumber);
         rnWin.init();
         Utils.playEffect(SlotGameData.BUNDLE_NAME, 'human_big_win', null, (effectId: number) => {
             this.node.getComponent(UIOpacity).opacity = 255;
-            this.ndParticle.getComponent(UIOpacity).opacity = 255;
+            // this.ndParticle.getComponent(UIOpacity).opacity = 255;
+            this.ndParticle.active = true;
             this.ndAni.getComponent(MySpine).setSkinIndex(0);
             this.ndAni.getComponent(MySpine).playAni(0, false, () => {
                 this.ndAni.getComponent(MySpine).playAni(1, true);
@@ -78,7 +80,7 @@ export default class Super777IBigWin extends ViewComponent {
                 this.ndKuang.getComponent(MySpine).playAni(1, true);
             });
             this.isStartAniEnd = true;
-            rnWin.setScrollTime(Utils.getAudioDuration(effectId));
+            rnWin.setScrollTime(2.0);
             rnWin.scrollTo(this.winScore, () => {
                 this.onScrollEnd();
             });
@@ -90,13 +92,13 @@ export default class Super777IBigWin extends ViewComponent {
         });
     }
 
-    onClickClose () {
+    onClickClose() {
         if (this.isClicked) {
             return;
         }
         this.isClicked = true;
         if (!this.isStartAniEnd) {
-            
+
         } else if (!this.isEndAniReady) {
             let rnWin = this.ndWin.getComponent(RollNumber);
             if (rnWin.getIsScrolling()) {
@@ -125,7 +127,7 @@ export default class Super777IBigWin extends ViewComponent {
         }
     }
 
-    onReadyEnd () {
+    onReadyEnd() {
         this.readyTime = Date.now();
         this.isEndAniReady = true;
         if (this.cbRollComplete) {
@@ -134,19 +136,19 @@ export default class Super777IBigWin extends ViewComponent {
         this.playEndAni();
     }
 
-    onScrollEnd () {
+    onScrollEnd() {
         let isHugeWin = false;
         let curBet = SlotGameData.getCurBetScore();
         if (curBet == 1) {
-            if (Super777IData.curRollServerData.winScore > curBet*20) {
+            if (Super777IData.curRollServerData.winScore > curBet * 20) {
                 isHugeWin = true;
             }
         } else if (curBet == 2) {
-            if (Super777IData.curRollServerData.winScore > curBet*10) {
+            if (Super777IData.curRollServerData.winScore > curBet * 10) {
                 isHugeWin = true;
             }
         } else {
-            if (Super777IData.curRollServerData.winScore > curBet*5) {
+            if (Super777IData.curRollServerData.winScore > curBet * 5) {
                 isHugeWin = true;
             }
         }
@@ -170,19 +172,19 @@ export default class Super777IBigWin extends ViewComponent {
         }
     }
 
-    onHugeWinEnd () {
+    onHugeWinEnd() {
         let isAniEnd = true;
         let curBet = SlotGameData.getCurBetScore();
         if (curBet == 1) {
-            if (Super777IData.curRollServerData.winScore > curBet*200) {
+            if (Super777IData.curRollServerData.winScore > curBet * 200) {
                 isAniEnd = false;
             }
         } else if (curBet == 2) {
-            if (Super777IData.curRollServerData.winScore > curBet*100) {
+            if (Super777IData.curRollServerData.winScore > curBet * 100) {
                 isAniEnd = false;
             }
         } else {
-            if (Super777IData.curRollServerData.winScore > curBet*20) {
+            if (Super777IData.curRollServerData.winScore > curBet * 20) {
                 isAniEnd = false;
             }
         }
@@ -206,7 +208,7 @@ export default class Super777IBigWin extends ViewComponent {
         }
     }
 
-    onMassiveWinEnd () {
+    onMassiveWinEnd() {
         this.winType = Super777IWinType.legendary;
         Utils.playEffect(SlotGameData.BUNDLE_NAME, 'human_legendary_win', () => {
             if (!this.isClicked) {
@@ -223,7 +225,7 @@ export default class Super777IBigWin extends ViewComponent {
         });
     }
 
-    onLegendaryWinEnd () {
+    onLegendaryWinEnd() {
         this.onReadyEnd();
     }
 
@@ -238,7 +240,8 @@ export default class Super777IBigWin extends ViewComponent {
         }
         setTimeout(() => {
             this.ndAni.getComponent(MySpine).playAni(2, false, () => {
-                this.ndParticle.getComponent(UIOpacity).opacity = 0;
+                // this.ndParticle.getComponent(UIOpacity).opacity = 0;
+                this.ndParticle.active = false;
                 Utils.stopAllEffect();
                 if (this.cbClose) {
                     this.cbClose();

@@ -128,6 +128,17 @@ export default class Super777ISlots extends BaseComponent {
         Utils.stopAllEffect();
         Utils.playEffect(SlotGameData.BUNDLE_NAME, ['10109_base_spin1', '10109_base_spin2', '10109_base_spin3']);
         this.resetView();
+        //移除上一轮符号动画 
+        for (const key in this.itemDataList) {
+            const itemData = this.itemDataList[key];
+            if (itemData.ndItemAni) {
+                let scriptItemAni = itemData.ndItemAni.getComponent(Super777IItemAni);
+                if (itemData.type != scriptItemAni.type) {
+                    PoolMng.putNodePool(SlotGameData.BUNDLE_NAME + '_item_ani_' + scriptItemAni.type, itemData.ndItemAni);
+                    itemData.ndItemAni = null;
+                }
+            }
+        }
         this.isSkipSpin = false;
         this.isStopRoll = false;
         this.isWaitRoll = true;

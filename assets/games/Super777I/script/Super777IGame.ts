@@ -1,12 +1,12 @@
+import Super777IData, { Super777IMode } from "db://assets/games/Super777I/script/Super777IData";
+import Super777ISlots from "db://assets/games/Super777I/script/Super777ISlots";
 import BaseComponent from "db://assets/scripts/game/tsFrameCommon/Base/BaseComponent";
 import { PosData } from "db://assets/scripts/game/tsFrameCommon/Base/GameGlobalDefine";
 import MySpine from "db://assets/scripts/game/tsFrameCommon/Base/MySpine";
 import Utils from "db://assets/scripts/game/tsFrameCommon/Base/MyUtils";
 import SlotGameData, { SlotMapIndex } from "db://assets/scripts/game/tsFrameCommon/Slot/SlotsGameData";
-import Super777IData, { Super777IMode } from "db://assets/games/Super777I/script/Super777IData";
-import Super777ISlots from "db://assets/games/Super777I/script/Super777ISlots";
 
-import { Label, Node, Sprite, SpriteFrame, Tween, UIOpacity, UITransform, Vec3, _decorator, js, tween } from 'cc';
+import { Label, Node, Sprite, SpriteFrame, Tween, UIOpacity, UITransform, Vec3, _decorator, tween } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Super777IGame')
@@ -26,7 +26,7 @@ export default class Super777IGame extends BaseComponent {
 
     @property(Node)
     ndZuanAni: Node = null;
-    
+
     @property([Node])
     ndScoreList: Node[] = [];
 
@@ -69,7 +69,7 @@ export default class Super777IGame extends BaseComponent {
     @property(Node)
     ndBigWinParticle: Node = null;
 
-    iconAniList: {rewardIndexs: {[index:number]:{cbReset: Function}}, aniList: {winScore: number, scoreIndex: number, rewardIndex: number, list: PosData[], cbReset: Function}[]} = {
+    iconAniList: { rewardIndexs: { [index: number]: { cbReset: Function } }, aniList: { winScore: number, scoreIndex: number, rewardIndex: number, list: PosData[], cbReset: Function }[] } = {
         rewardIndexs: {},
         aniList: []
     };
@@ -88,14 +88,14 @@ export default class Super777IGame extends BaseComponent {
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {
+    onLoad() {
         this.ndWelcome.active = true;
         this.ndTopViewMask.active = false;
         this.ndFreeXinGuang.active = false;
-        this.ndNiceWinParticle.active = true;
-        this.ndNiceWinParticle.getComponent(UIOpacity).opacity = 0;
-        this.ndBigWinParticle.active = true;
-        this.ndBigWinParticle.getComponent(UIOpacity).opacity = 0;
+        this.ndNiceWinParticle.active = false;
+        // this.ndNiceWinParticle.getComponent(UIOpacity).opacity = 0;
+        this.ndBigWinParticle.active = false;
+        // this.ndBigWinParticle.getComponent(UIOpacity).opacity = 0;
         Utils.playEffect(SlotGameData.BUNDLE_NAME, "10109_enter", () => {
             this.enterEfectId = 0;
         }, (effectId: number) => {
@@ -150,13 +150,13 @@ export default class Super777IGame extends BaseComponent {
         });
     }
 
-    start () {
-        
+    start() {
+
     }
 
     // update (dt) {}
 
-    onClickEvent (event, data: string) {
+    onClickEvent(event, data: string) {
         switch (data) {
             case 'welcome':
                 this.ndWelcome.active = false;
@@ -173,7 +173,7 @@ export default class Super777IGame extends BaseComponent {
         }
     }
 
-    afterWelcome () {
+    afterWelcome() {
         if (SlotGameData.totalFreeTimes > 0) {
             Super777IData.gameMode = Super777IMode.Special;
             (SlotGameData.scriptGame as Super777IGame).showFreeStartView(() => {
@@ -184,7 +184,7 @@ export default class Super777IGame extends BaseComponent {
         }
     }
 
-    updateScoreList () {
+    updateScoreList() {
         let curBetNum = SlotGameData.getCurBetScore();
         for (let i = 0; i < this.ndScoreList.length; i++) {
             let score = curBetNum * Super777IData.ITEM_REWARD_CONFIG[i];
@@ -192,28 +192,28 @@ export default class Super777IGame extends BaseComponent {
         }
     }
 
-    hideKuangAni () {
+    hideKuangAni() {
         this.ndKuangAni.active = false;
     }
 
-    playKuangAni (index: number, callback: Function = null) {
+    playKuangAni(index: number, callback: Function = null) {
         this.ndKuangAni.active = true;
         this.ndKuangAni.getComponent(MySpine).playAni(index, callback ? false : true, callback);
     }
 
-    pauseKuangAni () {
+    pauseKuangAni() {
         this.ndKuangAni.getComponent(MySpine).pauseAni();
     }
 
-    getKuangAniDuration (index: number) {
+    getKuangAniDuration(index: number) {
         return this.ndKuangAni.getComponent(MySpine).getAniDuration(index);
     }
 
-    playZuanAni (index: number) {
+    playZuanAni(index: number) {
         this.ndZuanAni.getComponent(MySpine).playAni(index, true);
     }
 
-    playFreeDoubleStart (callback: Function = null) {
+    playFreeDoubleStart(callback: Function = null) {
         Utils.playEffect(SlotGameData.BUNDLE_NAME, "10109_fg_x2_show");
         this.ndFreeDoubleAni.getComponent(MySpine).playAni(0, false, () => {
             this.ndFreeDoubleAni.getComponent(MySpine).playAni(1, true);
@@ -223,7 +223,7 @@ export default class Super777IGame extends BaseComponent {
         });
     }
 
-    playFreeeDoubleEnd (callback: Function = null) {
+    playFreeeDoubleEnd(callback: Function = null) {
         this.ndFreeDoubleAni.getComponent(MySpine).playAni(2, false, () => {
             this.ndFreeDoubleAni.getComponent(MySpine).playAni(1, true);
             if (callback) {
@@ -232,10 +232,10 @@ export default class Super777IGame extends BaseComponent {
         });
     }
 
-    playNormlRightTipsAni (index: number) {
+    playNormlRightTipsAni(index: number) {
         let cbPlayNext = () => {
             setTimeout(() => {
-                this.playNormlRightTipsAni(this.rightTipIndex < this.ndNormalRightTips.length-1 ? this.rightTipIndex+1 : 0);
+                this.playNormlRightTipsAni(this.rightTipIndex < this.ndNormalRightTips.length - 1 ? this.rightTipIndex + 1 : 0);
             }, 1);
         };
         let ndNew = this.ndNormalRightTips[index];
@@ -254,12 +254,12 @@ export default class Super777IGame extends BaseComponent {
         Tween.stopAllByTarget(ndCur);
         let ndCur_uiOpacity = ndCur.getComponent(UIOpacity);
         tween(ndCur_uiOpacity.getComponent(UIOpacity))
-            .to(0.5, {opacity: 0})
+            .to(0.5, { opacity: 0 })
             .call(() => {
                 ndCur.active = false;
                 let ndNew_uiOpacity = ndNew.getComponent(UIOpacity);
                 tween(ndNew_uiOpacity.getComponent(UIOpacity))
-                    .to(0.5, {opacity: 255})
+                    .to(0.5, { opacity: 255 })
                     .delay(30)
                     .call(() => {
                         cbPlayNext();
@@ -270,7 +270,7 @@ export default class Super777IGame extends BaseComponent {
         this.rightTipIndex = index;
     }
 
-    enterFreeMode (callback: Function) {
+    enterFreeMode(callback: Function) {
         this.isChangeGameModeAni = true;
         Utils.playMusic(SlotGameData.BUNDLE_NAME, "free_bgm");
         this.ndFreeDoubleAni.active = false;
@@ -280,7 +280,7 @@ export default class Super777IGame extends BaseComponent {
                 this.ndFreeXinGuang.active = false;
             });
             tween(this.ndGameMode)
-                .to(this.ndFreeXinGuang.getComponent(MySpine).getAniDuration(0), {y: this.ndGameMode.parent.getComponent(UITransform).contentSize.height})
+                .to(this.ndFreeXinGuang.getComponent(MySpine).getAniDuration(0), { y: this.ndGameMode.parent.getComponent(UITransform).contentSize.height })
                 .call(() => {
                     this.ndFreeDoubleAni.active = true;
                     this.playFreeDoubleStart(() => {
@@ -294,7 +294,7 @@ export default class Super777IGame extends BaseComponent {
         });
     }
 
-    backNormalMode (callback: Function) {
+    backNormalMode(callback: Function) {
         this.isChangeGameModeAni = true;
         Utils.playEffect(SlotGameData.BUNDLE_NAME, "10109_fg_reels_change", null, (effectId: number) => {
             this.ndFreeXinGuang.active = true;
@@ -302,7 +302,7 @@ export default class Super777IGame extends BaseComponent {
                 this.ndFreeXinGuang.active = false;
             });
             tween(this.ndGameMode)
-                .to(this.ndFreeXinGuang.getComponent(MySpine).getAniDuration(0), {y: 0})
+                .to(this.ndFreeXinGuang.getComponent(MySpine).getAniDuration(0), { y: 0 })
                 .call(() => {
                     Utils.playMusic(SlotGameData.BUNDLE_NAME, "bgm");
                     this.isChangeGameModeAni = false;
@@ -314,11 +314,11 @@ export default class Super777IGame extends BaseComponent {
         });
     }
 
-    showNiceWinView (cbClsoe: Function, cbLoad: Function) {
+    showNiceWinView(cbClsoe: Function, cbLoad: Function) {
         SlotGameData.showDynamicLoadView(Super777IData.NICE_WIN_VIEW, cbLoad, cbClsoe, SlotGameData.curRollingIndex, Super777IData.curRollServerData.winScore, null, this.ndNiceWinParticle);
     }
 
-    showBigWinView (cbClose: Function) {
+    showBigWinView(cbClose: Function) {
         Utils.playEffect(SlotGameData.BUNDLE_NAME, '10109_base_bigwin_bell', () => {
             SlotGameData.showDynamicLoadView(Super777IData.BIG_WIN_VIEW, null, () => {
                 SlotGameData.hideDynamicLoadView(Super777IData.BIG_WIN_VIEW);
@@ -329,7 +329,7 @@ export default class Super777IGame extends BaseComponent {
         });
     }
 
-    showFreeStartView (cbClose: Function) {
+    showFreeStartView(cbClose: Function) {
         Utils.playEffect(SlotGameData.BUNDLE_NAME, '10109_base_bigwin_bell', () => {
             SlotGameData.showDynamicLoadView(Super777IData.FREE_START_VIEW, null, () => {
                 SlotGameData.hideDynamicLoadView(Super777IData.FREE_START_VIEW);
@@ -342,7 +342,7 @@ export default class Super777IGame extends BaseComponent {
         });
     }
 
-    showFreeEndView (cbClose: Function, winScore: number) {
+    showFreeEndView(cbClose: Function, winScore: number) {
         SlotGameData.showDynamicLoadView(Super777IData.FREE_END_VIEW, null, () => {
             SlotGameData.hideDynamicLoadView(Super777IData.FREE_END_VIEW);
             if (cbClose) {
@@ -351,22 +351,22 @@ export default class Super777IGame extends BaseComponent {
         }, winScore);
     }
 
-    updateFreeTimes (times: number) {
+    updateFreeTimes(times: number) {
         this.lbFreeTimes.string = times.toString();
     }
 
-    updateTotalFreeTimes (count: number) {
+    updateTotalFreeTimes(count: number) {
         this.lbTotalFreeTimes.string = count.toString();
     }
 
-    onSlotStart () {
+    onSlotStart() {
         this.resetView();
     }
 
-    onSlotEnd () {
+    onSlotEnd() {
         if (Super777IData.curRollServerData.winScore > 0) {
             let mapInfo = Super777IData.curRollServerData.mapInfo;
-            let rewardLineList =  Super777IData.curRollServerData.rewardLineInfo;
+            let rewardLineList = Super777IData.curRollServerData.rewardLineInfo;
             for (let lineIndex = 0; lineIndex < rewardLineList.length; lineIndex++) {
                 let lineList = rewardLineList[lineIndex].list;
                 let rewardList = [];
@@ -406,16 +406,16 @@ export default class Super777IGame extends BaseComponent {
                     }
                 }
                 if (isSameThree) {
-                    scoreIndex = exitRewardType-2;
-                    rewardIndex = exitRewardType-2;
+                    scoreIndex = exitRewardType - 2;
+                    rewardIndex = exitRewardType - 2;
                     cbReset = () => {
                         let ndIconAni = this.ndRewardAniList[rewardIndex];
-                        (ndIconAni.children[0].children[0].getComponent(Sprite) as Sprite).spriteFrame = this.spfItemIconList[exitRewardType-1];
-                        (ndIconAni.children[1].children[0].getComponent(Sprite) as Sprite).spriteFrame = this.spfItemIconList[exitRewardType-1];
-                        (ndIconAni.children[2].children[0].getComponent(Sprite) as Sprite).spriteFrame = this.spfItemIconList[exitRewardType-1];
+                        (ndIconAni.children[0].children[0].getComponent(Sprite) as Sprite).spriteFrame = this.spfItemIconList[exitRewardType - 1];
+                        (ndIconAni.children[1].children[0].getComponent(Sprite) as Sprite).spriteFrame = this.spfItemIconList[exitRewardType - 1];
+                        (ndIconAni.children[2].children[0].getComponent(Sprite) as Sprite).spriteFrame = this.spfItemIconList[exitRewardType - 1];
                     };
                 } else if (exitRewardType > 0) {
-                    if (rewardList[0] >= 5 && rewardList[0] <= 6 && rewardList[1] >= 5 && rewardList[1] <= 6 && rewardList[2] >= 5 && rewardList[2] <= 6 
+                    if (rewardList[0] >= 5 && rewardList[0] <= 6 && rewardList[1] >= 5 && rewardList[1] <= 6 && rewardList[2] >= 5 && rewardList[2] <= 6
                         || (isSameTwo && isWildIcon && exitRewardType >= 5 && exitRewardType <= 6)) {
                         scoreIndex = 5;
                         rewardIndex = 5;
@@ -481,7 +481,7 @@ export default class Super777IGame extends BaseComponent {
                             let ndIcon = this.ndRewardAniList[aniData.rewardIndex].children[i];
                             ndIcon.active = type > 0;
                             if (type > 0) {
-                                (ndIcon.children[0].getComponent(Sprite) as Sprite).spriteFrame = this.spfItemIconList[type-1];
+                                (ndIcon.children[0].getComponent(Sprite) as Sprite).spriteFrame = this.spfItemIconList[type - 1];
                                 rewardIndexList[index] = {};
                             }
                         }
@@ -529,8 +529,8 @@ export default class Super777IGame extends BaseComponent {
                             }
                             let nextIndex = 0;
                             if (this.iconAniList.aniList.length > 1) {
-                                if (aniIndex < this.iconAniList.aniList.length-1) {
-                                    nextIndex = aniIndex+1;
+                                if (aniIndex < this.iconAniList.aniList.length - 1) {
+                                    nextIndex = aniIndex + 1;
                                 }
                             }
                             playRewardIndexAni(nextIndex);
@@ -548,7 +548,7 @@ export default class Super777IGame extends BaseComponent {
                         let ndIcon = this.ndRewardAniList[aniData.rewardIndex].children[i];
                         ndIcon.active = type > 0;
                         if (type > 0) {
-                            (ndIcon.children[0].getComponent(Sprite) as Sprite).spriteFrame = this.spfItemIconList[type-1];
+                            (ndIcon.children[0].getComponent(Sprite) as Sprite).spriteFrame = this.spfItemIconList[type - 1];
                         }
                     }
                     let ndIconAni = this.ndRewardAniList[aniData.rewardIndex];
@@ -582,12 +582,12 @@ export default class Super777IGame extends BaseComponent {
         }
     }
 
-    onStopSpin () {
+    onStopSpin() {
         this.resetView();
         this.isResetView = false;
     }
 
-    resetView () {
+    resetView() {
         if (this.isResetView) {
             return;
         }

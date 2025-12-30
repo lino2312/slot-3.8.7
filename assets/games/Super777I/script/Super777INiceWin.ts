@@ -30,23 +30,25 @@ export default class Super777INiceWin extends Component {
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {
+    onLoad() {
 
     }
 
-    start () {
+    start() {
 
     }
 
     // update (dt) {}
 
-    onInit (cbRemove: Function, curRollingIndex: number, win: number, cbRollComplete: Function, ndParticle: Node) {
+    onInit(cbRemove: Function, curRollingIndex: number, win: number, cbRollComplete: Function, ndParticle: Node) {
         this.cbRemove = cbRemove;
         this.curRollingIndex = curRollingIndex;
         this.winScore = win;
         this.cbRollComplete = cbRollComplete;
         this.ndParticle = ndParticle;
-        this.ndParticle.getComponent(UIOpacity).opacity = 255;
+        this.ndParticle.active = true;
+        // this.ndParticle.getComponent(UIOpacity).opacity = 255;
+        this.node.getComponent(UIOpacity).opacity = 255;
         let spineLight = this.ndNiceWinLight.getComponent(MySpine)
         spineLight.playAni(0, false, () => {
             spineLight.playAni(1, true);
@@ -67,33 +69,42 @@ export default class Super777INiceWin extends Component {
             this.scrollEffectId = 0;
         }, (effectId: number) => {
             this.scrollEffectId = effectId;
-            rnWin.setScrollTime(Utils.getAudioDuration(effectId));
+            rnWin.setScrollTime(2);
             rnWin.scrollTo(this.winScore, () => {
-                if (this.cbRollComplete) {
-                    this.cbRollComplete();
-                }
-                spineLight.playAni(2, false);
-                spineText.playAni(2, false);
-                if (this.node.getComponent(UIOpacity).opacity > 0) {
-                    this.ndNiceWinNumTmp = instantiate(this.ndNiceWinNum);
-                    this.ndNiceWinNumTmp.parent = SlotGameData.scriptBottom.ndWinNum.parent;
-                    this.ndNiceWinNum.getComponent(UIOpacity).opacity = 0;
-                    let worldPos = this.ndNiceWinNum.getComponent(UITransform).convertToWorldSpaceAR(v3());
-                    this.ndNiceWinNumTmp.position = SlotGameData.scriptBottom.ndWinNum.getComponent(UITransform).convertToNodeSpaceAR(worldPos);
-                    tween(this.ndNiceWinNumTmp)
-                        .to(this.ndNiceWinText.getComponent(MySpine).getAniDuration(2), { position: SlotGameData.scriptBottom.ndWinNum.position })
-                        .call(() => {
-                            this.ndNiceWinNumTmp.destroy();
-                            this.ndNiceWinNumTmp = null;
-                            if (this.node.getComponent(UIOpacity).opacity > 0) {
-                                this.onRemove();
-                            }
+
+                tween(this.node)
+                    .delay(0.5)
+                    .call(() => {
+
+                        if (this.cbRollComplete) {
+                            this.cbRollComplete();
+                        }
+                        spineLight.playAni(2, false);
+                        spineText.playAni(2, false);
+                        if (this.node.getComponent(UIOpacity).opacity > 0) {
+                            this.ndNiceWinNumTmp = instantiate(this.ndNiceWinNum);
+                            this.ndNiceWinNumTmp.parent = SlotGameData.scriptBottom.ndWinNum.parent;
+                            this.ndNiceWinNum.getComponent(UIOpacity).opacity = 0;
+                            let worldPos = this.ndNiceWinNum.getComponent(UITransform).convertToWorldSpaceAR(v3());
+                            this.ndNiceWinNumTmp.position = SlotGameData.scriptBottom.ndWinNum.getComponent(UITransform).convertToNodeSpaceAR(worldPos);
+                            tween(this.ndNiceWinNumTmp)
+                                .to(this.ndNiceWinText.getComponent(MySpine).getAniDuration(2), { position: SlotGameData.scriptBottom.ndWinNum.position })
+                                .call(() => {
+                                    this.ndNiceWinNumTmp.destroy();
+                                    this.ndNiceWinNumTmp = null;
+                                    if (this.node.getComponent(UIOpacity).opacity > 0) {
+                                        this.onRemove();
+                                    }
+                                    this.node.destroy();
+                                })
+                                .start();
+                        } else {
                             this.node.destroy();
-                        })
-                        .start();
-                } else {
-                    this.node.destroy();
-                }
+                        }
+
+                    })
+                    .start();
+
             });
         });
         this.node.scale = new Vec3(0, 0, 0);
@@ -102,7 +113,7 @@ export default class Super777INiceWin extends Component {
             .start();
     }
 
-    onStop () {
+    onStop() {
         this.onRemove();
         if (this.scrollEffectId) {
             Utils.stopEffect(this.scrollEffectId);
@@ -121,9 +132,10 @@ export default class Super777INiceWin extends Component {
         }
     }
 
-    onRemove () {
+    onRemove() {
         this.node.getComponent(UIOpacity).opacity = 0;
-        this.ndParticle.getComponent(UIOpacity).opacity = 0;
+        // this.ndParticle.getComponent(UIOpacity).opacity = 0;
+        this.ndParticle.active = false;
         if (this.cbRemove) {
             this.cbRemove();
         }
