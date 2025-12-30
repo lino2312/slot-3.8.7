@@ -1,0 +1,27 @@
+
+biaotidonghua.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PANDA
+  rotate: false
+  xy: 468, 102
+  size: 415, 137
+  orig: 415, 137
+  offset: 0, 0
+  index: -1
+diban
+  rotate: false
+  xy: 2, 2
+  size: 464, 237
+  orig: 464, 237
+  offset: 0, 0
+  index: -1
+the
+  rotate: false
+  xy: 468, 19
+  size: 175, 81
+  orig: 175, 81
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+skeleton.png
+size: 925,638
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0x
+  rotate: false
+  xy: 723, 453
+  size: 200, 183
+  orig: 200, 200
+  offset: 0, 8
+  index: -1
+10021_guangci_01_w
+  rotate: true
+  xy: 437, 338
+  size: 298, 284
+  orig: 512, 512
+  offset: 108, 115
+  index: -1
+2x
+  rotate: false
+  xy: 723, 285
+  size: 185, 166
+  orig: 200, 200
+  offset: 8, 13
+  index: -1
+3x
+  rotate: false
+  xy: 488, 170
+  size: 185, 166
+  orig: 200, 200
+  offset: 8, 13
+  index: -1
+4x
+  rotate: false
+  xy: 488, 2
+  size: 185, 166
+  orig: 200, 200
+  offset: 8, 13
+  index: -1
+5x
+  rotate: false
+  xy: 675, 117
+  size: 185, 166
+  orig: 200, 200
+  offset: 8, 13
+  index: -1
+caiguang
+  rotate: false
+  xy: 282, 2
+  size: 204, 290
+  orig: 270, 306
+  offset: 38, 16
+  index: -1
+diban
+  rotate: true
+  xy: 2, 13
+  size: 623, 278
+  orig: 623, 278
+  offset: 0, 0
+  index: -1
+respin
+  rotate: true
+  xy: 282, 294
+  size: 342, 153
+  orig: 348, 155
+  offset: 3, 0
+  index: -1

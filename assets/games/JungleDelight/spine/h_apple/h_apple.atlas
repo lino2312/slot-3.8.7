@@ -1,0 +1,489 @@
+
+symbols.png
+size: 989,330
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+apple
+  rotate: true
+  xy: 141, 206
+  size: 122, 124
+  orig: 148, 132
+  offset: 13, 4
+  index: -1
+banana01
+  rotate: true
+  xy: 507, 226
+  size: 102, 128
+  orig: 110, 132
+  offset: 4, 2
+  index: -1
+banana02
+  rotate: true
+  xy: 507, 117
+  size: 107, 96
+  orig: 125, 100
+  offset: 9, 2
+  index: -1
+banana03
+  rotate: false
+  xy: 771, 137
+  size: 90, 68
+  orig: 118, 104
+  offset: 14, 18
+  index: -1
+banana_head
+  rotate: true
+  xy: 86, 124
+  size: 66, 24
+  orig: 70, 34
+  offset: 2, 5
+  index: -1
+blueberry
+  rotate: false
+  xy: 636, 49
+  size: 70, 71
+  orig: 88, 97
+  offset: 9, 13
+  index: -1
+blueberry2
+  rotate: true
+  xy: 857, 46
+  size: 68, 69
+  orig: 80, 77
+  offset: 6, 4
+  index: -1
+blueberry3
+  rotate: false
+  xy: 873, 257
+  size: 67, 71
+  orig: 77, 75
+  offset: 5, 2
+  index: -1
+fill
+  rotate: false
+  xy: 484, 128
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+fresh
+  rotate: false
+  xy: 2, 5
+  size: 81, 79
+  orig: 84, 83
+  offset: 2, 2
+  index: -1
+fx_juice_00
+  rotate: false
+  xy: 193, 2
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+fx_juice_01
+  rotate: false
+  xy: 771, 30
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+fx_juice_02
+  rotate: true
+  xy: 506, 2
+  size: 34, 43
+  orig: 34, 44
+  offset: 0, 1
+  index: -1
+fx_juice_03
+  rotate: true
+  xy: 817, 50
+  size: 85, 38
+  orig: 85, 38
+  offset: 0, 0
+  index: -1
+fx_juice_04
+  rotate: false
+  xy: 624, 4
+  size: 44, 43
+  orig: 44, 43
+  offset: 0, 0
+  index: -1
+fx_juice_05
+  rotate: false
+  xy: 463, 81
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+fx_juice_06
+  rotate: true
+  xy: 463, 4
+  size: 75, 41
+  orig: 75, 41
+  offset: 0, 0
+  index: -1
+fx_juice_07
+  rotate: true
+  xy: 226, 126
+  size: 78, 38
+  orig: 78, 38
+  offset: 0, 0
+  index: -1
+fx_juice_08
+  rotate: true
+  xy: 736, 153
+  size: 76, 33
+  orig: 76, 33
+  offset: 0, 0
+  index: -1
+fx_juice_09
+  rotate: true
+  xy: 605, 66
+  size: 71, 29
+  orig: 71, 29
+  offset: 0, 0
+  index: -1
+fx_juice_10
+  rotate: false
+  xy: 928, 25
+  size: 57, 27
+  orig: 57, 27
+  offset: 0, 0
+  index: -1
+fx_melon_juice_01
+  rotate: true
+  xy: 484, 136
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02
+  rotate: true
+  xy: 771, 3
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_01
+  rotate: true
+  xy: 484, 189
+  size: 29, 21
+  orig: 29, 21
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_02
+  rotate: true
+  xy: 357, 166
+  size: 43, 32
+  orig: 43, 32
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_03
+  rotate: true
+  xy: 670, 10
+  size: 37, 35
+  orig: 37, 35
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_04
+  rotate: false
+  xy: 551, 2
+  size: 29, 34
+  orig: 29, 34
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_05
+  rotate: false
+  xy: 85, 2
+  size: 71, 35
+  orig: 71, 35
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_06
+  rotate: false
+  xy: 873, 221
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_07
+  rotate: true
+  xy: 934, 183
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_08
+  rotate: true
+  xy: 584, 2
+  size: 62, 38
+  orig: 62, 38
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_09
+  rotate: false
+  xy: 338, 2
+  size: 64, 36
+  orig: 64, 36
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_10
+  rotate: true
+  xy: 942, 266
+  size: 62, 29
+  orig: 62, 29
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_11
+  rotate: true
+  xy: 112, 132
+  size: 58, 27
+  orig: 58, 27
+  offset: 0, 0
+  index: -1
+fx_melon_juice_02_12
+  rotate: true
+  xy: 934, 133
+  size: 48, 23
+  orig: 48, 23
+  offset: 0, 0
+  index: -1
+fx_melon_juice_03
+  rotate: false
+  xy: 158, 2
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+fx_melon_juice_04
+  rotate: false
+  xy: 357, 125
+  size: 32, 39
+  orig: 32, 39
+  offset: 0, 0
+  index: -1
+fx_melon_juice_05
+  rotate: false
+  xy: 736, 111
+  size: 33, 40
+  orig: 33, 40
+  offset: 0, 0
+  index: -1
+fx_melon_juice_06
+  rotate: true
+  xy: 842, 11
+  size: 33, 39
+  orig: 33, 39
+  offset: 0, 0
+  index: -1
+fx_melon_juice_07
+  rotate: true
+  xy: 883, 11
+  size: 33, 38
+  orig: 33, 38
+  offset: 0, 0
+  index: -1
+fx_melon_juice_08
+  rotate: true
+  xy: 914, 221
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+fx_melon_juice_09
+  rotate: true
+  xy: 605, 139
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+fx_melon_juice_10
+  rotate: true
+  xy: 959, 151
+  size: 30, 28
+  orig: 30, 28
+  offset: 0, 0
+  index: -1
+fx_melon_juice_11
+  rotate: true
+  xy: 708, 89
+  size: 31, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+fx_melon_juice_12
+  rotate: true
+  xy: 484, 155
+  size: 32, 19
+  orig: 32, 19
+  offset: 0, 0
+  index: -1
+fx_melon_juice_13
+  rotate: true
+  xy: 243, 10
+  size: 29, 10
+  orig: 29, 10
+  offset: 0, 0
+  index: -1
+grape01
+  rotate: false
+  xy: 391, 125
+  size: 91, 93
+  orig: 97, 99
+  offset: 3, 3
+  index: -1
+grape02
+  rotate: false
+  xy: 141, 120
+  size: 83, 84
+  orig: 87, 90
+  offset: 2, 3
+  index: -1
+head
+  rotate: false
+  xy: 951, 227
+  size: 31, 37
+  orig: 31, 37
+  offset: 0, 0
+  index: -1
+leaf
+  rotate: true
+  xy: 771, 74
+  size: 61, 44
+  orig: 73, 52
+  offset: 5, 4
+  index: -1
+leaf1
+  rotate: true
+  xy: 605, 173
+  size: 51, 30
+  orig: 63, 36
+  offset: 6, 3
+  index: -1
+leaf2
+  rotate: true
+  xy: 404, 4
+  size: 34, 57
+  orig: 38, 65
+  offset: 2, 4
+  index: -1
+leaf_top
+  rotate: false
+  xy: 86, 39
+  size: 105, 79
+  orig: 109, 85
+  offset: 2, 3
+  index: -1
+leaf_top_blur
+  rotate: true
+  xy: 863, 116
+  size: 89, 69
+  orig: 89, 69
+  offset: 0, 0
+  index: -1
+leaf_top_blur02
+  rotate: true
+  xy: 267, 11
+  size: 105, 69
+  orig: 105, 69
+  offset: 0, 0
+  index: -1
+pineapple
+  rotate: true
+  xy: 391, 220
+  size: 108, 114
+  orig: 124, 122
+  offset: 9, 4
+  index: -1
+pineapple_blur
+  rotate: false
+  xy: 357, 40
+  size: 104, 83
+  orig: 104, 83
+  offset: 0, 0
+  index: -1
+pineapple_blur02
+  rotate: true
+  xy: 2, 86
+  size: 104, 82
+  orig: 104, 82
+  offset: 0, 0
+  index: -1
+stalk
+  rotate: true
+  xy: 928, 54
+  size: 60, 59
+  orig: 64, 63
+  offset: 2, 2
+  index: -1
+starfruit
+  rotate: false
+  xy: 267, 211
+  size: 122, 117
+  orig: 136, 127
+  offset: 7, 5
+  index: -1
+starfruit_leaf
+  rotate: false
+  xy: 708, 19
+  size: 61, 68
+  orig: 73, 76
+  offset: 7, 4
+  index: -1
+vine
+  rotate: false
+  xy: 813, 7
+  size: 27, 41
+  orig: 27, 41
+  offset: 0, 0
+  index: -1
+watermelon
+  rotate: true
+  xy: 2, 192
+  size: 136, 137
+  orig: 141, 140
+  offset: 2, 2
+  index: -1
+watermelon_cut_02
+  rotate: false
+  xy: 507, 38
+  size: 75, 77
+  orig: 75, 77
+  offset: 0, 0
+  index: -1
+watermelon_cut_03
+  rotate: false
+  xy: 267, 118
+  size: 88, 91
+  orig: 92, 95
+  offset: 2, 2
+  index: -1
+watermelon_leaf
+  rotate: true
+  xy: 193, 41
+  size: 77, 72
+  orig: 81, 74
+  offset: 2, 1
+  index: -1
+watermelonblur_01
+  rotate: true
+  xy: 771, 207
+  size: 121, 100
+  orig: 121, 100
+  offset: 0, 0
+  index: -1
+watermelonblur_02
+  rotate: false
+  xy: 637, 231
+  size: 132, 97
+  orig: 132, 97
+  offset: 0, 0
+  index: -1
+watermelonblur_03
+  rotate: true
+  xy: 637, 122
+  size: 107, 97
+  orig: 107, 97
+  offset: 0, 0
+  index: -1

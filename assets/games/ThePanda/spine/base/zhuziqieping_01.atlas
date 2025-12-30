@@ -1,0 +1,41 @@
+
+zhuziqieping_01.png
+size: 816,628
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Z01
+  rotate: false
+  xy: 0, 0
+  size: 194, 628
+  orig: 194, 628
+  offset: 0, 0
+  index: -1
+Z02
+  rotate: false
+  xy: 196, 83
+  size: 239, 545
+  orig: 239, 545
+  offset: 0, 0
+  index: -1
+Z03
+  rotate: false
+  xy: 437, 39
+  size: 152, 589
+  orig: 152, 589
+  offset: 0, 0
+  index: -1
+mengban01
+  rotate: false
+  xy: 591, 308
+  size: 180, 320
+  orig: 180, 320
+  offset: 0, 0
+  index: -1
+yunwu01
+  rotate: false
+  xy: 591, 185
+  size: 225, 121
+  orig: 225, 121
+  offset: 0, 0
+  index: -1

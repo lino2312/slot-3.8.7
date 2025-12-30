@@ -1,0 +1,111 @@
+
+spine.png
+size: 1710,685
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+db_01
+  rotate: false
+  xy: 682, 38
+  size: 695, 645
+  orig: 714, 672
+  offset: 11, 14
+  index: -1
+db_02
+  rotate: false
+  xy: 2, 5
+  size: 678, 678
+  orig: 688, 688
+  offset: 5, 5
+  index: -1
+db_03
+  rotate: true
+  xy: 1418, 159
+  size: 524, 151
+  orig: 524, 151
+  offset: 0, 0
+  index: -1
+guang_01
+  rotate: true
+  xy: 1605, 15
+  size: 163, 36
+  orig: 164, 37
+  offset: 1, 0
+  index: -1
+guang_03
+  rotate: true
+  xy: 682, 2
+  size: 34, 119
+  orig: 34, 119
+  offset: 0, 0
+  index: -1
+shuomin
+  rotate: true
+  xy: 1379, 79
+  size: 604, 37
+  orig: 605, 37
+  offset: 1, 0
+  index: -1
+zenzi_01
+  rotate: false
+  xy: 1571, 541
+  size: 137, 142
+  orig: 138, 143
+  offset: 1, 1
+  index: -1
+zenzi_02
+  rotate: false
+  xy: 1571, 391
+  size: 129, 148
+  orig: 130, 148
+  offset: 0, 0
+  index: -1
+zenzi_03
+  rotate: false
+  xy: 1571, 247
+  size: 121, 142
+  orig: 121, 143
+  offset: 0, 1
+  index: -1
+zenzi_04
+  rotate: true
+  xy: 1455, 19
+  size: 138, 148
+  orig: 138, 148
+  offset: 0, 0
+  index: -1
+zenzi_1
+  rotate: true
+  xy: 1571, 180
+  size: 65, 68
+  orig: 65, 69
+  offset: 0, 1
+  index: -1
+zenzi_2
+  rotate: false
+  xy: 1641, 180
+  size: 66, 65
+  orig: 66, 66
+  offset: 0, 1
+  index: -1
+zenzi_3
+  rotate: false
+  xy: 1379, 12
+  size: 74, 65
+  orig: 74, 66
+  offset: 0, 1
+  index: -1
+zenzi_4
+  rotate: false
+  xy: 1643, 43
+  size: 54, 65
+  orig: 54, 66
+  offset: 0, 1
+  index: -1
+zenzi_5
+  rotate: false
+  xy: 1643, 110
+  size: 58, 68
+  orig: 59, 69
+  offset: 1, 1
+  index: -1

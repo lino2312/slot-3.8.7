@@ -1,0 +1,48 @@
+
+spine.png
+size: 709,414
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win_big_c01
+  rotate: true
+  xy: 407, 78
+  size: 334, 243
+  orig: 550, 244
+  offset: 103, 1
+  index: -1
+win_big_c02
+  rotate: false
+  xy: 558, 21
+  size: 148, 55
+  orig: 150, 57
+  offset: 1, 1
+  index: -1
+win_big_c03
+  rotate: false
+  xy: 407, 21
+  size: 149, 55
+  orig: 151, 58
+  offset: 1, 2
+  index: -1
+win_c01
+  rotate: true
+  xy: 652, 251
+  size: 161, 55
+  orig: 163, 57
+  offset: 1, 1
+  index: -1
+win_c02
+  rotate: true
+  xy: 652, 89
+  size: 160, 54
+  orig: 162, 56
+  offset: 1, 1
+  index: -1
+win_str_c02
+  rotate: true
+  xy: 2, 2
+  size: 410, 403
+  orig: 410, 412
+  offset: 0, 2
+  index: -1

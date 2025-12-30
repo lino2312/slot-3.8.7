@@ -1,0 +1,62 @@
+
+superwin.png
+size: 349,1029
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX_Stars_01
+  rotate: true
+  xy: 138, 247
+  size: 88, 83
+  orig: 100, 87
+  offset: 6, 1
+  index: -1
+Light_02
+  rotate: false
+  xy: 138, 337
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Light_05
+  rotate: false
+  xy: 212, 2
+  size: 115, 113
+  orig: 117, 115
+  offset: 1, 1
+  index: -1
+Num_BG
+  rotate: true
+  xy: 2, 537
+  size: 490, 187
+  orig: 490, 187
+  offset: 0, 0
+  index: -1
+SmallSpots_02
+  rotate: false
+  xy: 212, 117
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+SuperWin
+  rotate: true
+  xy: 191, 467
+  size: 560, 156
+  orig: 560, 156
+  offset: 0, 0
+  index: -1
+SuperWin_win
+  rotate: true
+  xy: 2, 237
+  size: 298, 134
+  orig: 298, 134
+  offset: 0, 0
+  index: -1
+Win_Icon
+  rotate: true
+  xy: 2, 4
+  size: 231, 208
+  orig: 231, 208
+  offset: 0, 0
+  index: -1

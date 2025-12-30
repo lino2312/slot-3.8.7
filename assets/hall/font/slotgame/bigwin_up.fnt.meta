@@ -1,0 +1,187 @@
+{
+  "ver": "1.0.6",
+  "importer": "bitmap-font",
+  "imported": true,
+  "uuid": "934fa3b8-8217-40cc-ab5d-981061586562",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "_fntConfig": {
+      "commonHeight": 118,
+      "fontSize": 118,
+      "atlasName": "bigwin_up.png",
+      "fontDefDictionary": {
+        "44": {
+          "rect": {
+            "x": 478,
+            "y": 0,
+            "width": 57,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 37
+        },
+        "46": {
+          "rect": {
+            "x": 436,
+            "y": 278,
+            "width": 57,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 37
+        },
+        "48": {
+          "rect": {
+            "x": 369,
+            "y": 0,
+            "width": 108,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 88
+        },
+        "49": {
+          "rect": {
+            "x": 0,
+            "y": 139,
+            "width": 108,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 88
+        },
+        "50": {
+          "rect": {
+            "x": 109,
+            "y": 139,
+            "width": 108,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 88
+        },
+        "51": {
+          "rect": {
+            "x": 218,
+            "y": 139,
+            "width": 108,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 88
+        },
+        "52": {
+          "rect": {
+            "x": 327,
+            "y": 139,
+            "width": 108,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 88
+        },
+        "53": {
+          "rect": {
+            "x": 436,
+            "y": 139,
+            "width": 108,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 88
+        },
+        "54": {
+          "rect": {
+            "x": 0,
+            "y": 278,
+            "width": 108,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 88
+        },
+        "55": {
+          "rect": {
+            "x": 109,
+            "y": 278,
+            "width": 108,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 88
+        },
+        "56": {
+          "rect": {
+            "x": 218,
+            "y": 278,
+            "width": 108,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 88
+        },
+        "57": {
+          "rect": {
+            "x": 327,
+            "y": 278,
+            "width": 108,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 88
+        },
+        "66": {
+          "rect": {
+            "x": 256,
+            "y": 0,
+            "width": 112,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 92
+        },
+        "75": {
+          "rect": {
+            "x": 133,
+            "y": 0,
+            "width": 122,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 102
+        },
+        "77": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 132,
+            "height": 138
+          },
+          "xOffset": -10,
+          "yOffset": -10,
+          "xAdvance": 112
+        }
+      },
+      "kerningDict": {}
+    },
+    "fontSize": 118,
+    "textureUuid": "751cee35-0975-4a99-a823-af5482d5e4a9"
+  }
+}

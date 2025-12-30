@@ -1,0 +1,153 @@
+
+spine.png
+size: 205,382
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fx/FG_PanelSweep01B_01
+  rotate: false
+  xy: 66, 64
+  size: 29, 20
+  orig: 80, 80
+  offset: 4, 40
+  index: -1
+Fx/FG_PanelSweep01B_02
+  rotate: true
+  xy: 102, 62
+  size: 50, 28
+  orig: 80, 80
+  offset: 3, 40
+  index: -1
+Fx/FG_PanelSweep01B_03
+  rotate: false
+  xy: 133, 274
+  size: 70, 36
+  orig: 80, 80
+  offset: 4, 40
+  index: -1
+Fx/FG_PanelSweep01B_04
+  rotate: false
+  xy: 132, 164
+  size: 69, 38
+  orig: 80, 80
+  offset: 7, 40
+  index: -1
+Fx/FG_PanelSweep01B_05
+  rotate: false
+  xy: 2, 110
+  size: 66, 38
+  orig: 80, 80
+  offset: 11, 40
+  index: -1
+Fx/FG_PanelSweep01B_06
+  rotate: false
+  xy: 2, 8
+  size: 52, 37
+  orig: 80, 80
+  offset: 24, 40
+  index: -1
+Fx/FG_PanelSweep01B_07
+  rotate: true
+  xy: 164, 2
+  size: 42, 35
+  orig: 80, 80
+  offset: 33, 40
+  index: -1
+Fx/FG_PanelSweep01_00
+  rotate: true
+  xy: 70, 86
+  size: 29, 30
+  orig: 80, 80
+  offset: 7, 14
+  index: -1
+Fx/FG_PanelSweep01_01
+  rotate: true
+  xy: 66, 11
+  size: 49, 52
+  orig: 80, 80
+  offset: 4, 8
+  index: -1
+Fx/FG_PanelSweep01_02
+  rotate: true
+  xy: 2, 47
+  size: 61, 62
+  orig: 80, 80
+  offset: 3, 6
+  index: -1
+Fx/FG_PanelSweep01_03
+  rotate: false
+  xy: 133, 312
+  size: 70, 68
+  orig: 80, 80
+  offset: 4, 8
+  index: -1
+Fx/FG_PanelSweep01_04
+  rotate: false
+  xy: 133, 204
+  size: 69, 68
+  orig: 80, 80
+  offset: 7, 10
+  index: -1
+Fx/FG_PanelSweep01_05
+  rotate: false
+  xy: 132, 99
+  size: 66, 63
+  orig: 80, 80
+  offset: 11, 15
+  index: -1
+Fx/FG_PanelSweep01_06
+  rotate: false
+  xy: 132, 46
+  size: 52, 51
+  orig: 80, 80
+  offset: 24, 26
+  index: -1
+Fx/FG_PanelSweep01_07
+  rotate: false
+  xy: 120, 3
+  size: 42, 41
+  orig: 80, 80
+  offset: 33, 34
+  index: -1
+Fx/FG_PanelSweep01_08
+  rotate: false
+  xy: 70, 117
+  size: 31, 31
+  orig: 80, 80
+  offset: 41, 42
+  index: -1
+Fx/FireSpark01_2
+  rotate: true
+  xy: 2, 150
+  size: 55, 101
+  orig: 66, 101
+  offset: 10, 0
+  index: -1
+Fx/Frame_FX_Wipe
+  rotate: true
+  xy: 105, 114
+  size: 91, 25
+  orig: 97, 25
+  offset: 3, 0
+  index: -1
+Fx/Frame_Light
+  rotate: true
+  xy: 2, 207
+  size: 46, 118
+  orig: 57, 120
+  offset: 6, 1
+  index: -1
+Fx/Fx_bol_Light_01
+  rotate: false
+  xy: 186, 87
+  size: 10, 10
+  orig: 12, 12
+  offset: 1, 1
+  index: -1
+Fx/deal_NW_nef_05
+  rotate: false
+  xy: 2, 255
+  size: 129, 125
+  orig: 131, 145
+  offset: 1, 16
+  index: -1

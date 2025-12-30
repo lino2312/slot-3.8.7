@@ -1,0 +1,27 @@
+
+369_sqp.png
+size: 159,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gd
+  rotate: false
+  xy: 93, 11
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+sp1
+  rotate: false
+  xy: 2, 2
+  size: 89, 88
+  orig: 89, 88
+  offset: 0, 0
+  index: -1
+xg_01
+  rotate: false
+  xy: 93, 26
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,25 @@
+    dz3.0 popup prefab path and name         3.8.7 popup prefab path and name
+    YD_Pro/recharge/ui_recharge              prefabs/popup/popupRecharge
+    YD_Pro/recharge/usdt                     prefabs/popup/popupUsdt
+    YD_Pro/recharge/ui_all_record            prefabs/popup/popupTransactionsRecord
+    YD_Pro/recharge/ui_all_record_feedback   prefabs/popup/popupRecordFeedback
+    YD_Pro/prefab/yd_fist_recharge           prefabs/popup/popupFirstRecharge
+    in panel use/firstPay                    prefabs/popup/popupFirstpay
+    YD_Pro/prefab/yd_promo_code              prefabs/popup/popupPromoCode
+    YD_Pro/bank/ui_bindCard_Verify           prefabs/popup/popupBindCardVerify
+    YD_Pro/bank/ui_bindACC                   prefabs/popup/popupBindBankAccount
+    BalootClient/NewComerGift/PopupNewComerGift     prefabs/popup/popupNewComerGift
+    YD_Pro/newergift/newergift_rule          prefabs/popup/popupNewergiftRule
+    YD_Pro/withdraw/ui_withdraw              prefabs/popup/popupWithdraw 
+    YD_Pro/bank/ui_bindCard_yono_card        prefabs/popup/popupBindCardYonoCard 
+    YD_Pro/bank/ui_bindCard_yono             prefabs/popup/popupBindCardYono 
+    YD_Pro/withdraw/bind/selectBank          prefabs/popup/popupSelectBank
+    YD_Pro/bank/ui_bindCard_Upi              prefabs/popup/popupBindCardUpi
+    YD_Pro/bank/ui_bindCard_Usdt             prefabs/popup/popupBindCardUsdt
+    YD_Pro/bank/ui_bindCard_Ewallet          prefabs/popup/popupBindCardEwallet
+    YD_Pro/withdraw/bind/bindCard            prefabs/popup/popupBindBankCard
+    YD_Pro/withdraw/bind/change              prefabs/popup/popupBankChange
+    YD_Pro/withdraw/bind/ui_withdraw_bind    prefabs/popup/popupWithdrawManagePayment
+    YD_Pro/bonusWallet/ui_ bonusWallet       prefabs/popup/popupBonusWallet
+    YD_Pro/bonusWallet/ui_ bonusWallet_record   prefabs/popup/popupBonusWalletRecord
+    YD_Pro/prefab/yd_service                 prefabs/popup/popupContactUs

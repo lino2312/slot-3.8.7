@@ -1,0 +1,27 @@
+
+spine.png
+size: 233,233
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SAO
+  rotate: false
+  xy: 166, 4
+  size: 32, 46
+  orig: 32, 46
+  offset: 0, 0
+  index: -1
+spin
+  rotate: false
+  xy: 2, 52
+  size: 229, 179
+  orig: 229, 179
+  offset: 0, 0
+  index: -1
+spin2
+  rotate: false
+  xy: 2, 2
+  size: 162, 48
+  orig: 162, 48
+  offset: 0, 0
+  index: -1

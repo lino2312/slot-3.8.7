@@ -1,0 +1,72 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "ca18d5d4-b4a0-4efa-81ec-db1a528f4725",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "f9941": {
+      "uuid": "894633d6-f3ed-418a-be6e-6e28f28f8916",
+      "imported": false,
+      "importer": "sprite-frame",
+      "files": [],
+      "subMetas": {},
+      "userData": {
+        "importer": "sprite-frame",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 769,
+        "height": 66,
+        "rawWidth": 769,
+        "rawHeight": 66,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "imageUuidOrDatabaseUri": "ca18d5d4-b4a0-4efa-81ec-db1a528f4725@6c48a"
+      },
+      "ver": "0.0.1",
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "ca18d5d4-b4a0-4efa-81ec-db1a528f4725@6c48a",
+      "displayName": "progress_bg",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "wrapModeT": "clamp-to-edge",
+        "wrapModeS": "clamp-to-edge",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ca18d5d4-b4a0-4efa-81ec-db1a528f4725",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "ca18d5d4-b4a0-4efa-81ec-db1a528f4725@6c48a"
+  }
+}

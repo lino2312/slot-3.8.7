@@ -1,0 +1,41 @@
+
+Wheel_Bottom.png
+size: 1154,517
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Wheel/BG_Mask
+  rotate: false
+  xy: 521, 12
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+Wheel/Black
+  rotate: false
+  xy: 908, 63
+  size: 204, 201
+  orig: 267, 265
+  offset: 31, 30
+  index: -1
+Wheel/Ptcl_02
+  rotate: true
+  xy: 521, 64
+  size: 451, 385
+  orig: 500, 500
+  offset: 24, 40
+  index: -1
+Wheel/Ptcl_06
+  rotate: true
+  xy: 908, 266
+  size: 249, 244
+  orig: 256, 256
+  offset: 6, 7
+  index: -1
+Wheel/wheel_up-02
+  rotate: true
+  xy: 2, 2
+  size: 513, 517
+  orig: 535, 531
+  offset: 11, 4
+  index: -1

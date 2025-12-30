@@ -1,0 +1,153 @@
+
+spine.png
+size: 4000,253
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+box
+  rotate: true
+  xy: 3681, 88
+  size: 163, 155
+  orig: 166, 163
+  offset: 2, 1
+  index: -1
+box_leaf
+  rotate: false
+  xy: 3681, 17
+  size: 164, 69
+  orig: 165, 71
+  offset: 1, 1
+  index: -1
+dd
+  rotate: false
+  xy: 3918, 28
+  size: 80, 79
+  orig: 102, 102
+  offset: 11, 11
+  index: -1
+gc/gc_0000
+  rotate: false
+  xy: 2, 3
+  size: 248, 248
+  orig: 300, 251
+  offset: 30, 1
+  index: -1
+gc/gc_0001
+  rotate: false
+  xy: 750, 4
+  size: 247, 247
+  orig: 300, 251
+  offset: 30, 3
+  index: -1
+gc/gc_0002
+  rotate: false
+  xy: 1740, 5
+  size: 246, 246
+  orig: 300, 251
+  offset: 30, 4
+  index: -1
+gc/gc_0003
+  rotate: false
+  xy: 252, 2
+  size: 247, 249
+  orig: 300, 251
+  offset: 30, 2
+  index: -1
+gc/gc_0004
+  rotate: false
+  xy: 501, 3
+  size: 247, 248
+  orig: 300, 251
+  offset: 29, 1
+  index: -1
+gc/gc_0005
+  rotate: true
+  xy: 1988, 4
+  size: 247, 245
+  orig: 300, 251
+  offset: 29, 2
+  index: -1
+gc/gc_0006
+  rotate: true
+  xy: 1246, 3
+  size: 248, 245
+  orig: 300, 251
+  offset: 29, 2
+  index: -1
+gc/gc_0007
+  rotate: true
+  xy: 1493, 3
+  size: 248, 245
+  orig: 300, 251
+  offset: 29, 2
+  index: -1
+gc/gc_0008
+  rotate: true
+  xy: 2725, 2
+  size: 249, 241
+  orig: 300, 251
+  offset: 29, 5
+  index: -1
+gc/gc_0009
+  rotate: true
+  xy: 3445, 2
+  size: 249, 234
+  orig: 300, 251
+  offset: 29, 10
+  index: -1
+gc/gc_0010
+  rotate: true
+  xy: 3208, 2
+  size: 249, 235
+  orig: 300, 251
+  offset: 29, 8
+  index: -1
+gc/gc_0011
+  rotate: true
+  xy: 2968, 4
+  size: 247, 238
+  orig: 300, 251
+  offset: 31, 5
+  index: -1
+gc/gc_0012
+  rotate: true
+  xy: 2481, 3
+  size: 248, 242
+  orig: 300, 251
+  offset: 30, 3
+  index: -1
+gc/gc_0013
+  rotate: true
+  xy: 2235, 3
+  size: 248, 244
+  orig: 300, 251
+  offset: 30, 2
+  index: -1
+gc/gc_0014
+  rotate: true
+  xy: 999, 2
+  size: 249, 245
+  orig: 300, 251
+  offset: 29, 1
+  index: -1
+questionmark
+  rotate: false
+  xy: 3847, 15
+  size: 69, 92
+  orig: 71, 95
+  offset: 1, 1
+  index: -1
+top
+  rotate: false
+  xy: 3838, 109
+  size: 130, 38
+  orig: 131, 40
+  offset: 0, 1
+  index: -1
+xx
+  rotate: false
+  xy: 3838, 149
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1

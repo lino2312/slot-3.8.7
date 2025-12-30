@@ -1,0 +1,34 @@
+
+spine.png
+size: 73,436
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eft_lig_02
+  rotate: false
+  xy: 2, 260
+  size: 67, 98
+  orig: 72, 102
+  offset: 3, 1
+  index: -1
+eft_lw_pizza
+  rotate: true
+  xy: 2, 402
+  size: 32, 69
+  orig: 41, 80
+  offset: 4, 4
+  index: -1
+light_map
+  rotate: true
+  xy: 2, 2
+  size: 256, 64
+  orig: 256, 64
+  offset: 0, 0
+  index: -1
+spark
+  rotate: true
+  xy: 2, 360
+  size: 40, 41
+  orig: 42, 42
+  offset: 1, 1
+  index: -1

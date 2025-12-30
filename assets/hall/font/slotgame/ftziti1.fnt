@@ -1,0 +1,22 @@
+info face="face" size=75
+common lineHeight=75 scaleW=291 scaleH=229 pages=1
+page id=0 file="ftziti1.png"
+chars count=18
+char id=48 x=123 y=0 width=50 height=75 xoffset=0 yoffset=0 xadvance=50 page=0 chnl=15
+char id=49 x=218 y=154 width=34 height=75 xoffset=0 yoffset=0 xadvance=34 page=0 chnl=15
+char id=50 x=46 y=154 width=43 height=75 xoffset=0 yoffset=0 xadvance=43 page=0 chnl=15
+char id=51 x=91 y=154 width=43 height=75 xoffset=0 yoffset=0 xadvance=43 page=0 chnl=15
+char id=52 x=0 y=77 width=49 height=75 xoffset=0 yoffset=0 xadvance=49 page=0 chnl=15
+char id=53 x=136 y=154 width=43 height=75 xoffset=0 yoffset=0 xadvance=43 page=0 chnl=15
+char id=54 x=102 y=77 width=47 height=75 xoffset=0 yoffset=0 xadvance=47 page=0 chnl=15
+char id=55 x=0 y=154 width=44 height=75 xoffset=0 yoffset=0 xadvance=44 page=0 chnl=15
+char id=56 x=175 y=0 width=47 height=75 xoffset=0 yoffset=0 xadvance=47 page=0 chnl=15
+char id=57 x=175 y=77 width=47 height=75 xoffset=0 yoffset=0 xadvance=47 page=0 chnl=15
+char id=66 x=224 y=0 width=47 height=75 xoffset=0 yoffset=0 xadvance=47 page=0 chnl=15
+char id=75 x=51 y=77 width=49 height=75 xoffset=0 yoffset=0 xadvance=49 page=0 chnl=15
+char id=77 x=0 y=0 width=60 height=75 xoffset=0 yoffset=0 xadvance=60 page=0 chnl=15
+char id=81 x=62 y=0 width=59 height=75 xoffset=0 yoffset=0 xadvance=59 page=0 chnl=15
+char id=84 x=224 y=77 width=47 height=75 xoffset=0 yoffset=0 xadvance=47 page=0 chnl=15
+char id=47 x=181 y=154 width=35 height=75 xoffset=0 yoffset=0 xadvance=35 page=0 chnl=15
+char id=46 x=273 y=0 width=18 height=75 xoffset=0 yoffset=0 xadvance=18 page=0 chnl=15
+char id=44 x=151 y=77 width=21 height=75 xoffset=0 yoffset=0 xadvance=21 page=0 chnl=15

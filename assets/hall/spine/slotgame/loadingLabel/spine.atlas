@@ -1,0 +1,27 @@
+
+loading.png
+size: 390,43
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mansion_load_lbl02
+  rotate: false
+  xy: 201, 2
+  size: 169, 39
+  orig: 169, 39
+  offset: 0, 0
+  index: -1
+mansion_load_lbl0211
+  rotate: false
+  xy: 2, 2
+  size: 197, 39
+  orig: 197, 39
+  offset: 0, 0
+  index: -1
+mansion_load_lbl03
+  rotate: false
+  xy: 372, 24
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1

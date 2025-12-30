@@ -1,0 +1,55 @@
+{
+  "ver": "1.0.6",
+  "importer": "bitmap-font",
+  "imported": true,
+  "uuid": "bb2a2bb0-9838-4cf4-bf91-251e352d0485",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "_fntConfig": {
+      "commonHeight": 61,
+      "fontSize": 39,
+      "atlasName": "time_down_red.png",
+      "fontDefDictionary": {
+        "49": {
+          "rect": {
+            "x": 39,
+            "y": 0,
+            "width": 26,
+            "height": 61
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "50": {
+          "rect": {
+            "x": 65,
+            "y": 0,
+            "width": 39,
+            "height": 61
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 39
+        },
+        "51": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 39,
+            "height": 61
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 39
+        }
+      },
+      "kerningDict": {}
+    },
+    "fontSize": 39,
+    "textureUuid": "fabbda3b-cb43-4f2e-9073-a9d927bf5fc2"
+  }
+}

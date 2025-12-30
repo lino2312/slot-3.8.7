@@ -1,0 +1,64 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "c1ec1181-d257-4467-a818-013f982ff09e",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "43833": {
+      "importer": "sprite-frame",
+      "uuid": "c1ec1181-d257-4467-a818-013f982ff09e@43833",
+      "displayName": "",
+      "id": "43833",
+      "name": "free_spins_won",
+      "userData": {
+        "importer": "sprite-frame",
+        "atlasUuid": "c1ec1181-d257-4467-a818-013f982ff09e",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 550,
+        "height": 200,
+        "rawWidth": 550,
+        "rawHeight": 200,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8041d914-c0b5-4441-9842-3c51dade39fa@6c48a"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "free_spins_won.png",
+    "format": 2,
+    "textureUuid": "8041d914-c0b5-4441-9842-3c51dade39fa@6c48a",
+    "uuid": "c1ec1181-d257-4467-a818-013f982ff09e"
+  }
+}

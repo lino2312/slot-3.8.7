@@ -1,0 +1,55 @@
+
+014_chuansuo.png
+size: 1226,300
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 522, 173
+  size: 527, 127
+  orig: 527, 127
+  offset: 0, 0
+  index: -1
+l1
+  rotate: true
+  xy: 482, 0
+  size: 97, 171
+  orig: 97, 171
+  offset: 0, 0
+  index: -1
+l2
+  rotate: true
+  xy: 1051, 9
+  size: 291, 175
+  orig: 291, 175
+  offset: 0, 0
+  index: -1
+l3
+  rotate: false
+  xy: 0, 125
+  size: 520, 175
+  orig: 520, 175
+  offset: 0, 0
+  index: -1
+l4
+  rotate: false
+  xy: 522, 99
+  size: 372, 72
+  orig: 372, 72
+  offset: 0, 0
+  index: -1
+l5
+  rotate: false
+  xy: 896, 119
+  size: 109, 52
+  orig: 109, 52
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: false
+  xy: 0, 3
+  size: 480, 120
+  orig: 480, 120
+  offset: 0, 0
+  index: -1

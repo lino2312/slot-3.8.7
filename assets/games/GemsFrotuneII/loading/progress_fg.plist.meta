@@ -1,0 +1,64 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "88570ffe-4b80-4ccb-964d-d8eaf1952960",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "426a0": {
+      "importer": "sprite-frame",
+      "uuid": "88570ffe-4b80-4ccb-964d-d8eaf1952960@426a0",
+      "displayName": "",
+      "id": "426a0",
+      "name": "progress_fg",
+      "userData": {
+        "importer": "sprite-frame",
+        "atlasUuid": "88570ffe-4b80-4ccb-964d-d8eaf1952960",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 745,
+        "height": 43,
+        "rawWidth": 745,
+        "rawHeight": 43,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "cb21b2e0-7ea9-4492-b6bf-ec36c5442c50@6c48a"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "progress_fg.png",
+    "format": 2,
+    "textureUuid": "cb21b2e0-7ea9-4492-b6bf-ec36c5442c50@6c48a",
+    "uuid": "88570ffe-4b80-4ccb-964d-d8eaf1952960"
+  }
+}

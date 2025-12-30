@@ -1,0 +1,1084 @@
+
+spine.png
+size: 1492,1032
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7_1
+  rotate: true
+  xy: 950, 931
+  size: 23, 56
+  orig: 23, 56
+  offset: 0, 0
+  index: -1
+7_2
+  rotate: false
+  xy: 97, 277
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+7_3
+  rotate: false
+  xy: 1008, 894
+  size: 216, 138
+  orig: 216, 138
+  offset: 0, 0
+  index: -1
+7_4
+  rotate: false
+  xy: 202, 503
+  size: 174, 113
+  orig: 174, 113
+  offset: 0, 0
+  index: -1
+7_5
+  rotate: true
+  xy: 620, 650
+  size: 166, 114
+  orig: 166, 115
+  offset: 0, 1
+  index: -1
+7_51
+  rotate: true
+  xy: 617, 482
+  size: 166, 115
+  orig: 178, 137
+  offset: 6, 13
+  index: -1
+7_52
+  rotate: false
+  xy: 426, 420
+  size: 178, 137
+  orig: 178, 137
+  offset: 0, 0
+  index: -1
+7_6
+  rotate: true
+  xy: 1432, 789
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1
+7_61
+  rotate: true
+  xy: 1237, 43
+  size: 42, 60
+  orig: 61, 60
+  offset: 8, 0
+  index: -1
+7_7
+  rotate: true
+  xy: 1071, 336
+  size: 29, 34
+  orig: 29, 34
+  offset: 0, 0
+  index: -1
+7_8
+  rotate: false
+  xy: 736, 628
+  size: 171, 111
+  orig: 171, 111
+  offset: 0, 0
+  index: -1
+7day_glow_02
+  rotate: false
+  xy: 202, 618
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+avbn
+  rotate: false
+  xy: 286, 120
+  size: 127, 139
+  orig: 141, 142
+  offset: 1, 1
+  index: -1
+coin
+  rotate: false
+  xy: 848, 40
+  size: 30, 30
+  orig: 40, 40
+  offset: 5, 5
+  index: -1
+di
+  rotate: false
+  xy: 145, 261
+  size: 186, 114
+  orig: 188, 120
+  offset: 1, 5
+  index: -1
+game
+  rotate: false
+  xy: 145, 377
+  size: 188, 124
+  orig: 220, 200
+  offset: 31, 40
+  index: -1
+jackpotiong
+  rotate: true
+  xy: 734, 486
+  size: 140, 149
+  orig: 140, 149
+  offset: 0, 0
+  index: -1
+jackpotiong2
+  rotate: false
+  xy: 1279, 122
+  size: 39, 38
+  orig: 40, 39
+  offset: 0, 1
+  index: -1
+jackpotiong4
+  rotate: false
+  xy: 0, 830
+  size: 202, 202
+  orig: 208, 208
+  offset: 3, 3
+  index: -1
+lucky-wheel
+  rotate: false
+  xy: 909, 603
+  size: 131, 136
+  orig: 132, 137
+  offset: 0, 1
+  index: -1
+lucky-wheel1
+  rotate: true
+  xy: 1322, 638
+  size: 113, 103
+  orig: 132, 137
+  offset: 12, 23
+  index: -1
+lucky-wheel2
+  rotate: true
+  xy: 1166, 401
+  size: 113, 103
+  orig: 132, 137
+  offset: 12, 23
+  index: -1
+lucky-wheel3
+  rotate: false
+  xy: 902, 241
+  size: 113, 103
+  orig: 132, 137
+  offset: 12, 23
+  index: -1
+lucky-wheel4
+  rotate: false
+  xy: 1017, 231
+  size: 113, 103
+  orig: 132, 137
+  offset: 12, 23
+  index: -1
+lucky-wheel5
+  rotate: false
+  xy: 1271, 374
+  size: 113, 103
+  orig: 132, 137
+  offset: 12, 23
+  index: -1
+refer0
+  rotate: true
+  xy: 1042, 607
+  size: 153, 121
+  orig: 200, 200
+  offset: 27, 0
+  index: -1
+refer1
+  rotate: false
+  xy: 887, 346
+  size: 130, 141
+  orig: 200, 200
+  offset: 32, 29
+  index: -1
+shop
+  rotate: true
+  xy: 608, 327
+  size: 153, 132
+  orig: 200, 200
+  offset: 22, 41
+  index: -1
+sloticon111/sloticon_00002
+  rotate: true
+  xy: 1383, 7
+  size: 27, 70
+  orig: 249, 161
+  offset: 28, 19
+  index: -1
+sloticon111/sloticon_00003
+  rotate: false
+  xy: 1320, 110
+  size: 46, 101
+  orig: 249, 161
+  offset: 27, 19
+  index: -1
+sloticon111/sloticon_00004
+  rotate: false
+  xy: 1423, 922
+  size: 65, 110
+  orig: 249, 161
+  offset: 26, 18
+  index: -1
+sloticon111/sloticon_00005
+  rotate: false
+  xy: 1408, 526
+  size: 84, 110
+  orig: 249, 161
+  offset: 25, 18
+  index: -1
+sloticon111/sloticon_00006
+  rotate: false
+  xy: 1253, 261
+  size: 102, 111
+  orig: 249, 161
+  offset: 25, 18
+  index: -1
+sloticon111/sloticon_00007
+  rotate: false
+  xy: 1043, 494
+  size: 121, 111
+  orig: 249, 161
+  offset: 24, 18
+  index: -1
+sloticon111/sloticon_00008
+  rotate: false
+  xy: 282, 7
+  size: 139, 111
+  orig: 249, 161
+  offset: 24, 18
+  index: -1
+sloticon111/sloticon_00009
+  rotate: false
+  xy: 885, 489
+  size: 156, 112
+  orig: 249, 161
+  offset: 24, 18
+  index: -1
+sloticon111/sloticon_00010
+  rotate: false
+  xy: 423, 36
+  size: 165, 112
+  orig: 249, 161
+  offset: 25, 18
+  index: -1
+sloticon111/sloticon_00011
+  rotate: false
+  xy: 415, 202
+  size: 172, 112
+  orig: 249, 161
+  offset: 26, 18
+  index: -1
+sloticon111/sloticon_00012
+  rotate: false
+  xy: 103, 16
+  size: 177, 112
+  orig: 249, 161
+  offset: 27, 18
+  index: -1
+sloticon111/sloticon_00013
+  rotate: false
+  xy: 426, 559
+  size: 189, 127
+  orig: 249, 161
+  offset: 28, 18
+  index: -1
+sloticon111/sloticon_00014
+  rotate: false
+  xy: 1226, 904
+  size: 195, 128
+  orig: 249, 161
+  offset: 29, 18
+  index: -1
+sloticon111/sloticon_00015
+  rotate: false
+  xy: 426, 688
+  size: 192, 128
+  orig: 249, 161
+  offset: 33, 18
+  index: -1
+sloticon111/sloticon_00016
+  rotate: false
+  xy: 103, 130
+  size: 181, 129
+  orig: 249, 161
+  offset: 45, 18
+  index: -1
+sloticon111/sloticon_00017
+  rotate: false
+  xy: 736, 741
+  size: 164, 129
+  orig: 249, 161
+  offset: 63, 18
+  index: -1
+sloticon111/sloticon_00018
+  rotate: false
+  xy: 1033, 762
+  size: 146, 130
+  orig: 249, 161
+  offset: 81, 18
+  index: -1
+sloticon111/sloticon_00019
+  rotate: false
+  xy: 902, 741
+  size: 129, 129
+  orig: 249, 161
+  offset: 99, 19
+  index: -1
+sloticon111/sloticon_00020
+  rotate: false
+  xy: 1166, 516
+  size: 111, 129
+  orig: 249, 161
+  offset: 117, 19
+  index: -1
+sloticon111/sloticon_00021
+  rotate: false
+  xy: 1071, 367
+  size: 93, 125
+  orig: 249, 161
+  offset: 135, 23
+  index: -1
+sloticon111/sloticon_00022
+  rotate: true
+  xy: 590, 45
+  size: 75, 108
+  orig: 249, 161
+  offset: 153, 39
+  index: -1
+sloticon111/sloticon_00023
+  rotate: true
+  xy: 1405, 468
+  size: 56, 86
+  orig: 249, 161
+  offset: 171, 61
+  index: -1
+sloticon111/sloticon_00024
+  rotate: false
+  xy: 1462, 870
+  size: 30, 50
+  orig: 249, 161
+  offset: 195, 96
+  index: -1
+sloticon111/sloticon_00025
+  rotate: true
+  xy: 460, 909
+  size: 24, 29
+  orig: 249, 161
+  offset: 201, 117
+  index: -1
+sloticon111/sloticon_00026
+  rotate: true
+  xy: 335, 377
+  size: 4, 9
+  orig: 249, 161
+  offset: 220, 131
+  index: -1
+sloticon111/sloticon_00027
+  rotate: true
+  xy: 335, 377
+  size: 4, 9
+  orig: 249, 161
+  offset: 220, 131
+  index: -1
+sloticon111/sloticon_00028
+  rotate: true
+  xy: 335, 377
+  size: 4, 9
+  orig: 249, 161
+  offset: 220, 131
+  index: -1
+sloticon111/sloticon_00029
+  rotate: true
+  xy: 335, 377
+  size: 4, 9
+  orig: 249, 161
+  offset: 220, 131
+  index: -1
+social
+  rotate: false
+  xy: 742, 341
+  size: 143, 143
+  orig: 200, 200
+  offset: 29, 28
+  index: -1
+star_small
+  rotate: false
+  xy: 903, 39
+  size: 100, 100
+  orig: 128, 128
+  offset: 16, 12
+  index: -1
+up/image01
+  rotate: true
+  xy: 1279, 531
+  size: 105, 127
+  orig: 150, 300
+  offset: 22, 0
+  index: -1
+up/image03
+  rotate: true
+  xy: 1165, 647
+  size: 104, 155
+  orig: 150, 300
+  offset: 23, 0
+  index: -1
+up/image05
+  rotate: true
+  xy: 426, 316
+  size: 102, 180
+  orig: 150, 300
+  offset: 24, 0
+  index: -1
+up/image07
+  rotate: false
+  xy: 0, 7
+  size: 101, 217
+  orig: 150, 300
+  offset: 24, 0
+  index: -1
+up/image09
+  rotate: true
+  xy: 204, 833
+  size: 100, 254
+  orig: 150, 300
+  offset: 25, 0
+  index: -1
+up/image11
+  rotate: false
+  xy: 100, 538
+  size: 100, 290
+  orig: 150, 300
+  offset: 26, 0
+  index: -1
+up/image13
+  rotate: false
+  xy: 0, 528
+  size: 98, 300
+  orig: 150, 300
+  offset: 27, 0
+  index: -1
+up/image15
+  rotate: true
+  xy: 204, 935
+  size: 97, 300
+  orig: 150, 300
+  offset: 28, 0
+  index: -1
+up/image17
+  rotate: false
+  xy: 0, 226
+  size: 95, 300
+  orig: 150, 300
+  offset: 28, 0
+  index: -1
+up/image19
+  rotate: true
+  xy: 762, 956
+  size: 76, 244
+  orig: 150, 300
+  offset: 29, 33
+  index: -1
+up/image21
+  rotate: true
+  xy: 506, 958
+  size: 74, 254
+  orig: 150, 300
+  offset: 31, 40
+  index: -1
+up/image23
+  rotate: true
+  xy: 460, 842
+  size: 62, 214
+  orig: 150, 300
+  offset: 43, 40
+  index: -1
+zi/text_hall_tabbar_select_events_en
+  rotate: false
+  xy: 1226, 753
+  size: 190, 47
+  orig: 220, 50
+  offset: 15, 0
+  index: -1
+zi/text_hall_tabbar_select_events_es
+  rotate: true
+  xy: 378, 412
+  size: 207, 46
+  orig: 220, 50
+  offset: 5, 4
+  index: -1
+zi/text_hall_tabbar_select_events_in
+  rotate: true
+  xy: 1019, 336
+  size: 151, 50
+  orig: 220, 50
+  offset: 34, 0
+  index: -1
+zi/text_hall_tabbar_select_events_ind
+  rotate: false
+  xy: 742, 293
+  size: 158, 46
+  orig: 220, 50
+  offset: 28, 1
+  index: -1
+zi/text_hall_tabbar_select_events_pl
+  rotate: false
+  xy: 506, 906
+  size: 220, 50
+  orig: 220, 50
+  offset: 0, 0
+  index: -1
+zi/text_hall_tabbar_select_events_pt
+  rotate: false
+  xy: 728, 908
+  size: 220, 46
+  orig: 220, 50
+  offset: 0, 4
+  index: -1
+zi/text_hall_tabbar_select_events_ur
+  rotate: false
+  xy: 1226, 852
+  size: 207, 50
+  orig: 220, 50
+  offset: 7, 0
+  index: -1
+zi/text_hall_tabbar_select_games_en
+  rotate: false
+  xy: 1386, 379
+  size: 105, 46
+  orig: 220, 50
+  offset: 57, 2
+  index: -1
+zi/text_hall_tabbar_select_games_es
+  rotate: false
+  xy: 1209, 162
+  size: 109, 49
+  orig: 220, 50
+  offset: 56, 0
+  index: -1
+zi/text_hall_tabbar_select_games_in
+  rotate: true
+  xy: 676, 831
+  size: 73, 50
+  orig: 220, 50
+  offset: 73, 0
+  index: -1
+zi/text_hall_tabbar_select_games_ind
+  rotate: true
+  xy: 1132, 190
+  size: 175, 46
+  orig: 220, 50
+  offset: 22, 1
+  index: -1
+zi/text_hall_tabbar_select_games_pl
+  rotate: false
+  xy: 1396, 288
+  size: 94, 50
+  orig: 220, 50
+  offset: 63, 0
+  index: -1
+zi/text_hall_tabbar_select_games_pt
+  rotate: false
+  xy: 1368, 142
+  size: 93, 48
+  orig: 220, 50
+  offset: 64, 0
+  index: -1
+zi/text_hall_tabbar_select_games_ur
+  rotate: true
+  xy: 333, 261
+  size: 114, 50
+  orig: 220, 50
+  offset: 54, 0
+  index: -1
+zi/text_hall_tabbar_select_jackpot_en
+  rotate: false
+  xy: 591, 174
+  size: 134, 47
+  orig: 220, 50
+  offset: 42, 0
+  index: -1
+zi/text_hall_tabbar_select_jackpot_pl
+  rotate: false
+  xy: 591, 174
+  size: 134, 47
+  orig: 220, 50
+  offset: 42, 0
+  index: -1
+zi/text_hall_tabbar_select_jackpot_pt
+  rotate: false
+  xy: 591, 174
+  size: 134, 47
+  orig: 220, 50
+  offset: 42, 0
+  index: -1
+zi/text_hall_tabbar_select_jackpot_es
+  rotate: false
+  xy: 1145, 74
+  size: 88, 46
+  orig: 220, 50
+  offset: 65, 2
+  index: -1
+zi/text_hall_tabbar_select_jackpot_in
+  rotate: false
+  xy: 591, 122
+  size: 121, 50
+  orig: 220, 50
+  offset: 49, 0
+  index: -1
+zi/text_hall_tabbar_select_jackpot_ind
+  rotate: false
+  xy: 1005, 131
+  size: 135, 46
+  orig: 220, 50
+  offset: 42, 0
+  index: -1
+zi/text_hall_tabbar_select_jackpot_ur
+  rotate: true
+  xy: 374, 621
+  size: 167, 50
+  orig: 220, 50
+  offset: 27, 0
+  index: -1
+zi/text_hall_tabbar_select_lucky-wheel_en
+  rotate: false
+  xy: 1226, 802
+  size: 204, 48
+  orig: 220, 50
+  offset: 8, 0
+  index: -1
+zi/text_hall_tabbar_select_lucky-wheel_ind
+  rotate: false
+  xy: 1226, 802
+  size: 204, 48
+  orig: 220, 50
+  offset: 8, 0
+  index: -1
+zi/text_hall_tabbar_select_lucky-wheel_pl
+  rotate: false
+  xy: 1226, 802
+  size: 204, 48
+  orig: 220, 50
+  offset: 8, 0
+  index: -1
+zi/text_hall_tabbar_select_lucky-wheel_es
+  rotate: false
+  xy: 204, 790
+  size: 220, 41
+  orig: 220, 50
+  offset: 0, 5
+  index: -1
+zi/text_hall_tabbar_select_lucky-wheel_in
+  rotate: false
+  xy: 415, 150
+  size: 174, 50
+  orig: 220, 50
+  offset: 23, 0
+  index: -1
+zi/text_hall_tabbar_select_lucky-wheel_pt
+  rotate: true
+  xy: 97, 317
+  size: 209, 46
+  orig: 220, 50
+  offset: 5, 0
+  index: -1
+zi/text_hall_tabbar_select_lucky-wheel_ur
+  rotate: false
+  xy: 732, 242
+  size: 168, 49
+  orig: 220, 50
+  offset: 26, 1
+  index: -1
+zi/text_hall_tabbar_select_shop_en
+  rotate: false
+  xy: 1396, 240
+  size: 94, 46
+  orig: 220, 50
+  offset: 62, 2
+  index: -1
+zi/text_hall_tabbar_select_shop_es
+  rotate: false
+  xy: 896, 141
+  size: 107, 46
+  orig: 220, 50
+  offset: 56, 2
+  index: -1
+zi/text_hall_tabbar_select_shop_pt
+  rotate: false
+  xy: 896, 141
+  size: 107, 46
+  orig: 220, 50
+  offset: 56, 2
+  index: -1
+zi/text_hall_tabbar_select_shop_in
+  rotate: false
+  xy: 1005, 179
+  size: 114, 50
+  orig: 220, 50
+  offset: 52, 0
+  index: -1
+zi/text_hall_tabbar_select_shop_ind
+  rotate: false
+  xy: 1368, 94
+  size: 94, 46
+  orig: 220, 50
+  offset: 62, 1
+  index: -1
+zi/text_hall_tabbar_select_shop_pl
+  rotate: false
+  xy: 589, 223
+  size: 139, 50
+  orig: 220, 50
+  offset: 41, 0
+  index: -1
+zi/text_hall_tabbar_select_shop_ur
+  rotate: false
+  xy: 1279, 479
+  size: 124, 50
+  orig: 220, 50
+  offset: 49, 0
+  index: -1
+zi/text_hall_tabbar_select_social_es
+  rotate: false
+  xy: 1005, 8
+  size: 113, 46
+  orig: 220, 50
+  offset: 53, 2
+  index: -1
+zi/text_hall_tabbar_select_social_in
+  rotate: false
+  xy: 884, 189
+  size: 119, 50
+  orig: 220, 50
+  offset: 50, 0
+  index: -1
+zi/text_hall_tabbar_select_social_ind
+  rotate: true
+  xy: 1427, 674
+  size: 113, 46
+  orig: 220, 50
+  offset: 53, 1
+  index: -1
+zi/text_hall_tabbar_select_social_pl
+  rotate: false
+  xy: 1253, 213
+  size: 113, 46
+  orig: 220, 50
+  offset: 53, 2
+  index: -1
+zi/text_hall_tabbar_select_social_en
+  rotate: false
+  xy: 1253, 213
+  size: 113, 46
+  orig: 220, 50
+  offset: 53, 2
+  index: -1
+zi/text_hall_tabbar_select_social_pt
+  rotate: false
+  xy: 1368, 192
+  size: 113, 46
+  orig: 220, 50
+  offset: 53, 1
+  index: -1
+zi/text_hall_tabbar_select_social_ur
+  rotate: false
+  xy: 608, 275
+  size: 122, 50
+  orig: 220, 50
+  offset: 50, 0
+  index: -1
+zi/text_hall_tabbar_unselect_events_en
+  rotate: false
+  xy: 423, 1
+  size: 170, 33
+  orig: 220, 50
+  offset: 26, 2
+  index: -1
+zi/text_hall_tabbar_unselect_events_es
+  rotate: false
+  xy: 714, 101
+  size: 187, 28
+  orig: 220, 50
+  offset: 15, 11
+  index: -1
+zi/text_hall_tabbar_unselect_events_in
+  rotate: true
+  xy: 1181, 759
+  size: 133, 43
+  orig: 220, 50
+  offset: 43, 1
+  index: -1
+zi/text_hall_tabbar_unselect_events_ind
+  rotate: false
+  xy: 1005, 56
+  size: 137, 26
+  orig: 220, 50
+  offset: 34, 10
+  index: -1
+zi/text_hall_tabbar_unselect_events_pl
+  rotate: false
+  xy: 728, 872
+  size: 209, 34
+  orig: 220, 50
+  offset: 6, 1
+  index: -1
+zi/text_hall_tabbar_unselect_events_pt
+  rotate: true
+  xy: 1180, 195
+  size: 204, 27
+  orig: 220, 50
+  offset: 8, 11
+  index: -1
+zi/text_hall_tabbar_unselect_events_ur
+  rotate: true
+  xy: 1209, 219
+  size: 180, 42
+  orig: 220, 50
+  offset: 20, 0
+  index: -1
+zi/text_hall_tabbar_unselect_games_en
+  rotate: true
+  xy: 1464, 12
+  size: 84, 28
+  orig: 220, 50
+  offset: 68, 9
+  index: -1
+zi/text_hall_tabbar_unselect_games_es
+  rotate: false
+  xy: 810, 0
+  size: 89, 33
+  orig: 220, 50
+  offset: 66, 5
+  index: -1
+zi/text_hall_tabbar_unselect_games_in
+  rotate: true
+  xy: 1142, 133
+  size: 55, 38
+  orig: 220, 50
+  offset: 82, 3
+  index: -1
+zi/text_hall_tabbar_unselect_games_ind
+  rotate: false
+  xy: 730, 213
+  size: 152, 27
+  orig: 220, 50
+  offset: 34, 8
+  index: -1
+zi/text_hall_tabbar_unselect_games_pl
+  rotate: true
+  xy: 1310, 42
+  size: 66, 31
+  orig: 220, 50
+  offset: 78, 6
+  index: -1
+zi/text_hall_tabbar_unselect_games_pt
+  rotate: false
+  xy: 1235, 87
+  size: 73, 33
+  orig: 220, 50
+  offset: 74, 5
+  index: -1
+zi/text_hall_tabbar_unselect_games_ur
+  rotate: true
+  xy: 385, 323
+  size: 87, 39
+  orig: 220, 50
+  offset: 67, 4
+  index: -1
+zi/text_hall_tabbar_unselect_jackpot_en
+  rotate: true
+  xy: 335, 383
+  size: 118, 31
+  orig: 220, 50
+  offset: 48, 5
+  index: -1
+zi/text_hall_tabbar_unselect_jackpot_pl
+  rotate: true
+  xy: 335, 383
+  size: 118, 31
+  orig: 220, 50
+  offset: 48, 5
+  index: -1
+zi/text_hall_tabbar_unselect_jackpot_pt
+  rotate: true
+  xy: 335, 383
+  size: 118, 31
+  orig: 220, 50
+  offset: 48, 5
+  index: -1
+zi/text_hall_tabbar_unselect_jackpot_es
+  rotate: true
+  xy: 1435, 852
+  size: 68, 25
+  orig: 220, 50
+  offset: 74, 11
+  index: -1
+zi/text_hall_tabbar_unselect_jackpot_in
+  rotate: false
+  xy: 1386, 427
+  size: 106, 39
+  orig: 220, 50
+  offset: 55, 7
+  index: -1
+zi/text_hall_tabbar_unselect_jackpot_ind
+  rotate: false
+  xy: 595, 0
+  size: 116, 33
+  orig: 220, 50
+  offset: 52, 2
+  index: -1
+zi/text_hall_tabbar_unselect_jackpot_ur
+  rotate: false
+  xy: 1005, 84
+  size: 138, 45
+  orig: 220, 50
+  offset: 42, 0
+  index: -1
+zi/text_hall_tabbar_unselect_lucky-wheel_en
+  rotate: false
+  xy: 714, 131
+  size: 180, 33
+  orig: 220, 50
+  offset: 20, 4
+  index: -1
+zi/text_hall_tabbar_unselect_lucky-wheel_ind
+  rotate: false
+  xy: 714, 131
+  size: 180, 33
+  orig: 220, 50
+  offset: 20, 4
+  index: -1
+zi/text_hall_tabbar_unselect_lucky-wheel_pl
+  rotate: false
+  xy: 714, 131
+  size: 180, 33
+  orig: 220, 50
+  offset: 20, 4
+  index: -1
+zi/text_hall_tabbar_unselect_lucky-wheel_es
+  rotate: false
+  xy: 460, 818
+  size: 212, 22
+  orig: 220, 50
+  offset: 4, 12
+  index: -1
+zi/text_hall_tabbar_unselect_lucky-wheel_in
+  rotate: false
+  xy: 727, 166
+  size: 152, 45
+  orig: 220, 50
+  offset: 34, 1
+  index: -1
+zi/text_hall_tabbar_unselect_lucky-wheel_pt
+  rotate: false
+  xy: 700, 72
+  size: 186, 27
+  orig: 220, 50
+  offset: 17, 7
+  index: -1
+zi/text_hall_tabbar_unselect_lucky-wheel_ur
+  rotate: false
+  xy: 700, 35
+  size: 146, 35
+  orig: 220, 50
+  offset: 37, 8
+  index: -1
+zi/text_hall_tabbar_unselect_shop_en
+  rotate: false
+  xy: 1343, 36
+  size: 73, 27
+  orig: 220, 50
+  offset: 74, 9
+  index: -1
+zi/text_hall_tabbar_unselect_shop_es
+  rotate: false
+  xy: 1144, 45
+  size: 91, 27
+  orig: 220, 50
+  offset: 65, 8
+  index: -1
+zi/text_hall_tabbar_unselect_shop_pt
+  rotate: false
+  xy: 1144, 45
+  size: 91, 27
+  orig: 220, 50
+  offset: 65, 8
+  index: -1
+zi/text_hall_tabbar_unselect_shop_in
+  rotate: false
+  xy: 1182, 122
+  size: 95, 38
+  orig: 220, 50
+  offset: 62, 3
+  index: -1
+zi/text_hall_tabbar_unselect_shop_ind
+  rotate: false
+  xy: 1308, 7
+  size: 73, 27
+  orig: 220, 50
+  offset: 74, 8
+  index: -1
+zi/text_hall_tabbar_unselect_shop_pl
+  rotate: true
+  xy: 1357, 261
+  size: 111, 37
+  orig: 220, 50
+  offset: 55, 0
+  index: -1
+zi/text_hall_tabbar_unselect_shop_ur
+  rotate: false
+  xy: 1396, 340
+  size: 96, 37
+  orig: 220, 50
+  offset: 63, 4
+  index: -1
+zi/text_hall_tabbar_unselect_social_en
+  rotate: false
+  xy: 1120, 16
+  size: 92, 27
+  orig: 220, 50
+  offset: 64, 9
+  index: -1
+zi/text_hall_tabbar_unselect_social_pl
+  rotate: false
+  xy: 1120, 16
+  size: 92, 27
+  orig: 220, 50
+  offset: 64, 9
+  index: -1
+zi/text_hall_tabbar_unselect_social_es
+  rotate: false
+  xy: 1214, 14
+  size: 92, 27
+  orig: 220, 50
+  offset: 64, 9
+  index: -1
+zi/text_hall_tabbar_unselect_social_in
+  rotate: false
+  xy: 901, 0
+  size: 101, 37
+  orig: 220, 50
+  offset: 59, 4
+  index: -1
+zi/text_hall_tabbar_unselect_social_ind
+  rotate: false
+  xy: 1343, 65
+  size: 92, 27
+  orig: 220, 50
+  offset: 64, 8
+  index: -1
+zi/text_hall_tabbar_unselect_social_pt
+  rotate: true
+  xy: 1464, 98
+  size: 92, 28
+  orig: 220, 50
+  offset: 64, 8
+  index: -1
+zi/text_hall_tabbar_unselect_social_ur
+  rotate: false
+  xy: 713, 0
+  size: 95, 33
+  orig: 220, 50
+  offset: 63, 4
+  index: -1

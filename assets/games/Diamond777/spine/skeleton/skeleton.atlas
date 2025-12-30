@@ -1,0 +1,27 @@
+
+skeleton.png
+size: 501,627
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BIAN-ZHONG
+  rotate: true
+  xy: 2, 2
+  size: 623, 321
+  orig: 623, 321
+  offset: 0, 0
+  index: -1
+SSS-PUTONG
+  rotate: true
+  xy: 325, 358
+  size: 267, 174
+  orig: 267, 174
+  offset: 0, 0
+  index: -1
+SSSSSSS
+  rotate: true
+  xy: 325, 89
+  size: 267, 174
+  orig: 267, 174
+  offset: 0, 0
+  index: -1

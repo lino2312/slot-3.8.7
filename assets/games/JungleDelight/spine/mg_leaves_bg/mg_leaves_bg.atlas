@@ -1,0 +1,41 @@
+
+mg_leaves.png
+size: 958,805
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fg_leaves_L
+  rotate: true
+  xy: 2, 280
+  size: 523, 465
+  orig: 530, 471
+  offset: 2, 4
+  index: -1
+fg_leaves_R
+  rotate: true
+  xy: 469, 399
+  size: 404, 487
+  orig: 410, 489
+  offset: 2, 0
+  index: -1
+leaves_L
+  rotate: false
+  xy: 475, 36
+  size: 397, 361
+  orig: 397, 362
+  offset: 0, 0
+  index: -1
+leaves_M
+  rotate: false
+  xy: 340, 127
+  size: 133, 151
+  orig: 134, 153
+  offset: 1, 0
+  index: -1
+leaves_R
+  rotate: true
+  xy: 2, 2
+  size: 276, 336
+  orig: 278, 337
+  offset: 0, 0
+  index: -1

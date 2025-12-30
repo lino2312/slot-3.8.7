@@ -1,0 +1,97 @@
+
+spine.png
+size: 2026,622
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00
+  rotate: false
+  xy: 951, 140
+  size: 898, 101
+  orig: 900, 110
+  offset: 1, 5
+  index: -1
+start
+  rotate: true
+  xy: 1908, 76
+  size: 544, 116
+  orig: 563, 209
+  offset: 5, 0
+  index: -1
+start_filter_00000
+  rotate: false
+  xy: 946, 2
+  size: 727, 136
+  orig: 818, 136
+  offset: 57, 0
+  index: -1
+xulie/anim_start_01
+  rotate: false
+  xy: 957, 527
+  size: 949, 93
+  orig: 957, 97
+  offset: 6, 0
+  index: -1
+xulie/anim_start_02
+  rotate: false
+  xy: 2, 231
+  size: 947, 93
+  orig: 956, 97
+  offset: 4, 0
+  index: -1
+xulie/anim_start_03
+  rotate: false
+  xy: 2, 426
+  size: 949, 97
+  orig: 957, 97
+  offset: 5, 0
+  index: -1
+xulie/anim_start_04
+  rotate: false
+  xy: 953, 335
+  size: 931, 97
+  orig: 956, 97
+  offset: 5, 0
+  index: -1
+xulie/anim_start_05
+  rotate: false
+  xy: 2, 326
+  size: 948, 98
+  orig: 957, 98
+  offset: 7, 0
+  index: -1
+xulie/anim_start_06
+  rotate: false
+  xy: 2, 32
+  size: 932, 98
+  orig: 956, 98
+  offset: 1, 0
+  index: -1
+xulie/anim_start_07
+  rotate: false
+  xy: 2, 132
+  size: 942, 97
+  orig: 957, 97
+  offset: 4, 0
+  index: -1
+xulie/anim_start_08
+  rotate: false
+  xy: 957, 434
+  size: 932, 91
+  orig: 956, 97
+  offset: 1, 3
+  index: -1
+xulie/anim_start_09
+  rotate: false
+  xy: 2, 525
+  size: 953, 95
+  orig: 957, 97
+  offset: 3, 2
+  index: -1
+xulie/anim_start_10
+  rotate: false
+  xy: 952, 243
+  size: 911, 90
+  orig: 956, 97
+  offset: 0, 5
+  index: -1

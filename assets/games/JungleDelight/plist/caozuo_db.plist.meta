@@ -1,0 +1,64 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "464022fe-1384-4367-884f-3590b9270e8d",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "e8400": {
+      "importer": "sprite-frame",
+      "uuid": "464022fe-1384-4367-884f-3590b9270e8d@e8400",
+      "displayName": "",
+      "id": "e8400",
+      "name": "caozuo_db",
+      "userData": {
+        "importer": "sprite-frame",
+        "atlasUuid": "464022fe-1384-4367-884f-3590b9270e8d",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 1,
+        "width": 1200,
+        "height": 363,
+        "rawWidth": 1200,
+        "rawHeight": 364,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "966d4776-ebf8-47f3-9c47-4bc89b1a5806@6c48a"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "caozuo_db.png",
+    "format": 2,
+    "textureUuid": "966d4776-ebf8-47f3-9c47-4bc89b1a5806@6c48a",
+    "uuid": "464022fe-1384-4367-884f-3590b9270e8d"
+  }
+}

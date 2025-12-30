@@ -1,0 +1,160 @@
+
+spine.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 179, 106
+  size: 146, 148
+  orig: 146, 148
+  offset: 0, 0
+  index: -1
+beijing
+  rotate: false
+  xy: 2, 58
+  size: 175, 196
+  orig: 175, 196
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_1
+  rotate: false
+  xy: 302, 98
+  size: 19, 6
+  orig: 19, 6
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_10
+  rotate: false
+  xy: 2, 5
+  size: 60, 23
+  orig: 60, 23
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_11
+  rotate: false
+  xy: 64, 32
+  size: 59, 24
+  orig: 59, 24
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_12
+  rotate: false
+  xy: 179, 77
+  size: 59, 27
+  orig: 59, 27
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_13
+  rotate: false
+  xy: 327, 226
+  size: 57, 28
+  orig: 57, 28
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_14
+  rotate: false
+  xy: 64, 2
+  size: 53, 28
+  orig: 53, 28
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_15
+  rotate: false
+  xy: 386, 227
+  size: 52, 27
+  orig: 52, 27
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_16
+  rotate: true
+  xy: 349, 178
+  size: 46, 24
+  orig: 46, 24
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_17
+  rotate: true
+  xy: 327, 117
+  size: 45, 21
+  orig: 45, 21
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_18
+  rotate: false
+  xy: 440, 224
+  size: 41, 17
+  orig: 41, 17
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_19
+  rotate: true
+  xy: 483, 211
+  size: 30, 14
+  orig: 30, 14
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_2
+  rotate: false
+  xy: 185, 49
+  size: 50, 7
+  orig: 50, 7
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_20
+  rotate: true
+  xy: 375, 198
+  size: 26, 9
+  orig: 26, 9
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_3
+  rotate: true
+  xy: 499, 198
+  size: 56, 11
+  orig: 56, 11
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_4
+  rotate: false
+  xy: 440, 243
+  size: 57, 11
+  orig: 57, 11
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_5
+  rotate: false
+  xy: 125, 40
+  size: 58, 16
+  orig: 58, 16
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_6
+  rotate: false
+  xy: 179, 58
+  size: 58, 17
+  orig: 58, 17
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_7
+  rotate: true
+  xy: 327, 164
+  size: 60, 20
+  orig: 60, 20
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_8
+  rotate: false
+  xy: 240, 82
+  size: 60, 22
+  orig: 60, 22
+  offset: 0, 0
+  index: -1
+xaintiao/xiantiao_9
+  rotate: false
+  xy: 2, 30
+  size: 60, 26
+  orig: 60, 26
+  offset: 0, 0
+  index: -1

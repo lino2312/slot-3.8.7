@@ -1,0 +1,41 @@
+
+spine.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7day_glow_02
+  rotate: false
+  xy: 229, 17
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+libao_01
+  rotate: false
+  xy: 425, 44
+  size: 78, 73
+  orig: 78, 73
+  offset: 0, 0
+  index: -1
+libao_02
+  rotate: false
+  xy: 331, 31
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+libao_03
+  rotate: false
+  xy: 119, 17
+  size: 108, 100
+  orig: 108, 100
+  offset: 0, 0
+  index: -1
+libao_04
+  rotate: false
+  xy: 2, 2
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1

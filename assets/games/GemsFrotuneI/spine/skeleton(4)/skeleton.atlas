@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 397,387
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+03a
+  rotate: false
+  xy: 2, 188
+  size: 242, 197
+  orig: 242, 197
+  offset: 0, 0
+  index: -1
+03b
+  rotate: false
+  xy: 246, 249
+  size: 138, 136
+  orig: 168, 166
+  offset: 15, 15
+  index: -1
+03c
+  rotate: false
+  xy: 238, 2
+  size: 156, 154
+  orig: 168, 166
+  offset: 6, 6
+  index: -1
+03d
+  rotate: false
+  xy: 2, 22
+  size: 166, 164
+  orig: 168, 166
+  offset: 1, 1
+  index: -1
+03guang1
+  rotate: false
+  xy: 246, 158
+  size: 91, 89
+  orig: 168, 166
+  offset: 39, 39
+  index: -1
+03guang2
+  rotate: true
+  xy: 212, 149
+  size: 37, 24
+  orig: 168, 166
+  offset: 66, 127
+  index: -1
+03guang3
+  rotate: true
+  xy: 170, 110
+  size: 37, 38
+  orig: 168, 166
+  offset: 15, 96
+  index: -1
+03guang4
+  rotate: true
+  xy: 339, 158
+  size: 38, 39
+  orig: 168, 166
+  offset: 15, 33
+  index: -1
+03guang5
+  rotate: false
+  xy: 170, 73
+  size: 37, 35
+  orig: 168, 166
+  offset: 35, 116
+  index: -1
+03guang6
+  rotate: false
+  xy: 210, 110
+  size: 24, 37
+  orig: 168, 166
+  offset: 15, 64
+  index: -1
+03guang7
+  rotate: false
+  xy: 170, 149
+  size: 40, 37
+  orig: 168, 166
+  offset: 34, 15
+  index: -1
+03guang8
+  rotate: true
+  xy: 170, 36
+  size: 35, 37
+  orig: 168, 166
+  offset: 118, 94
+  index: -1
+guang
+  rotate: false
+  xy: 339, 198
+  size: 56, 49
+  orig: 64, 64
+  offset: 4, 7
+  index: -1

@@ -1,0 +1,153 @@
+
+spine.png
+size: 1148,554
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shanguang/shanguang_1
+  rotate: false
+  xy: 981, 168
+  size: 158, 83
+  orig: 224, 211
+  offset: 46, 22
+  index: -1
+shanguang/shanguang_10
+  rotate: true
+  xy: 1045, 366
+  size: 186, 95
+  orig: 224, 211
+  offset: 15, 41
+  index: -1
+shanguang/shanguang_11
+  rotate: false
+  xy: 424, 3
+  size: 190, 137
+  orig: 224, 211
+  offset: 7, 45
+  index: -1
+shanguang/shanguang_12
+  rotate: false
+  xy: 246, 2
+  size: 176, 138
+  orig: 224, 211
+  offset: 17, 48
+  index: -1
+shanguang/shanguang_13
+  rotate: false
+  xy: 616, 5
+  size: 158, 135
+  orig: 224, 211
+  offset: 25, 58
+  index: -1
+shanguang/shanguang_14
+  rotate: true
+  xy: 651, 142
+  size: 159, 164
+  orig: 224, 211
+  offset: 30, 35
+  index: -1
+shanguang/shanguang_15
+  rotate: false
+  xy: 817, 142
+  size: 162, 161
+  orig: 224, 211
+  offset: 33, 30
+  index: -1
+shanguang/shanguang_2
+  rotate: true
+  xy: 835, 373
+  size: 65, 154
+  orig: 224, 211
+  offset: 143, 18
+  index: -1
+shanguang/shanguang_3
+  rotate: true
+  xy: 998, 310
+  size: 54, 147
+  orig: 224, 211
+  offset: 146, 25
+  index: -1
+shanguang/shanguang_4
+  rotate: false
+  xy: 776, 9
+  size: 58, 131
+  orig: 224, 211
+  offset: 137, 30
+  index: -1
+shanguang/shanguang_5
+  rotate: false
+  xy: 768, 305
+  size: 65, 133
+  orig: 224, 211
+  offset: 131, 33
+  index: -1
+shanguang/shanguang_6
+  rotate: true
+  xy: 1022, 103
+  size: 63, 124
+  orig: 224, 211
+  offset: 138, 36
+  index: -1
+shanguang/shanguang_7
+  rotate: true
+  xy: 651, 486
+  size: 66, 121
+  orig: 224, 211
+  offset: 144, 33
+  index: -1
+shanguang/shanguang_8
+  rotate: false
+  xy: 836, 15
+  size: 184, 125
+  orig: 224, 211
+  offset: 32, 26
+  index: -1
+shanguang/shanguang_9
+  rotate: true
+  xy: 651, 303
+  size: 181, 115
+  orig: 224, 211
+  offset: 27, 34
+  index: -1
+win_c01
+  rotate: false
+  xy: 835, 309
+  size: 161, 55
+  orig: 163, 57
+  offset: 1, 1
+  index: -1
+win_c02
+  rotate: false
+  xy: 981, 253
+  size: 160, 54
+  orig: 162, 56
+  offset: 1, 1
+  index: -1
+win_str_c02
+  rotate: true
+  xy: 246, 142
+  size: 410, 403
+  orig: 410, 412
+  offset: 0, 2
+  index: -1
+win_super_c01
+  rotate: true
+  xy: 2, 2
+  size: 550, 242
+  orig: 550, 244
+  offset: 0, 0
+  index: -1
+win_super_c02
+  rotate: false
+  xy: 776, 497
+  size: 267, 55
+  orig: 270, 57
+  offset: 1, 1
+  index: -1
+win_super_c03
+  rotate: false
+  xy: 776, 440
+  size: 267, 55
+  orig: 270, 57
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,62 @@
+
+megawin.png
+size: 365,970
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX_Stars_01
+  rotate: false
+  xy: 2, 886
+  size: 88, 82
+  orig: 100, 87
+  offset: 6, 2
+  index: -1
+Light_02
+  rotate: false
+  xy: 209, 840
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Light_05
+  rotate: false
+  xy: 92, 855
+  size: 115, 113
+  orig: 117, 115
+  offset: 1, 1
+  index: -1
+MegaWin
+  rotate: true
+  xy: 2, 5
+  size: 487, 172
+  orig: 487, 172
+  offset: 0, 0
+  index: -1
+MegaWin_win
+  rotate: false
+  xy: 2, 494
+  size: 298, 134
+  orig: 303, 137
+  offset: 2, 1
+  index: -1
+Num_BG
+  rotate: true
+  xy: 176, 2
+  size: 490, 187
+  orig: 490, 187
+  offset: 0, 0
+  index: -1
+SmallSpots_02
+  rotate: false
+  xy: 2, 725
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Win_Icon
+  rotate: false
+  xy: 132, 630
+  size: 231, 208
+  orig: 231, 208
+  offset: 0, 0
+  index: -1

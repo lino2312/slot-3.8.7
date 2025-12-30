@@ -1,0 +1,62 @@
+
+bigwin.png
+size: 1012,326
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BigWin
+  rotate: true
+  xy: 2, 5
+  size: 319, 171
+  orig: 323, 175
+  offset: 2, 2
+  index: -1
+BigWin_win
+  rotate: true
+  xy: 175, 26
+  size: 298, 133
+  orig: 301, 135
+  offset: 1, 1
+  index: -1
+FX_Stars_01
+  rotate: true
+  xy: 310, 2
+  size: 89, 82
+  orig: 100, 87
+  offset: 6, 2
+  index: -1
+Light_02
+  rotate: false
+  xy: 520, 7
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Light_05
+  rotate: true
+  xy: 780, 20
+  size: 115, 113
+  orig: 117, 115
+  offset: 1, 1
+  index: -1
+Num_BG
+  rotate: false
+  xy: 520, 137
+  size: 490, 187
+  orig: 490, 187
+  offset: 0, 0
+  index: -1
+SmallSpots_02
+  rotate: false
+  xy: 650, 7
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Win_Icon
+  rotate: true
+  xy: 310, 93
+  size: 231, 208
+  orig: 231, 208
+  offset: 0, 0
+  index: -1

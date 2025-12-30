@@ -1,0 +1,55 @@
+
+spine.png
+size: 242,364
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caihong_0
+  rotate: true
+  xy: 132, 265
+  size: 97, 108
+  orig: 128, 128
+  offset: 15, 10
+  index: -1
+glow1
+  rotate: false
+  xy: 2, 234
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+guangci_0
+  rotate: false
+  xy: 2, 123
+  size: 125, 109
+  orig: 128, 128
+  offset: 2, 12
+  index: -1
+guangdian_0
+  rotate: false
+  xy: 205, 241
+  size: 22, 22
+  orig: 64, 64
+  offset: 21, 21
+  index: -1
+guangmang
+  rotate: false
+  xy: 2, 2
+  size: 119, 119
+  orig: 128, 128
+  offset: 7, 8
+  index: -1
+guangmang_0
+  rotate: false
+  xy: 123, 2
+  size: 112, 119
+  orig: 128, 128
+  offset: 8, 4
+  index: -1
+guangshu_0
+  rotate: true
+  xy: 132, 137
+  size: 126, 71
+  orig: 128, 128
+  offset: 1, 29
+  index: -1

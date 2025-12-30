@@ -1,0 +1,20 @@
+
+jili_01.png
+size: 218,121
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang02
+  rotate: false
+  xy: 112, 5
+  size: 106, 116
+  orig: 106, 116
+  offset: 0, 0
+  index: -1
+xuanzhuanguang01
+  rotate: false
+  xy: 0, 0
+  size: 110, 121
+  orig: 110, 121
+  offset: 0, 0
+  index: -1

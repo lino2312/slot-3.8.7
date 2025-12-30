@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>10109_base_031.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{377,1011}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{1,1},{377,1011}}</string>
+				<key>sourceSize</key>
+				<string>{377,1011}</string>
+			</dict>
+			<key>10109_base_028.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1014},{372,993}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{1,1014},{372,993}}</string>
+				<key>sourceSize</key>
+				<string>{372,993}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>realTextureFileName</key>
+			<string>10109_base_frame_2.png</string>
+			<key>size</key>
+			<string>{380,2008}</string>
+			<key>smartupdate</key>
+			<string>$TexturePacker:SmartUpdate : 8d6a3b5c6f98d0eff99dd6242c8d6db7$</string>
+			<key>textureFileName</key>
+			<string>10109_base_frame_2.png</string>
+		</dict>
+	</dict>
+</plist>

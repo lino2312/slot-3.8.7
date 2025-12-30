@@ -1,0 +1,111 @@
+
+spine.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+uitx_pvpfire/uitx_pvpfire_09
+  rotate: true
+  xy: 204, 262
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_10
+  rotate: true
+  xy: 406, 262
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_11
+  rotate: true
+  xy: 608, 262
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_12
+  rotate: true
+  xy: 810, 262
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_13
+  rotate: true
+  xy: 2, 132
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_14
+  rotate: true
+  xy: 204, 132
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_15
+  rotate: true
+  xy: 406, 132
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_16
+  rotate: true
+  xy: 608, 132
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_17
+  rotate: true
+  xy: 810, 132
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_18
+  rotate: true
+  xy: 2, 2
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_19
+  rotate: true
+  xy: 204, 2
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_20
+  rotate: true
+  xy: 406, 2
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_21
+  rotate: true
+  xy: 608, 2
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_22
+  rotate: true
+  xy: 810, 2
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1
+uitx_pvpfire/uitx_pvpfire_23
+  rotate: true
+  xy: 2, 262
+  size: 128, 200
+  orig: 128, 200
+  offset: 0, 0
+  index: -1

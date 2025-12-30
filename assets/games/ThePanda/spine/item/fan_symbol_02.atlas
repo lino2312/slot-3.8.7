@@ -1,0 +1,139 @@
+
+fan_symbol_02.png
+size: 904,902
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fankai01/fankai01_1
+  rotate: false
+  xy: 0, 702
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+fankai01/fankai01_10
+  rotate: false
+  xy: 546, 702
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+fankai01/fankai01_11
+  rotate: false
+  xy: 182, 96
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+fankai01/fankai01_2
+  rotate: false
+  xy: 0, 500
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+fankai01/fankai01_3
+  rotate: false
+  xy: 182, 702
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+fankai01/fankai01_4
+  rotate: false
+  xy: 0, 298
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+fankai01/fankai01_5
+  rotate: false
+  xy: 182, 500
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+fankai01/fankai01_6
+  rotate: false
+  xy: 364, 702
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+fankai01/fankai01_7
+  rotate: false
+  xy: 0, 96
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+fankai01/fankai01_8
+  rotate: false
+  xy: 182, 298
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+fankai01/fankai01_9
+  rotate: false
+  xy: 364, 500
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+theme132_s_1
+  rotate: false
+  xy: 546, 502
+  size: 176, 198
+  orig: 176, 198
+  offset: 0, 0
+  index: -1
+theme132_s_2
+  rotate: false
+  xy: 728, 704
+  size: 176, 198
+  orig: 176, 198
+  offset: 0, 0
+  index: -1
+theme132_s_3
+  rotate: false
+  xy: 364, 100
+  size: 176, 198
+  orig: 176, 198
+  offset: 0, 0
+  index: -1
+theme132_s_4
+  rotate: false
+  xy: 542, 300
+  size: 176, 198
+  orig: 176, 198
+  offset: 0, 0
+  index: -1
+theme132_s_5
+  rotate: false
+  xy: 542, 100
+  size: 176, 198
+  orig: 176, 198
+  offset: 0, 0
+  index: -1
+theme132_s_6
+  rotate: false
+  xy: 724, 502
+  size: 176, 198
+  orig: 176, 198
+  offset: 0, 0
+  index: -1
+theme132_s_7
+  rotate: false
+  xy: 364, 300
+  size: 176, 198
+  orig: 176, 198
+  offset: 0, 0
+  index: -1
+theme132_s_j
+  rotate: false
+  xy: 720, 302
+  size: 176, 198
+  orig: 176, 198
+  offset: 0, 0
+  index: -1

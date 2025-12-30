@@ -1,0 +1,27 @@
+
+bg_guang.png
+size: 589,522
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gd
+  rotate: false
+  xy: 522, 409
+  size: 42, 44
+  orig: 48, 48
+  offset: 3, 2
+  index: -1
+xx
+  rotate: false
+  xy: 522, 455
+  size: 65, 65
+  orig: 70, 71
+  offset: 2, 3
+  index: -1
+zg
+  rotate: false
+  xy: 2, 2
+  size: 518, 518
+  orig: 557, 557
+  offset: 20, 19
+  index: -1

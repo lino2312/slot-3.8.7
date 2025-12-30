@@ -1,0 +1,188 @@
+
+spine.png
+size: 983,541
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+info_a_lvl2
+  rotate: false
+  xy: 789, 45
+  size: 97, 137
+  orig: 97, 137
+  offset: 0, 0
+  index: -1
+info_b_lvl2
+  rotate: false
+  xy: 2, 64
+  size: 301, 66
+  orig: 301, 66
+  offset: 0, 0
+  index: -1
+info_blur_a
+  rotate: true
+  xy: 795, 196
+  size: 162, 91
+  orig: 162, 91
+  offset: 0, 0
+  index: -1
+info_c_lvl2-1
+  rotate: false
+  xy: 789, 2
+  size: 78, 41
+  orig: 78, 41
+  offset: 0, 0
+  index: -1
+info_d_lvl2
+  rotate: false
+  xy: 2, 4
+  size: 124, 58
+  orig: 124, 58
+  offset: 0, 0
+  index: -1
+info_e_lvl2
+  rotate: false
+  xy: 226, 22
+  size: 48, 40
+  orig: 48, 40
+  offset: 0, 0
+  index: -1
+info_f_lvl2
+  rotate: true
+  xy: 888, 130
+  size: 88, 73
+  orig: 88, 73
+  offset: 0, 0
+  index: -1
+info_g_lvl2
+  rotate: false
+  xy: 128, 11
+  size: 96, 51
+  orig: 96, 51
+  offset: 0, 0
+  index: -1
+info_h_lvl2
+  rotate: false
+  xy: 888, 2
+  size: 46, 45
+  orig: 46, 45
+  offset: 0, 0
+  index: -1
+info_i_lvl2
+  rotate: true
+  xy: 240, 143
+  size: 64, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
+lizi/leaf_particle_00
+  rotate: true
+  xy: 690, 3
+  size: 33, 37
+  orig: 290, 325
+  offset: 131, 170
+  index: -1
+lizi/leaf_particle_01
+  rotate: true
+  xy: 888, 49
+  size: 79, 53
+  orig: 290, 325
+  offset: 107, 169
+  index: -1
+lizi/leaf_particle_02
+  rotate: true
+  xy: 888, 220
+  size: 116, 74
+  orig: 290, 325
+  offset: 86, 158
+  index: -1
+lizi/leaf_particle_03
+  rotate: true
+  xy: 690, 38
+  size: 144, 97
+  orig: 290, 325
+  offset: 70, 143
+  index: -1
+lizi/leaf_particle_04
+  rotate: true
+  xy: 673, 184
+  size: 165, 120
+  orig: 290, 325
+  offset: 59, 126
+  index: -1
+lizi/leaf_particle_05
+  rotate: false
+  xy: 505, 2
+  size: 183, 135
+  orig: 290, 325
+  offset: 49, 115
+  index: -1
+lizi/leaf_particle_06
+  rotate: false
+  xy: 305, 56
+  size: 198, 151
+  orig: 290, 325
+  offset: 41, 104
+  index: -1
+lizi/leaf_particle_07
+  rotate: true
+  xy: 505, 139
+  size: 210, 166
+  orig: 290, 325
+  offset: 34, 93
+  index: -1
+lizi/leaf_particle_08
+  rotate: false
+  xy: 691, 360
+  size: 220, 179
+  orig: 290, 325
+  offset: 29, 84
+  index: -1
+lizi/leaf_particle_09
+  rotate: false
+  xy: 245, 350
+  size: 229, 189
+  orig: 290, 325
+  offset: 24, 77
+  index: -1
+lizi/leaf_particle_10
+  rotate: false
+  xy: 2, 132
+  size: 236, 199
+  orig: 290, 325
+  offset: 20, 70
+  index: -1
+lizi/leaf_particle_11
+  rotate: false
+  xy: 2, 333
+  size: 241, 206
+  orig: 290, 325
+  offset: 17, 65
+  index: -1
+lizi/leaf_particle_12
+  rotate: true
+  xy: 476, 351
+  size: 188, 213
+  orig: 290, 325
+  offset: 16, 60
+  index: -1
+lizi/leaf_particle_13
+  rotate: true
+  xy: 245, 209
+  size: 139, 217
+  orig: 290, 325
+  offset: 66, 56
+  index: -1
+lizi/leaf_particle_14
+  rotate: false
+  xy: 964, 232
+  size: 17, 104
+  orig: 290, 325
+  offset: 177, 85
+  index: -1
+solid_b
+  rotate: true
+  xy: 913, 338
+  size: 201, 68
+  orig: 201, 68
+  offset: 0, 0
+  index: -1

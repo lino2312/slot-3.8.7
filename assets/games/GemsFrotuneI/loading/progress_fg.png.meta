@@ -1,0 +1,72 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "45c0cbbe-0cc1-433c-a02f-c824c86ccd65",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "f9941": {
+      "uuid": "97bbb586-697d-4056-8cc3-96a965210ac6",
+      "imported": false,
+      "importer": "sprite-frame",
+      "files": [],
+      "subMetas": {},
+      "userData": {
+        "importer": "sprite-frame",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 745,
+        "height": 43,
+        "rawWidth": 745,
+        "rawHeight": 43,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "imageUuidOrDatabaseUri": "45c0cbbe-0cc1-433c-a02f-c824c86ccd65@6c48a"
+      },
+      "ver": "0.0.1",
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "45c0cbbe-0cc1-433c-a02f-c824c86ccd65@6c48a",
+      "displayName": "progress_fg",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "wrapModeT": "clamp-to-edge",
+        "wrapModeS": "clamp-to-edge",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "45c0cbbe-0cc1-433c-a02f-c824c86ccd65",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "45c0cbbe-0cc1-433c-a02f-c824c86ccd65@6c48a"
+  }
+}

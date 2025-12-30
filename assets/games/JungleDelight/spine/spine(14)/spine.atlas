@@ -1,0 +1,391 @@
+
+spine.png
+size: 4057,729
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_glow_free
+  rotate: true
+  xy: 3818, 542
+  size: 56, 65
+  orig: 56, 65
+  offset: 0, 0
+  index: -1
+free_frame_a
+  rotate: true
+  xy: 3605, 542
+  size: 185, 211
+  orig: 185, 211
+  offset: 0, 0
+  index: -1
+glow_b_win
+  rotate: true
+  xy: 3752, 201
+  size: 85, 84
+  orig: 85, 84
+  offset: 0, 0
+  index: -1
+guangquan/freespin_vfx_b_00
+  rotate: true
+  xy: 2, 187
+  size: 540, 426
+  orig: 540, 426
+  offset: 0, 0
+  index: -1
+guangquan/freespin_vfx_b_01
+  rotate: true
+  xy: 430, 187
+  size: 540, 426
+  orig: 540, 426
+  offset: 0, 0
+  index: -1
+guangquan/freespin_vfx_b_02
+  rotate: true
+  xy: 858, 187
+  size: 540, 426
+  orig: 540, 426
+  offset: 0, 0
+  index: -1
+guangquan/freespin_vfx_b_03
+  rotate: true
+  xy: 1286, 187
+  size: 540, 426
+  orig: 540, 426
+  offset: 0, 0
+  index: -1
+guangquan/freespin_vfx_b_04
+  rotate: true
+  xy: 1714, 187
+  size: 540, 426
+  orig: 540, 426
+  offset: 0, 0
+  index: -1
+guangquan/freespin_vfx_b_05
+  rotate: true
+  xy: 2142, 187
+  size: 540, 426
+  orig: 540, 426
+  offset: 0, 0
+  index: -1
+guangquan/freespin_vfx_b_06
+  rotate: true
+  xy: 2570, 187
+  size: 540, 426
+  orig: 540, 426
+  offset: 0, 0
+  index: -1
+guangquan/freespin_vfx_b_07
+  rotate: true
+  xy: 2998, 187
+  size: 540, 426
+  orig: 540, 426
+  offset: 0, 0
+  index: -1
+kuang1/freespin_vfx_a_00
+  rotate: true
+  xy: 2303, 11
+  size: 174, 184
+  orig: 174, 184
+  offset: 0, 0
+  index: -1
+kuang1/freespin_vfx_a_01
+  rotate: false
+  xy: 2, 2
+  size: 172, 183
+  orig: 174, 184
+  offset: 1, 1
+  index: -1
+kuang1/freespin_vfx_a_02
+  rotate: false
+  xy: 176, 2
+  size: 172, 183
+  orig: 174, 184
+  offset: 1, 1
+  index: -1
+kuang1/freespin_vfx_a_03
+  rotate: false
+  xy: 1220, 3
+  size: 172, 182
+  orig: 174, 184
+  offset: 0, 1
+  index: -1
+kuang1/freespin_vfx_a_04
+  rotate: false
+  xy: 1394, 3
+  size: 172, 182
+  orig: 174, 184
+  offset: 0, 1
+  index: -1
+kuang1/freespin_vfx_a_05
+  rotate: false
+  xy: 1568, 3
+  size: 172, 182
+  orig: 174, 184
+  offset: 1, 1
+  index: -1
+kuang1/freespin_vfx_a_06
+  rotate: true
+  xy: 2675, 13
+  size: 172, 184
+  orig: 174, 184
+  offset: 1, 0
+  index: -1
+kuang1/freespin_vfx_a_07
+  rotate: true
+  xy: 2861, 13
+  size: 172, 184
+  orig: 174, 184
+  offset: 1, 0
+  index: -1
+kuang1/freespin_vfx_a_08
+  rotate: true
+  xy: 3047, 13
+  size: 172, 184
+  orig: 174, 184
+  offset: 1, 0
+  index: -1
+kuang1/freespin_vfx_a_09
+  rotate: false
+  xy: 350, 2
+  size: 172, 183
+  orig: 174, 184
+  offset: 1, 1
+  index: -1
+kuang1/freespin_vfx_a_10
+  rotate: false
+  xy: 524, 2
+  size: 172, 183
+  orig: 174, 184
+  offset: 1, 1
+  index: -1
+kuang1/freespin_vfx_a_11
+  rotate: false
+  xy: 698, 2
+  size: 172, 183
+  orig: 174, 184
+  offset: 1, 1
+  index: -1
+kuang1/freespin_vfx_a_12
+  rotate: false
+  xy: 872, 2
+  size: 172, 183
+  orig: 174, 184
+  offset: 1, 1
+  index: -1
+kuang1/freespin_vfx_a_13
+  rotate: false
+  xy: 1046, 2
+  size: 172, 183
+  orig: 174, 184
+  offset: 1, 1
+  index: -1
+kuang1/freespin_vfx_a_14
+  rotate: true
+  xy: 3233, 13
+  size: 172, 184
+  orig: 174, 184
+  offset: 1, 0
+  index: -1
+kuang1/freespin_vfx_a_15
+  rotate: true
+  xy: 3419, 13
+  size: 172, 184
+  orig: 174, 184
+  offset: 1, 0
+  index: -1
+kuang1/freespin_vfx_a_16
+  rotate: false
+  xy: 3426, 543
+  size: 172, 184
+  orig: 174, 184
+  offset: 1, 0
+  index: -1
+kuang1/freespin_vfx_a_17
+  rotate: false
+  xy: 3426, 357
+  size: 172, 184
+  orig: 174, 184
+  offset: 1, 0
+  index: -1
+kuang1/freespin_vfx_a_18
+  rotate: true
+  xy: 2489, 11
+  size: 174, 184
+  orig: 174, 184
+  offset: 0, 0
+  index: -1
+xx/freespin_star_00
+  rotate: true
+  xy: 3988, 216
+  size: 57, 65
+  orig: 275, 275
+  offset: 106, 117
+  index: -1
+xx/freespin_star_01
+  rotate: true
+  xy: 3804, 21
+  size: 95, 91
+  orig: 275, 275
+  offset: 93, 104
+  index: -1
+xx/freespin_star_02
+  rotate: true
+  xy: 3752, 288
+  size: 121, 119
+  orig: 275, 275
+  offset: 85, 95
+  index: -1
+xx/freespin_star_03
+  rotate: true
+  xy: 3600, 397
+  size: 143, 137
+  orig: 275, 275
+  offset: 78, 88
+  index: -1
+xx/freespin_star_04
+  rotate: true
+  xy: 3597, 198
+  size: 157, 153
+  orig: 275, 275
+  offset: 75, 83
+  index: -1
+xx/freespin_star_05
+  rotate: false
+  xy: 3426, 190
+  size: 169, 165
+  orig: 275, 275
+  offset: 71, 79
+  index: -1
+xx/freespin_star_06
+  rotate: true
+  xy: 1935, 4
+  size: 181, 173
+  orig: 275, 275
+  offset: 67, 76
+  index: -1
+xx/freespin_star_07
+  rotate: false
+  xy: 1742, 4
+  size: 191, 181
+  orig: 275, 275
+  offset: 64, 73
+  index: -1
+xx/freespin_star_08
+  rotate: false
+  xy: 3605, 9
+  size: 197, 187
+  orig: 275, 275
+  offset: 63, 71
+  index: -1
+xx/freespin_star_09
+  rotate: true
+  xy: 2110, 6
+  size: 179, 191
+  orig: 275, 275
+  offset: 85, 70
+  index: -1
+xx/freespin_star_10
+  rotate: false
+  xy: 3600, 378
+  size: 15, 17
+  orig: 275, 275
+  offset: 221, 96
+  index: -1
+xx/freespin_star_11
+  rotate: false
+  xy: 3600, 361
+  size: 15, 15
+  orig: 275, 275
+  offset: 224, 96
+  index: -1
+yezi/particle_leaf_mystery_00
+  rotate: true
+  xy: 3988, 275
+  size: 65, 67
+  orig: 200, 200
+  offset: 72, 67
+  index: -1
+yezi/particle_leaf_mystery_01
+  rotate: false
+  xy: 3897, 32
+  size: 81, 84
+  orig: 200, 200
+  offset: 65, 58
+  index: -1
+yezi/particle_leaf_mystery_02
+  rotate: true
+  xy: 3949, 118
+  size: 96, 98
+  orig: 200, 200
+  offset: 59, 51
+  index: -1
+yezi/particle_leaf_mystery_03
+  rotate: true
+  xy: 3873, 246
+  size: 94, 113
+  orig: 200, 200
+  offset: 53, 43
+  index: -1
+yezi/particle_leaf_mystery_04
+  rotate: false
+  xy: 3818, 600
+  size: 104, 127
+  orig: 200, 200
+  offset: 47, 35
+  index: -1
+yezi/particle_leaf_mystery_05
+  rotate: false
+  xy: 3921, 445
+  size: 115, 95
+  orig: 200, 200
+  offset: 41, 71
+  index: -1
+yezi/particle_leaf_mystery_06
+  rotate: false
+  xy: 3924, 625
+  size: 125, 102
+  orig: 200, 200
+  offset: 35, 68
+  index: -1
+yezi/particle_leaf_mystery_07
+  rotate: true
+  xy: 3838, 136
+  size: 108, 109
+  orig: 200, 200
+  offset: 29, 65
+  index: -1
+yezi/particle_leaf_mystery_08
+  rotate: true
+  xy: 3921, 342
+  size: 101, 114
+  orig: 200, 200
+  offset: 23, 64
+  index: -1
+yezi/particle_leaf_mystery_09
+  rotate: false
+  xy: 3826, 421
+  size: 93, 119
+  orig: 200, 200
+  offset: 31, 63
+  index: -1
+yezi/particle_leaf_mystery_10
+  rotate: true
+  xy: 3924, 542
+  size: 81, 125
+  orig: 200, 200
+  offset: 25, 60
+  index: -1
+yezi/particle_leaf_mystery_11
+  rotate: false
+  xy: 3739, 411
+  size: 85, 129
+  orig: 200, 200
+  offset: 21, 59
+  index: -1
+yezi/particle_leaf_mystery_12
+  rotate: false
+  xy: 2675, 3
+  size: 14, 8
+  orig: 200, 200
+  offset: 91, 183
+  index: -1

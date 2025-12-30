@@ -1,0 +1,251 @@
+
+spine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+35/UIEffect_022_01
+  rotate: false
+  xy: 2, 717
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_03
+  rotate: false
+  xy: 142, 857
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_05
+  rotate: false
+  xy: 2, 587
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_07
+  rotate: false
+  xy: 272, 857
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_09
+  rotate: false
+  xy: 2, 457
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_11
+  rotate: false
+  xy: 402, 857
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_13
+  rotate: false
+  xy: 2, 327
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_15
+  rotate: false
+  xy: 532, 857
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_17
+  rotate: false
+  xy: 2, 197
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_19
+  rotate: false
+  xy: 662, 857
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_21
+  rotate: false
+  xy: 2, 67
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_23
+  rotate: false
+  xy: 792, 857
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_25
+  rotate: false
+  xy: 132, 717
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_27
+  rotate: false
+  xy: 132, 587
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_29
+  rotate: false
+  xy: 132, 457
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_31
+  rotate: false
+  xy: 132, 327
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_33
+  rotate: false
+  xy: 132, 197
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_35
+  rotate: false
+  xy: 132, 67
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_37
+  rotate: false
+  xy: 262, 727
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_39
+  rotate: false
+  xy: 262, 597
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_41
+  rotate: false
+  xy: 392, 727
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_43
+  rotate: false
+  xy: 262, 467
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_45
+  rotate: false
+  xy: 392, 597
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_47
+  rotate: false
+  xy: 522, 727
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_49
+  rotate: false
+  xy: 262, 337
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_51
+  rotate: false
+  xy: 392, 467
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_53
+  rotate: false
+  xy: 522, 597
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_55
+  rotate: false
+  xy: 652, 727
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_57
+  rotate: false
+  xy: 262, 207
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_59
+  rotate: false
+  xy: 392, 337
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_61
+  rotate: false
+  xy: 522, 467
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+35/UIEffect_022_63
+  rotate: false
+  xy: 652, 597
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+MAX BET
+  rotate: false
+  xy: 2, 2
+  size: 79, 63
+  orig: 79, 63
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 847
+  size: 138, 138
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+btn
+  rotate: false
+  xy: 782, 739
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1

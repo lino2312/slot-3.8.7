@@ -1,0 +1,251 @@
+
+bonus_sj_01.png
+size: 761,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feilizi/feilizi_1
+  rotate: false
+  xy: 676, 4
+  size: 40, 31
+  orig: 102, 112
+  offset: 30, 75
+  index: -1
+feilizi/feilizi_10
+  rotate: false
+  xy: 442, 25
+  size: 53, 67
+  orig: 102, 112
+  offset: 22, 42
+  index: -1
+feilizi/feilizi_11
+  rotate: false
+  xy: 389, 19
+  size: 51, 73
+  orig: 102, 112
+  offset: 22, 36
+  index: -1
+feilizi/feilizi_12
+  rotate: false
+  xy: 646, 95
+  size: 51, 83
+  orig: 102, 112
+  offset: 22, 26
+  index: -1
+feilizi/feilizi_13
+  rotate: false
+  xy: 705, 182
+  size: 56, 87
+  orig: 102, 112
+  offset: 22, 22
+  index: -1
+feilizi/feilizi_14
+  rotate: false
+  xy: 586, 88
+  size: 58, 90
+  orig: 102, 112
+  offset: 22, 19
+  index: -1
+feilizi/feilizi_15
+  rotate: false
+  xy: 257, 0
+  size: 62, 92
+  orig: 102, 112
+  offset: 22, 16
+  index: -1
+feilizi/feilizi_16
+  rotate: false
+  xy: 321, 8
+  size: 66, 97
+  orig: 102, 112
+  offset: 21, 10
+  index: -1
+feilizi/feilizi_17
+  rotate: false
+  xy: 183, 0
+  size: 72, 98
+  orig: 102, 112
+  offset: 17, 8
+  index: -1
+feilizi/feilizi_18
+  rotate: false
+  xy: 104, 0
+  size: 77, 98
+  orig: 102, 112
+  offset: 14, 5
+  index: -1
+feilizi/feilizi_19
+  rotate: false
+  xy: 502, 87
+  size: 82, 96
+  orig: 102, 112
+  offset: 10, 3
+  index: -1
+feilizi/feilizi_2
+  rotate: false
+  xy: 584, 15
+  size: 44, 33
+  orig: 102, 112
+  offset: 29, 74
+  index: -1
+feilizi/feilizi_20
+  rotate: false
+  xy: 413, 94
+  size: 87, 92
+  orig: 102, 112
+  offset: 8, 4
+  index: -1
+feilizi/feilizi_21
+  rotate: false
+  xy: 613, 180
+  size: 90, 89
+  orig: 102, 112
+  offset: 6, 4
+  index: -1
+feilizi/feilizi_22
+  rotate: false
+  xy: 516, 185
+  size: 95, 84
+  orig: 102, 112
+  offset: 4, 3
+  index: -1
+feilizi/feilizi_23
+  rotate: false
+  xy: 416, 188
+  size: 98, 81
+  orig: 102, 112
+  offset: 2, 2
+  index: -1
+feilizi/feilizi_24
+  rotate: false
+  xy: 312, 190
+  size: 102, 79
+  orig: 102, 112
+  offset: 0, 1
+  index: -1
+feilizi/feilizi_25
+  rotate: false
+  xy: 208, 188
+  size: 102, 81
+  orig: 102, 112
+  offset: 0, 0
+  index: -1
+feilizi/feilizi_26
+  rotate: false
+  xy: 208, 105
+  size: 102, 81
+  orig: 102, 112
+  offset: 0, 0
+  index: -1
+feilizi/feilizi_27
+  rotate: false
+  xy: 0, 11
+  size: 102, 83
+  orig: 102, 112
+  offset: 0, 0
+  index: -1
+feilizi/feilizi_28
+  rotate: false
+  xy: 104, 185
+  size: 102, 84
+  orig: 102, 112
+  offset: 0, 0
+  index: -1
+feilizi/feilizi_29
+  rotate: false
+  xy: 0, 96
+  size: 102, 85
+  orig: 102, 112
+  offset: 0, 0
+  index: -1
+feilizi/feilizi_3
+  rotate: false
+  xy: 630, 10
+  size: 44, 34
+  orig: 102, 112
+  offset: 29, 73
+  index: -1
+feilizi/feilizi_30
+  rotate: false
+  xy: 0, 183
+  size: 102, 86
+  orig: 102, 112
+  offset: 0, 0
+  index: -1
+feilizi/feilizi_31
+  rotate: false
+  xy: 104, 100
+  size: 102, 83
+  orig: 102, 112
+  offset: 0, 3
+  index: -1
+feilizi/feilizi_32
+  rotate: false
+  xy: 312, 107
+  size: 99, 81
+  orig: 102, 112
+  offset: 2, 5
+  index: -1
+feilizi/feilizi_33
+  rotate: false
+  xy: 552, 20
+  size: 30, 65
+  orig: 102, 112
+  offset: 11, 20
+  index: -1
+feilizi/feilizi_34
+  rotate: false
+  xy: 718, 22
+  size: 18, 13
+  orig: 102, 112
+  offset: 19, 69
+  index: -1
+feilizi/feilizi_35
+  rotate: false
+  xy: 0, 5
+  size: 5, 4
+  orig: 102, 112
+  offset: 25, 74
+  index: -1
+feilizi/feilizi_4
+  rotate: false
+  xy: 586, 50
+  size: 45, 36
+  orig: 102, 112
+  offset: 28, 72
+  index: -1
+feilizi/feilizi_5
+  rotate: false
+  xy: 698, 37
+  size: 48, 39
+  orig: 102, 112
+  offset: 25, 69
+  index: -1
+feilizi/feilizi_6
+  rotate: false
+  xy: 699, 78
+  size: 50, 45
+  orig: 102, 112
+  offset: 25, 64
+  index: -1
+feilizi/feilizi_7
+  rotate: false
+  xy: 646, 46
+  size: 50, 47
+  orig: 102, 112
+  offset: 25, 61
+  index: -1
+feilizi/feilizi_8
+  rotate: false
+  xy: 699, 125
+  size: 51, 53
+  orig: 102, 112
+  offset: 24, 56
+  index: -1
+feilizi/feilizi_9
+  rotate: false
+  xy: 497, 24
+  size: 53, 61
+  orig: 102, 112
+  offset: 22, 48
+  index: -1

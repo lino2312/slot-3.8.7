@@ -1,0 +1,153 @@
+
+xiongmao_01.png
+size: 537,537
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+132icon/bizi01
+  rotate: false
+  xy: 454, 3
+  size: 79, 65
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
+132icon/dayanjing01
+  rotate: false
+  xy: 89, 21
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+132icon/dayanjing02
+  rotate: false
+  xy: 111, 21
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+132icon/erduo01
+  rotate: true
+  xy: 43, 1
+  size: 40, 44
+  orig: 40, 44
+  offset: 0, 0
+  index: -1
+132icon/erduo02
+  rotate: false
+  xy: 0, 0
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+132icon/gebao01
+  rotate: true
+  xy: 238, 38
+  size: 101, 145
+  orig: 101, 145
+  offset: 0, 0
+  index: -1
+132icon/mao01
+  rotate: true
+  xy: 487, 424
+  size: 113, 47
+  orig: 113, 47
+  offset: 0, 0
+  index: -1
+132icon/shenti
+  rotate: false
+  xy: 0, 147
+  size: 241, 274
+  orig: 241, 274
+  offset: 0, 0
+  index: -1
+132icon/tou
+  rotate: true
+  xy: 320, 344
+  size: 193, 165
+  orig: 193, 165
+  offset: 0, 0
+  index: -1
+132icon/xaiba
+  rotate: true
+  xy: 487, 349
+  size: 73, 47
+  orig: 73, 47
+  offset: 0, 0
+  index: -1
+132icon/xiongzhang01
+  rotate: false
+  xy: 151, 57
+  size: 85, 88
+  orig: 85, 88
+  offset: 0, 0
+  index: -1
+132icon/yinying
+  rotate: false
+  xy: 0, 423
+  size: 318, 114
+  orig: 318, 114
+  offset: 0, 0
+  index: -1
+132icon/youtui
+  rotate: false
+  xy: 369, 203
+  size: 69, 139
+  orig: 69, 139
+  offset: 0, 0
+  index: -1
+132icon/zhugan
+  rotate: false
+  xy: 151, 18
+  size: 84, 37
+  orig: 84, 37
+  offset: 0, 0
+  index: -1
+132icon/zhusun
+  rotate: true
+  xy: 0, 43
+  size: 102, 149
+  orig: 102, 149
+  offset: 0, 0
+  index: -1
+132icon/zhuye01
+  rotate: false
+  xy: 385, 2
+  size: 67, 66
+  orig: 67, 66
+  offset: 0, 0
+  index: -1
+132icon/zhuye02
+  rotate: true
+  xy: 440, 237
+  size: 105, 93
+  orig: 105, 93
+  offset: 0, 0
+  index: -1
+132icon/zhuye03
+  rotate: false
+  xy: 385, 70
+  size: 90, 71
+  orig: 90, 71
+  offset: 0, 0
+  index: -1
+132icon/zhuye04
+  rotate: false
+  xy: 369, 143
+  size: 118, 58
+  orig: 118, 58
+  offset: 0, 0
+  index: -1
+132icon/zhuye05
+  rotate: true
+  xy: 243, 141
+  size: 201, 124
+  orig: 201, 124
+  offset: 0, 0
+  index: -1
+132icon/zuozhuazi
+  rotate: false
+  xy: 243, 344
+  size: 66, 77
+  orig: 66, 77
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,216 @@
+
+sj_02.png
+size: 458,1039
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lujing/lujing_1
+  rotate: false
+  xy: 191, 290
+  size: 35, 32
+  orig: 75, 422
+  offset: 18, 386
+  index: -1
+lujing/lujing_10
+  rotate: false
+  xy: 173, 43
+  size: 55, 230
+  orig: 75, 422
+  offset: 10, 191
+  index: -1
+lujing/lujing_11
+  rotate: false
+  xy: 230, 52
+  size: 60, 270
+  orig: 75, 422
+  offset: 7, 152
+  index: -1
+lujing/lujing_12
+  rotate: false
+  xy: 328, 374
+  size: 61, 309
+  orig: 75, 422
+  offset: 6, 108
+  index: -1
+lujing/lujing_13
+  rotate: false
+  xy: 255, 677
+  size: 63, 362
+  orig: 75, 422
+  offset: 5, 59
+  index: -1
+lujing/lujing_14
+  rotate: false
+  xy: 128, 634
+  size: 61, 405
+  orig: 75, 422
+  offset: 5, 17
+  index: -1
+lujing/lujing_15
+  rotate: false
+  xy: 0, 629
+  size: 63, 410
+  orig: 75, 422
+  offset: 3, 12
+  index: -1
+lujing/lujing_16
+  rotate: false
+  xy: 0, 214
+  size: 60, 413
+  orig: 75, 422
+  offset: 8, 9
+  index: -1
+lujing/lujing_17
+  rotate: false
+  xy: 62, 218
+  size: 58, 409
+  orig: 75, 422
+  offset: 11, 12
+  index: -1
+lujing/lujing_18
+  rotate: false
+  xy: 65, 629
+  size: 61, 410
+  orig: 75, 422
+  offset: 10, 11
+  index: -1
+lujing/lujing_19
+  rotate: false
+  xy: 191, 640
+  size: 62, 399
+  orig: 75, 422
+  offset: 10, 8
+  index: -1
+lujing/lujing_2
+  rotate: false
+  xy: 292, 39
+  size: 46, 44
+  orig: 75, 422
+  offset: 14, 376
+  index: -1
+lujing/lujing_20
+  rotate: false
+  xy: 320, 685
+  size: 66, 354
+  orig: 75, 422
+  offset: 7, 6
+  index: -1
+lujing/lujing_21
+  rotate: false
+  xy: 122, 275
+  size: 67, 352
+  orig: 75, 422
+  offset: 6, 4
+  index: -1
+lujing/lujing_22
+  rotate: false
+  xy: 191, 324
+  size: 65, 314
+  orig: 75, 422
+  offset: 4, 3
+  index: -1
+lujing/lujing_23
+  rotate: false
+  xy: 258, 364
+  size: 68, 311
+  orig: 75, 422
+  offset: 2, 1
+  index: -1
+lujing/lujing_24
+  rotate: false
+  xy: 391, 548
+  size: 67, 260
+  orig: 75, 422
+  offset: 2, 0
+  index: -1
+lujing/lujing_25
+  rotate: false
+  xy: 391, 313
+  size: 67, 233
+  orig: 75, 422
+  offset: 5, 0
+  index: -1
+lujing/lujing_26
+  rotate: false
+  xy: 388, 810
+  size: 70, 229
+  orig: 75, 422
+  offset: 3, 0
+  index: -1
+lujing/lujing_27
+  rotate: false
+  xy: 292, 85
+  size: 69, 226
+  orig: 75, 422
+  offset: 2, 0
+  index: -1
+lujing/lujing_28
+  rotate: false
+  xy: 103, 72
+  size: 68, 144
+  orig: 75, 422
+  offset: 2, 0
+  index: -1
+lujing/lujing_29
+  rotate: false
+  xy: 363, 60
+  size: 53, 112
+  orig: 75, 422
+  offset: 4, 0
+  index: -1
+lujing/lujing_3
+  rotate: false
+  xy: 122, 218
+  size: 41, 55
+  orig: 75, 422
+  offset: 16, 363
+  index: -1
+lujing/lujing_30
+  rotate: false
+  xy: 258, 327
+  size: 49, 35
+  orig: 75, 422
+  offset: 3, 19
+  index: -1
+lujing/lujing_4
+  rotate: false
+  xy: 103, 0
+  size: 42, 70
+  orig: 75, 422
+  offset: 15, 348
+  index: -1
+lujing/lujing_5
+  rotate: false
+  xy: 418, 107
+  size: 40, 90
+  orig: 75, 422
+  offset: 18, 329
+  index: -1
+lujing/lujing_6
+  rotate: false
+  xy: 412, 199
+  size: 44, 112
+  orig: 75, 422
+  offset: 16, 308
+  index: -1
+lujing/lujing_7
+  rotate: false
+  xy: 363, 174
+  size: 47, 137
+  orig: 75, 422
+  offset: 14, 284
+  index: -1
+lujing/lujing_8
+  rotate: false
+  xy: 52, 49
+  size: 49, 163
+  orig: 75, 422
+  offset: 13, 257
+  index: -1
+lujing/lujing_9
+  rotate: false
+  xy: 0, 17
+  size: 50, 195
+  orig: 75, 422
+  offset: 13, 226
+  index: -1

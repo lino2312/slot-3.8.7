@@ -1,0 +1,64 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "5091793e-c708-4b16-8308-4f494ded3cea",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "095c0": {
+      "importer": "sprite-frame",
+      "uuid": "5091793e-c708-4b16-8308-4f494ded3cea@095c0",
+      "displayName": "",
+      "id": "095c0",
+      "name": "win",
+      "userData": {
+        "importer": "sprite-frame",
+        "atlasUuid": "5091793e-c708-4b16-8308-4f494ded3cea",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 78,
+        "height": 31,
+        "rawWidth": 78,
+        "rawHeight": 31,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a1fcba6f-16b9-49d8-82aa-6c69baaf61a9@6c48a"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "win.png",
+    "format": 2,
+    "textureUuid": "a1fcba6f-16b9-49d8-82aa-6c69baaf61a9@6c48a",
+    "uuid": "5091793e-c708-4b16-8308-4f494ded3cea"
+  }
+}

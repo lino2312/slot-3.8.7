@@ -1,0 +1,356 @@
+
+spine.png
+size: 4002,802
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5ofakind
+  rotate: true
+  xy: 2, 282
+  size: 518, 122
+  orig: 524, 128
+  offset: 3, 3
+  index: -1
+lizi/leaf_particle_5_kind_00
+  rotate: false
+  xy: 3873, 154
+  size: 104, 100
+  orig: 432, 376
+  offset: 159, 145
+  index: -1
+lizi/leaf_particle_5_kind_01
+  rotate: false
+  xy: 2903, 2
+  size: 130, 126
+  orig: 432, 376
+  offset: 145, 132
+  index: -1
+lizi/leaf_particle_5_kind_02
+  rotate: false
+  xy: 3183, 2
+  size: 158, 148
+  orig: 432, 376
+  offset: 132, 121
+  index: -1
+lizi/leaf_particle_5_kind_03
+  rotate: false
+  xy: 3406, 162
+  size: 184, 164
+  orig: 432, 376
+  offset: 119, 114
+  index: -1
+lizi/leaf_particle_5_kind_04
+  rotate: false
+  xy: 3433, 336
+  size: 208, 184
+  orig: 432, 376
+  offset: 107, 103
+  index: -1
+lizi/leaf_particle_5_kind_05
+  rotate: false
+  xy: 3643, 142
+  size: 228, 202
+  orig: 432, 376
+  offset: 97, 93
+  index: -1
+lizi/leaf_particle_5_kind_06
+  rotate: false
+  xy: 3650, 346
+  size: 246, 218
+  orig: 432, 376
+  offset: 89, 85
+  index: -1
+lizi/leaf_particle_5_kind_07
+  rotate: false
+  xy: 3650, 566
+  size: 262, 234
+  orig: 432, 376
+  offset: 81, 77
+  index: -1
+lizi/leaf_particle_5_kind_08
+  rotate: true
+  xy: 3402, 522
+  size: 278, 246
+  orig: 432, 376
+  offset: 73, 71
+  index: -1
+lizi/leaf_particle_5_kind_09
+  rotate: true
+  xy: 3142, 508
+  size: 292, 258
+  orig: 432, 376
+  offset: 67, 65
+  index: -1
+lizi/leaf_particle_5_kind_10
+  rotate: true
+  xy: 3136, 152
+  size: 306, 268
+  orig: 432, 376
+  offset: 60, 60
+  index: -1
+lizi/leaf_particle_5_kind_11
+  rotate: false
+  xy: 2, 2
+  size: 318, 278
+  orig: 432, 376
+  offset: 54, 55
+  index: -1
+lizi/leaf_particle_5_kind_12
+  rotate: true
+  xy: 2846, 130
+  size: 328, 288
+  orig: 432, 376
+  offset: 50, 51
+  index: -1
+lizi/leaf_particle_5_kind_13
+  rotate: true
+  xy: 2842, 460
+  size: 340, 298
+  orig: 432, 376
+  offset: 43, 46
+  index: -1
+lizi/leaf_particle_5_kind_14
+  rotate: true
+  xy: 2532, 452
+  size: 348, 308
+  orig: 432, 376
+  offset: 40, 41
+  index: -1
+lizi/leaf_particle_5_kind_15
+  rotate: true
+  xy: 2528, 72
+  size: 358, 316
+  orig: 432, 376
+  offset: 35, 36
+  index: -1
+lizi/leaf_particle_5_kind_16
+  rotate: true
+  xy: 2204, 432
+  size: 368, 326
+  orig: 432, 376
+  offset: 29, 31
+  index: -1
+lizi/leaf_particle_5_kind_17
+  rotate: true
+  xy: 1150, 4
+  size: 376, 332
+  orig: 432, 376
+  offset: 26, 27
+  index: -1
+lizi/leaf_particle_5_kind_18
+  rotate: true
+  xy: 1832, 10
+  size: 382, 340
+  orig: 432, 376
+  offset: 23, 23
+  index: -1
+lizi/leaf_particle_5_kind_19
+  rotate: true
+  xy: 1484, 4
+  size: 388, 346
+  orig: 432, 376
+  offset: 20, 19
+  index: -1
+lizi/leaf_particle_5_kind_20
+  rotate: true
+  xy: 2174, 2
+  size: 394, 352
+  orig: 432, 376
+  offset: 18, 15
+  index: -1
+lizi/leaf_particle_5_kind_21
+  rotate: true
+  xy: 1844, 398
+  size: 402, 358
+  orig: 432, 376
+  offset: 13, 12
+  index: -1
+lizi/leaf_particle_5_kind_22
+  rotate: true
+  xy: 1478, 394
+  size: 406, 364
+  orig: 432, 376
+  offset: 11, 9
+  index: -1
+lizi/leaf_particle_5_kind_23
+  rotate: false
+  xy: 738, 8
+  size: 410, 368
+  orig: 432, 376
+  offset: 10, 6
+  index: -1
+lizi/leaf_particle_5_kind_24
+  rotate: false
+  xy: 322, 2
+  size: 414, 374
+  orig: 432, 376
+  offset: 8, 2
+  index: -1
+lizi/leaf_particle_5_kind_25
+  rotate: true
+  xy: 1140, 382
+  size: 418, 336
+  orig: 432, 376
+  offset: 6, 2
+  index: -1
+lizi/leaf_particle_5_kind_26
+  rotate: true
+  xy: 126, 378
+  size: 422, 336
+  orig: 432, 376
+  offset: 4, 1
+  index: -1
+lizi/leaf_particle_5_kind_27
+  rotate: true
+  xy: 464, 378
+  size: 422, 336
+  orig: 432, 376
+  offset: 4, 1
+  index: -1
+lizi/leaf_particle_5_kind_28
+  rotate: true
+  xy: 802, 380
+  size: 420, 336
+  orig: 432, 376
+  offset: 6, 1
+  index: -1
+lz/lz_0
+  rotate: false
+  xy: 2717, 3
+  size: 70, 67
+  orig: 140, 140
+  offset: 23, 35
+  index: -1
+lz/lz_1
+  rotate: false
+  xy: 3767, 71
+  size: 71, 69
+  orig: 140, 140
+  offset: 21, 37
+  index: -1
+lz/lz_10
+  rotate: false
+  xy: 3343, 43
+  size: 88, 107
+  orig: 140, 140
+  offset: 17, 8
+  index: -1
+lz/lz_11
+  rotate: true
+  xy: 3873, 59
+  size: 93, 104
+  orig: 140, 140
+  offset: 15, 11
+  index: -1
+lz/lz_12
+  rotate: true
+  xy: 3898, 328
+  size: 96, 102
+  orig: 140, 140
+  offset: 16, 13
+  index: -1
+lz/lz_13
+  rotate: true
+  xy: 3508, 65
+  size: 95, 100
+  orig: 140, 140
+  offset: 17, 15
+  index: -1
+lz/lz_14
+  rotate: true
+  xy: 3914, 617
+  size: 93, 82
+  orig: 140, 140
+  offset: 18, 16
+  index: -1
+lz/lz_15
+  rotate: true
+  xy: 3610, 49
+  size: 91, 78
+  orig: 140, 140
+  offset: 19, 18
+  index: -1
+lz/lz_16
+  rotate: true
+  xy: 3914, 712
+  size: 88, 86
+  orig: 140, 140
+  offset: 21, 21
+  index: -1
+lz/lz_17
+  rotate: true
+  xy: 240, 293
+  size: 83, 79
+  orig: 140, 140
+  offset: 25, 27
+  index: -1
+lz/lz_2
+  rotate: false
+  xy: 2640, 3
+  size: 75, 67
+  orig: 140, 140
+  offset: 22, 39
+  index: -1
+lz/lz_3
+  rotate: false
+  xy: 3690, 62
+  size: 75, 78
+  orig: 140, 140
+  offset: 24, 32
+  index: -1
+lz/lz_4
+  rotate: false
+  xy: 3433, 36
+  size: 73, 104
+  orig: 140, 140
+  offset: 25, 8
+  index: -1
+lz/lz_5
+  rotate: true
+  xy: 3873, 256
+  size: 70, 107
+  orig: 140, 140
+  offset: 27, 6
+  index: -1
+lz/lz_6
+  rotate: true
+  xy: 2528, 2
+  size: 68, 110
+  orig: 140, 140
+  offset: 28, 4
+  index: -1
+lz/lz_7
+  rotate: true
+  xy: 2789, 6
+  size: 64, 112
+  orig: 140, 140
+  offset: 30, 3
+  index: -1
+lz/lz_8
+  rotate: false
+  xy: 3035, 16
+  size: 72, 112
+  orig: 140, 140
+  offset: 21, 4
+  index: -1
+lz/lz_9
+  rotate: false
+  xy: 3109, 18
+  size: 72, 110
+  orig: 140, 140
+  offset: 19, 6
+  index: -1
+solid_a
+  rotate: true
+  xy: 3914, 426
+  size: 189, 78
+  orig: 189, 78
+  offset: 0, 0
+  index: -1
+solid_a_5_kind
+  rotate: true
+  xy: 126, 282
+  size: 94, 112
+  orig: 94, 112
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,106 @@
+{
+  "ver": "1.0.2",
+  "importer": "particle",
+  "imported": true,
+  "uuid": "20e7d1e5-ad50-46b1-8a4b-143451fbf641",
+  "files": [
+    ".json",
+    ".plist"
+  ],
+  "subMetas": {},
+  "userData": {
+    "totalParticles": 50,
+    "life": 0.699999988079071,
+    "lifeVar": 0.30000001192092896,
+    "emissionRate": 71.42857264499277,
+    "duration": -1,
+    "srcBlendFactor": 2,
+    "dstBlendFactor": 1,
+    "startColor": {
+      "_data": {
+        "0": 255,
+        "1": 255,
+        "2": 255,
+        "3": 255
+      },
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "startColorVar": {
+      "_data": {
+        "0": 255,
+        "1": 193,
+        "2": 255,
+        "3": 255
+      },
+      "r": 255,
+      "g": 193.0000188946724,
+      "b": 255,
+      "a": 255
+    },
+    "endColor": {
+      "_data": {
+        "0": 255,
+        "1": 255,
+        "2": 255,
+        "3": 255
+      },
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "endColorVar": {
+      "_data": {
+        "0": 255,
+        "1": 255,
+        "2": 255,
+        "3": 255
+      },
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "startSize": 50,
+    "startSizeVar": 50,
+    "endSize": 18.739999771118164,
+    "endSizeVar": 0,
+    "positionType": 0,
+    "sourcePos": {
+      "x": 0,
+      "y": 0
+    },
+    "posVar": {
+      "x": 277,
+      "y": 247
+    },
+    "angle": 90,
+    "angleVar": 180,
+    "startSpin": 41,
+    "startSpinVar": 292.29998779296875,
+    "endSpin": 56.400001525878906,
+    "endSpinVar": 123.0999984741211,
+    "emitterMode": 0,
+    "gravity": {
+      "x": 0,
+      "y": 0
+    },
+    "speed": 50,
+    "speedVar": 50,
+    "radialAccel": 0,
+    "radialAccelVar": 0,
+    "tangentialAccel": 0,
+    "tangentialAccelVar": 0,
+    "rotationIsDir": false,
+    "startRadius": 0,
+    "startRadiusVar": 0,
+    "endRadius": 0,
+    "endRadiusVar": 0,
+    "rotatePerS": 0,
+    "rotatePerSVar": 0,
+    "spriteFrameUuid": ""
+  }
+}

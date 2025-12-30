@@ -1,0 +1,56 @@
+{
+"skeleton": { "hash": "J+gu5c1r6e8S/jhwnPaliwGa3Fg", "spine": "3.6.53", "width": 128, "height": 200, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fire", "parent": "root", "y": 55, "scaleX": 0.5, "scaleY": 0.5 }
+],
+"slots": [
+	{ "name": "fire", "bone": "fire", "attachment": "uitx_pvpfire/uitx_pvpfire_23" }
+],
+"skins": {
+	"default": {
+		"fire": {
+			"uitx_pvpfire/uitx_pvpfire_09": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_10": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_11": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_12": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_13": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_14": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_15": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_16": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_17": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_18": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_19": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_20": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_21": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_22": { "width": 256, "height": 400 },
+			"uitx_pvpfire/uitx_pvpfire_23": { "width": 256, "height": 400 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"fire": {
+				"attachment": [
+					{ "time": 0, "name": "uitx_pvpfire/uitx_pvpfire_09" },
+					{ "time": 0.0667, "name": "uitx_pvpfire/uitx_pvpfire_10" },
+					{ "time": 0.1333, "name": "uitx_pvpfire/uitx_pvpfire_11" },
+					{ "time": 0.2, "name": "uitx_pvpfire/uitx_pvpfire_12" },
+					{ "time": 0.2667, "name": "uitx_pvpfire/uitx_pvpfire_13" },
+					{ "time": 0.3333, "name": "uitx_pvpfire/uitx_pvpfire_14" },
+					{ "time": 0.4, "name": "uitx_pvpfire/uitx_pvpfire_15" },
+					{ "time": 0.4667, "name": "uitx_pvpfire/uitx_pvpfire_16" },
+					{ "time": 0.5333, "name": "uitx_pvpfire/uitx_pvpfire_17" },
+					{ "time": 0.6, "name": "uitx_pvpfire/uitx_pvpfire_18" },
+					{ "time": 0.6667, "name": "uitx_pvpfire/uitx_pvpfire_19" },
+					{ "time": 0.7333, "name": "uitx_pvpfire/uitx_pvpfire_20" },
+					{ "time": 0.8, "name": "uitx_pvpfire/uitx_pvpfire_21" },
+					{ "time": 0.8667, "name": "uitx_pvpfire/uitx_pvpfire_22" },
+					{ "time": 0.9333, "name": "uitx_pvpfire/uitx_pvpfire_23" }
+				]
+			}
+		}
+	}
+}
+}

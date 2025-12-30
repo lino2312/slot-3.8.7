@@ -1,0 +1,258 @@
+
+Symbol_15.png
+size: 781,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Scatter/FX4
+  rotate: false
+  xy: 2, 278
+  size: 485, 303
+  orig: 485, 303
+  offset: 0, 0
+  index: -1
+Scatter/FX5
+  rotate: false
+  xy: 489, 147
+  size: 194, 194
+  orig: 194, 194
+  offset: 0, 0
+  index: -1
+Scatter/FX6
+  rotate: true
+  xy: 447, 13
+  size: 132, 137
+  orig: 137, 137
+  offset: 2, 0
+  index: -1
+Scatter/Ptcl_02
+  rotate: true
+  xy: 2, 583
+  size: 438, 375
+  orig: 485, 485
+  offset: 23, 38
+  index: -1
+Scatter/Ptcl_06
+  rotate: true
+  xy: 489, 343
+  size: 242, 237
+  orig: 248, 248
+  offset: 5, 6
+  index: -1
+Scatter/Scatter_A_1-2
+  rotate: true
+  xy: 685, 97
+  size: 175, 57
+  orig: 182, 153
+  offset: 4, 4
+  index: -1
+Scatter/Scatter_B_1
+  rotate: true
+  xy: 686, 612
+  size: 177, 57
+  orig: 182, 153
+  offset: 3, 4
+  index: -1
+Scatter/Scatter_B_2
+  rotate: true
+  xy: 306, 105
+  size: 171, 139
+  orig: 182, 153
+  offset: 6, 5
+  index: -1
+Scatter/Scatter_B_3
+  rotate: true
+  xy: 728, 417
+  size: 95, 50
+  orig: 182, 153
+  offset: 45, 103
+  index: -1
+Scatter/Scatter_B_3-2
+  rotate: true
+  xy: 728, 514
+  size: 96, 50
+  orig: 182, 153
+  offset: 44, 103
+  index: -1
+Scatter/Scatter_B_4
+  rotate: false
+  xy: 586, 15
+  size: 171, 54
+  orig: 182, 153
+  offset: 7, 48
+  index: -1
+Scatter/Scatter_B_4-2
+  rotate: false
+  xy: 250, 20
+  size: 171, 54
+  orig: 182, 153
+  offset: 7, 48
+  index: -1
+Scatter/Scatter_B_5
+  rotate: false
+  xy: 533, 625
+  size: 151, 151
+  orig: 182, 153
+  offset: 17, 0
+  index: -1
+Scatter/Scatter_B_5-2
+  rotate: false
+  xy: 624, 870
+  size: 151, 151
+  orig: 182, 153
+  offset: 17, 0
+  index: -1
+Scatter/Scatter_B_6
+  rotate: false
+  xy: 2, 126
+  size: 150, 150
+  orig: 182, 153
+  offset: 17, 0
+  index: -1
+Scatter/Scatter_B_6-2
+  rotate: false
+  xy: 154, 126
+  size: 150, 150
+  orig: 182, 153
+  offset: 17, 0
+  index: -1
+Scatter/Scatter_B_7
+  rotate: false
+  xy: 2, 2
+  size: 122, 122
+  orig: 152, 152
+  offset: 16, 15
+  index: -1
+Scatter/Scatter_B_7-2
+  rotate: false
+  xy: 126, 2
+  size: 122, 122
+  orig: 152, 152
+  offset: 16, 15
+  index: -1
+Scatter/Scatter_B_7-3
+  rotate: false
+  xy: 379, 624
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+Scatter/Scatter_B_8
+  rotate: false
+  xy: 685, 274
+  size: 64, 67
+  orig: 182, 153
+  offset: 61, 41
+  index: -1
+Scatter/Scatter_B_8-2
+  rotate: false
+  xy: 624, 791
+  size: 78, 77
+  orig: 182, 153
+  offset: 54, 37
+  index: -1
+Scatter/Scatter_B_9
+  rotate: true
+  xy: 728, 367
+  size: 48, 47
+  orig: 182, 153
+  offset: 69, 52
+  index: -1
+Scatter/Scatter_B_9-2
+  rotate: true
+  xy: 250, 76
+  size: 48, 47
+  orig: 182, 153
+  offset: 69, 52
+  index: -1
+Scatter/Scatter_Text_Ref_00001
+  rotate: true
+  xy: 678, 587
+  size: 23, 35
+  orig: 182, 153
+  offset: 10, 15
+  index: -1
+Scatter/Scatter_Text_Ref_00002
+  rotate: true
+  xy: 447, 185
+  size: 43, 35
+  orig: 182, 153
+  offset: 9, 15
+  index: -1
+Scatter/Scatter_Text_Ref_00003
+  rotate: true
+  xy: 744, 163
+  size: 109, 35
+  orig: 182, 153
+  offset: 9, 15
+  index: -1
+Scatter/Scatter_Text_Ref_00004
+  rotate: false
+  xy: 379, 587
+  size: 156, 35
+  orig: 182, 153
+  offset: 15, 15
+  index: -1
+Scatter/Scatter_Text_Ref_00005
+  rotate: false
+  xy: 537, 588
+  size: 113, 35
+  orig: 182, 153
+  offset: 59, 15
+  index: -1
+Scatter/Scatter_Text_Ref_00006
+  rotate: true
+  xy: 744, 71
+  size: 90, 35
+  orig: 182, 153
+  offset: 82, 15
+  index: -1
+Scatter/Scatter_Text_Ref_00007
+  rotate: true
+  xy: 704, 798
+  size: 70, 35
+  orig: 182, 153
+  offset: 102, 15
+  index: -1
+Scatter/Scatter_Text_Ref_00008
+  rotate: true
+  xy: 741, 815
+  size: 53, 35
+  orig: 182, 153
+  offset: 119, 15
+  index: -1
+Scatter/Scatter_Text_Ref_00009
+  rotate: true
+  xy: 447, 230
+  size: 46, 35
+  orig: 182, 153
+  offset: 126, 15
+  index: -1
+Scatter/Scatter_Text_Ref_00010
+  rotate: false
+  xy: 447, 148
+  size: 37, 35
+  orig: 182, 153
+  offset: 134, 15
+  index: -1
+Scatter/Scatter_Text_Ref_00011
+  rotate: false
+  xy: 745, 778
+  size: 33, 35
+  orig: 182, 153
+  offset: 138, 15
+  index: -1
+Scatter/Scatter_Text_Ref_00012
+  rotate: false
+  xy: 652, 588
+  size: 24, 35
+  orig: 182, 153
+  offset: 147, 15
+  index: -1
+Scatter/Spark_2
+  rotate: false
+  xy: 379, 778
+  size: 243, 243
+  orig: 243, 243
+  offset: 0, 0
+  index: -1

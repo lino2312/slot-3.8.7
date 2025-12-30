@@ -1,0 +1,48 @@
+
+Wheel_ExtraNumber.png
+size: 415,39
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Wheel/payX_num/10X
+  rotate: false
+  xy: 2, 2
+  size: 80, 35
+  orig: 80, 35
+  offset: 0, 0
+  index: -1
+Wheel/payX_num/15X
+  rotate: false
+  xy: 84, 2
+  size: 80, 35
+  orig: 80, 35
+  offset: 0, 0
+  index: -1
+Wheel/payX_num/1X
+  rotate: false
+  xy: 355, 2
+  size: 58, 35
+  orig: 80, 35
+  offset: 11, 0
+  index: -1
+Wheel/payX_num/2X
+  rotate: false
+  xy: 166, 2
+  size: 61, 35
+  orig: 80, 35
+  offset: 9, 0
+  index: -1
+Wheel/payX_num/3X
+  rotate: false
+  xy: 229, 2
+  size: 61, 35
+  orig: 80, 35
+  offset: 10, 0
+  index: -1
+Wheel/payX_num/5X
+  rotate: false
+  xy: 292, 2
+  size: 61, 35
+  orig: 80, 35
+  offset: 10, 0
+  index: -1

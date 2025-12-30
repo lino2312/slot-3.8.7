@@ -1,0 +1,20 @@
+
+reward_g_01.png
+size: 521,124
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+big_WIN/faguang01
+  rotate: false
+  xy: 0, 18
+  size: 394, 106
+  orig: 394, 106
+  offset: 0, 0
+  index: -1
+guangdian01
+  rotate: true
+  xy: 396, 0
+  size: 124, 125
+  orig: 124, 125
+  offset: 0, 0
+  index: -1

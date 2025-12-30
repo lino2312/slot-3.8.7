@@ -1,0 +1,41 @@
+
+spine.png
+size: 481,209
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX/FireSpark01_2
+  rotate: true
+  xy: 378, 152
+  size: 55, 101
+  orig: 66, 101
+  offset: 10, 0
+  index: -1
+FX/Frame_FX_08
+  rotate: false
+  xy: 2, 2
+  size: 374, 205
+  orig: 389, 217
+  offset: 15, 0
+  index: -1
+FX/Frame_FX_Wipe
+  rotate: false
+  xy: 378, 5
+  size: 91, 25
+  orig: 97, 25
+  offset: 3, 0
+  index: -1
+FX/Frame_Glow
+  rotate: false
+  xy: 426, 80
+  size: 49, 70
+  orig: 49, 70
+  offset: 0, 0
+  index: -1
+FX/Frame_Light
+  rotate: false
+  xy: 378, 32
+  size: 46, 118
+  orig: 57, 120
+  offset: 6, 1
+  index: -1

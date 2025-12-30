@@ -1,0 +1,20 @@
+info face="Arial" size=45 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=45 base=45 scaleW=256 scaleH=150 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="FNT_Compliment_Num.png"
+chars count=16
+char id=43   x=39    y=96     width=34    height=47    xoffset=-1     yoffset=-1     xadvance=32    page=0  chnl=15
+char id=44   x=234    y=48     width=20    height=47    xoffset=-1     yoffset=-1     xadvance=18    page=0  chnl=15
+char id=46   x=74    y=96     width=20    height=47    xoffset=-1     yoffset=-1     xadvance=18    page=0  chnl=15
+char id=48   x=138    y=0     width=38    height=47    xoffset=-1     yoffset=-1     xadvance=36    page=0  chnl=15
+char id=49   x=177    y=0     width=38    height=47    xoffset=-1     yoffset=-1     xadvance=36    page=0  chnl=15
+char id=50   x=216    y=0     width=38    height=47    xoffset=-1     yoffset=-1     xadvance=36    page=0  chnl=15
+char id=51   x=0    y=48     width=38    height=47    xoffset=-1     yoffset=-1     xadvance=36    page=0  chnl=15
+char id=52   x=39    y=48     width=38    height=47    xoffset=-1     yoffset=-1     xadvance=36    page=0  chnl=15
+char id=53   x=78    y=48     width=38    height=47    xoffset=-1     yoffset=-1     xadvance=36    page=0  chnl=15
+char id=54   x=117    y=48     width=38    height=47    xoffset=-1     yoffset=-1     xadvance=36    page=0  chnl=15
+char id=55   x=156    y=48     width=38    height=47    xoffset=-1     yoffset=-1     xadvance=36    page=0  chnl=15
+char id=56   x=195    y=48     width=38    height=47    xoffset=-1     yoffset=-1     xadvance=36    page=0  chnl=15
+char id=57   x=0    y=96     width=38    height=47    xoffset=-1     yoffset=-1     xadvance=36    page=0  chnl=15
+char id=66   x=0    y=0     width=45    height=47    xoffset=-1     yoffset=-1     xadvance=43    page=0  chnl=15
+char id=75   x=46    y=0     width=45    height=47    xoffset=-1     yoffset=-1     xadvance=43    page=0  chnl=15
+char id=77   x=92    y=0     width=45    height=47    xoffset=-1     yoffset=-1     xadvance=43    page=0  chnl=15

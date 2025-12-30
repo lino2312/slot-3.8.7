@@ -1,0 +1,216 @@
+
+jp.png
+size: 1311,51
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jp/jp_00
+  rotate: false
+  xy: 41, 28
+  size: 38, 23
+  orig: 205, 31
+  offset: 6, 4
+  index: -1
+jp/jp_01
+  rotate: false
+  xy: 81, 28
+  size: 45, 23
+  orig: 205, 31
+  offset: 6, 4
+  index: -1
+jp/jp_02
+  rotate: false
+  xy: 233, 27
+  size: 56, 24
+  orig: 205, 31
+  offset: 5, 3
+  index: -1
+jp/jp_03
+  rotate: false
+  xy: 291, 27
+  size: 63, 24
+  orig: 205, 31
+  offset: 5, 3
+  index: -1
+jp/jp_04
+  rotate: false
+  xy: 356, 27
+  size: 72, 24
+  orig: 205, 31
+  offset: 5, 3
+  index: -1
+jp/jp_05
+  rotate: false
+  xy: 243, 0
+  size: 77, 25
+  orig: 205, 31
+  offset: 6, 3
+  index: -1
+jp/jp_06
+  rotate: false
+  xy: 322, 0
+  size: 86, 25
+  orig: 205, 31
+  offset: 6, 3
+  index: -1
+jp/jp_07
+  rotate: false
+  xy: 410, 0
+  size: 88, 25
+  orig: 205, 31
+  offset: 8, 3
+  index: -1
+jp/jp_08
+  rotate: false
+  xy: 430, 27
+  size: 100, 24
+  orig: 205, 31
+  offset: 8, 3
+  index: -1
+jp/jp_09
+  rotate: false
+  xy: 500, 0
+  size: 108, 25
+  orig: 205, 31
+  offset: 8, 3
+  index: -1
+jp/jp_10
+  rotate: false
+  xy: 610, 0
+  size: 109, 25
+  orig: 205, 31
+  offset: 14, 3
+  index: -1
+jp/jp_11
+  rotate: false
+  xy: 721, 0
+  size: 110, 25
+  orig: 205, 31
+  offset: 21, 3
+  index: -1
+jp/jp_12
+  rotate: false
+  xy: 833, 0
+  size: 110, 25
+  orig: 205, 31
+  offset: 29, 3
+  index: -1
+jp/jp_13
+  rotate: false
+  xy: 945, 0
+  size: 111, 25
+  orig: 205, 31
+  offset: 36, 3
+  index: -1
+jp/jp_14
+  rotate: false
+  xy: 532, 27
+  size: 110, 24
+  orig: 205, 31
+  offset: 45, 3
+  index: -1
+jp/jp_15
+  rotate: false
+  xy: 644, 27
+  size: 110, 24
+  orig: 205, 31
+  offset: 53, 3
+  index: -1
+jp/jp_16
+  rotate: false
+  xy: 756, 27
+  size: 109, 24
+  orig: 205, 31
+  offset: 61, 3
+  index: -1
+jp/jp_17
+  rotate: false
+  xy: 867, 27
+  size: 109, 24
+  orig: 205, 31
+  offset: 70, 3
+  index: -1
+jp/jp_18
+  rotate: false
+  xy: 978, 27
+  size: 111, 24
+  orig: 205, 31
+  offset: 76, 3
+  index: -1
+jp/jp_19
+  rotate: false
+  xy: 1091, 27
+  size: 109, 24
+  orig: 205, 31
+  offset: 86, 3
+  index: -1
+jp/jp_20
+  rotate: false
+  xy: 1058, 0
+  size: 103, 25
+  orig: 205, 31
+  offset: 94, 3
+  index: -1
+jp/jp_21
+  rotate: false
+  xy: 1202, 27
+  size: 98, 24
+  orig: 205, 31
+  offset: 100, 3
+  index: -1
+jp/jp_22
+  rotate: false
+  xy: 0, 2
+  size: 91, 24
+  orig: 205, 31
+  offset: 108, 3
+  index: -1
+jp/jp_23
+  rotate: false
+  xy: 93, 2
+  size: 84, 24
+  orig: 205, 31
+  offset: 116, 3
+  index: -1
+jp/jp_24
+  rotate: false
+  xy: 1163, 0
+  size: 77, 25
+  orig: 205, 31
+  offset: 124, 3
+  index: -1
+jp/jp_25
+  rotate: false
+  xy: 1242, 0
+  size: 69, 25
+  orig: 205, 31
+  offset: 132, 3
+  index: -1
+jp/jp_26
+  rotate: false
+  xy: 179, 1
+  size: 62, 24
+  orig: 205, 31
+  offset: 139, 3
+  index: -1
+jp/jp_27
+  rotate: false
+  xy: 128, 28
+  size: 54, 23
+  orig: 205, 31
+  offset: 147, 4
+  index: -1
+jp/jp_28
+  rotate: false
+  xy: 184, 28
+  size: 47, 23
+  orig: 205, 31
+  offset: 154, 4
+  index: -1
+jp/jp_29
+  rotate: false
+  xy: 0, 29
+  size: 39, 22
+  orig: 205, 31
+  offset: 162, 4
+  index: -1

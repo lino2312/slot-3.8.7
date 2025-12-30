@@ -1,0 +1,27 @@
+
+spine.png
+size: 750,260
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10072_smoke_cyh_01
+  rotate: true
+  xy: 2, 2
+  size: 256, 250
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+10072_smoke_cyh_02
+  rotate: true
+  xy: 254, 2
+  size: 256, 248
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+10072_smoke_cyh_03
+  rotate: true
+  xy: 504, 2
+  size: 256, 244
+  orig: 256, 256
+  offset: 0, 12
+  index: -1

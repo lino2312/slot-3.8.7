@@ -1,0 +1,13 @@
+
+spine.png
+size: 128,300
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx01
+  rotate: false
+  xy: 2, 2
+  size: 124, 296
+  orig: 255, 375
+  offset: 63, 64
+  index: -1

@@ -1,0 +1,377 @@
+
+mg_lemur_popup.png
+size: 1096,266
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 43
+  size: 221, 80
+  orig: 221, 80
+  offset: 0, 0
+  index: -1
+chest
+  rotate: true
+  xy: 763, 181
+  size: 83, 67
+  orig: 84, 69
+  offset: 0, 0
+  index: -1
+ear_L
+  rotate: false
+  xy: 682, 167
+  size: 79, 97
+  orig: 79, 103
+  offset: 0, 6
+  index: -1
+ear_R
+  rotate: false
+  xy: 614, 149
+  size: 66, 115
+  orig: 85, 117
+  offset: 19, 2
+  index: -1
+eyeball_L
+  rotate: false
+  xy: 968, 154
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+eyeball_R
+  rotate: false
+  xy: 994, 154
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+hair_tip
+  rotate: false
+  xy: 252, 2
+  size: 41, 48
+  orig: 41, 48
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 518, 53
+  size: 103, 73
+  orig: 103, 73
+  offset: 0, 0
+  index: -1
+leaf00
+  rotate: true
+  xy: 1033, 135
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+leaf01
+  rotate: false
+  xy: 614, 128
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+leaf02
+  rotate: true
+  xy: 812, 152
+  size: 27, 18
+  orig: 27, 18
+  offset: 0, 0
+  index: -1
+leaf_00
+  rotate: false
+  xy: 689, 56
+  size: 75, 91
+  orig: 75, 91
+  offset: 0, 0
+  index: -1
+leaf_01
+  rotate: true
+  xy: 632, 55
+  size: 92, 55
+  orig: 92, 55
+  offset: 0, 0
+  index: -1
+leaf_02
+  rotate: true
+  xy: 766, 65
+  size: 85, 60
+  orig: 85, 60
+  offset: 0, 0
+  index: -1
+leaf_03
+  rotate: true
+  xy: 903, 185
+  size: 79, 75
+  orig: 79, 75
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 518, 128
+  size: 94, 136
+  orig: 94, 138
+  offset: 0, 2
+  index: -1
+p01_eyebrow_L
+  rotate: false
+  xy: 469, 5
+  size: 56, 45
+  orig: 56, 45
+  offset: 0, 0
+  index: -1
+p01_eyebrow_R
+  rotate: false
+  xy: 890, 156
+  size: 57, 24
+  orig: 57, 24
+  offset: 0, 0
+  index: -1
+p01_face
+  rotate: true
+  xy: 84, 52
+  size: 212, 147
+  orig: 212, 149
+  offset: 0, 0
+  index: -1
+p01_jaw
+  rotate: false
+  xy: 1020, 155
+  size: 35, 23
+  orig: 35, 23
+  offset: 0, 0
+  index: -1
+p01_nose
+  rotate: true
+  xy: 949, 153
+  size: 30, 17
+  orig: 30, 17
+  offset: 0, 0
+  index: -1
+p01_snout
+  rotate: false
+  xy: 1057, 154
+  size: 36, 29
+  orig: 36, 35
+  offset: 0, 6
+  index: -1
+p01_snoutbase
+  rotate: true
+  xy: 123, 2
+  size: 48, 69
+  orig: 48, 69
+  offset: 0, 0
+  index: -1
+p01_socket_L
+  rotate: true
+  xy: 956, 72
+  size: 79, 75
+  orig: 79, 75
+  offset: 0, 0
+  index: -1
+p01_socket_L00
+  rotate: false
+  xy: 353, 4
+  size: 55, 46
+  orig: 55, 46
+  offset: 0, 0
+  index: -1
+p01_socket_L01
+  rotate: false
+  xy: 527, 2
+  size: 56, 49
+  orig: 56, 49
+  offset: 0, 0
+  index: -1
+p01_socket_R
+  rotate: false
+  xy: 959, 3
+  size: 77, 67
+  orig: 77, 68
+  offset: 0, 1
+  index: -1
+p01_socket_R00
+  rotate: false
+  xy: 717, 2
+  size: 56, 52
+  orig: 56, 52
+  offset: 0, 0
+  index: -1
+p01_socket_R01
+  rotate: false
+  xy: 194, 2
+  size: 56, 48
+  orig: 56, 50
+  offset: 0, 2
+  index: -1
+p02_eyebrow_L
+  rotate: false
+  xy: 980, 223
+  size: 56, 41
+  orig: 56, 41
+  offset: 0, 0
+  index: -1
+p02_eyebrow_R
+  rotate: true
+  xy: 858, 5
+  size: 60, 20
+  orig: 60, 20
+  offset: 0, 0
+  index: -1
+p02_face
+  rotate: true
+  xy: 233, 52
+  size: 212, 141
+  orig: 212, 142
+  offset: 0, 0
+  index: -1
+p02_mouth
+  rotate: false
+  xy: 585, 7
+  size: 70, 44
+  orig: 70, 45
+  offset: 0, 1
+  index: -1
+p02_nose
+  rotate: false
+  xy: 682, 149
+  size: 31, 16
+  orig: 31, 16
+  offset: 0, 0
+  index: -1
+p02_socket_L
+  rotate: true
+  xy: 884, 70
+  size: 80, 70
+  orig: 80, 71
+  offset: 0, 0
+  index: -1
+p02_socket_L00
+  rotate: false
+  xy: 980, 180
+  size: 55, 41
+  orig: 55, 41
+  offset: 0, 0
+  index: -1
+p02_socket_L01
+  rotate: true
+  xy: 880, 7
+  size: 58, 43
+  orig: 58, 43
+  offset: 0, 0
+  index: -1
+p02_socket_R
+  rotate: false
+  xy: 775, 2
+  size: 81, 61
+  orig: 81, 61
+  offset: 0, 0
+  index: -1
+p02_socket_R00
+  rotate: false
+  xy: 295, 3
+  size: 56, 47
+  orig: 56, 48
+  offset: 0, 1
+  index: -1
+p02_socket_R01
+  rotate: false
+  xy: 410, 5
+  size: 57, 45
+  orig: 58, 45
+  offset: 0, 0
+  index: -1
+p03_eyebrow_L
+  rotate: false
+  xy: 61, 4
+  size: 60, 37
+  orig: 60, 37
+  offset: 0, 0
+  index: -1
+p03_eyebrow_R
+  rotate: false
+  xy: 748, 152
+  size: 62, 13
+  orig: 62, 13
+  offset: 0, 0
+  index: -1
+p03_head
+  rotate: true
+  xy: 376, 52
+  size: 212, 140
+  orig: 212, 140
+  offset: 0, 0
+  index: -1
+p03_mouth
+  rotate: true
+  xy: 1057, 75
+  size: 77, 34
+  orig: 77, 34
+  offset: 0, 0
+  index: -1
+p03_nose
+  rotate: false
+  xy: 715, 149
+  size: 31, 16
+  orig: 31, 16
+  offset: 0, 0
+  index: -1
+p03_socket_L
+  rotate: true
+  xy: 832, 182
+  size: 82, 69
+  orig: 82, 69
+  offset: 0, 0
+  index: -1
+p03_socket_L00
+  rotate: false
+  xy: 832, 152
+  size: 56, 28
+  orig: 56, 29
+  offset: 0, 0
+  index: -1
+p03_socket_L01
+  rotate: false
+  xy: 657, 9
+  size: 58, 44
+  orig: 58, 44
+  offset: 0, 0
+  index: -1
+p03_socket_R
+  rotate: true
+  xy: 828, 67
+  size: 83, 54
+  orig: 83, 54
+  offset: 0, 0
+  index: -1
+p03_socket_R00
+  rotate: false
+  xy: 2, 3
+  size: 57, 38
+  orig: 57, 39
+  offset: 0, 1
+  index: -1
+p03_socket_R01
+  rotate: false
+  xy: 1038, 220
+  size: 56, 44
+  orig: 56, 44
+  offset: 0, 0
+  index: -1
+p03_whites_L
+  rotate: true
+  xy: 925, 10
+  size: 58, 32
+  orig: 58, 32
+  offset: 0, 0
+  index: -1
+p03_whites_R
+  rotate: false
+  xy: 1037, 185
+  size: 57, 33
+  orig: 57, 33
+  offset: 0, 0
+  index: -1

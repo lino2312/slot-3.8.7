@@ -1,0 +1,167 @@
+
+bg_lemur_C.png
+size: 616,108
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_l
+  rotate: true
+  xy: 177, 26
+  size: 80, 45
+  orig: 84, 45
+  offset: 0, 0
+  index: -1
+arm_r
+  rotate: false
+  xy: 215, 3
+  size: 50, 21
+  orig: 50, 22
+  offset: 0, 1
+  index: -1
+body
+  rotate: false
+  xy: 2, 4
+  size: 59, 102
+  orig: 59, 102
+  offset: 0, 0
+  index: -1
+ear_l
+  rotate: false
+  xy: 303, 36
+  size: 48, 70
+  orig: 48, 70
+  offset: 0, 0
+  index: -1
+ear_r
+  rotate: false
+  xy: 444, 3
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+eye_l
+  rotate: false
+  xy: 488, 4
+  size: 51, 41
+  orig: 53, 41
+  offset: 1, 0
+  index: -1
+eye_r
+  rotate: true
+  xy: 267, 4
+  size: 25, 33
+  orig: 25, 33
+  offset: 0, 0
+  index: -1
+eyebrow_l
+  rotate: true
+  xy: 376, 3
+  size: 37, 15
+  orig: 41, 15
+  offset: 2, 0
+  index: -1
+eyebrow_r
+  rotate: false
+  xy: 541, 37
+  size: 17, 13
+  orig: 18, 16
+  offset: 1, 3
+  index: -1
+forearm_l
+  rotate: true
+  xy: 273, 32
+  size: 74, 28
+  orig: 74, 30
+  offset: 0, 2
+  index: -1
+forearm_r
+  rotate: false
+  xy: 561, 46
+  size: 52, 24
+  orig: 52, 24
+  offset: 0, 0
+  index: -1
+fur
+  rotate: true
+  xy: 567, 5
+  size: 39, 34
+  orig: 41, 35
+  offset: 2, 1
+  index: -1
+hair
+  rotate: false
+  xy: 177, 2
+  size: 36, 22
+  orig: 36, 22
+  offset: 0, 0
+  index: -1
+hand_l
+  rotate: false
+  xy: 336, 4
+  size: 38, 30
+  orig: 38, 30
+  offset: 0, 0
+  index: -1
+hand_r
+  rotate: true
+  xy: 541, 2
+  size: 33, 24
+  orig: 33, 24
+  offset: 0, 0
+  index: -1
+hat_base
+  rotate: true
+  xy: 224, 31
+  size: 75, 47
+  orig: 80, 50
+  offset: 0, 1
+  index: -1
+hat_leaf_l
+  rotate: true
+  xy: 512, 52
+  size: 54, 47
+  orig: 56, 47
+  offset: 2, 0
+  index: -1
+hat_leaf_r
+  rotate: true
+  xy: 393, 4
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 63, 15
+  size: 112, 91
+  orig: 113, 91
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 561, 72
+  size: 53, 34
+  orig: 53, 34
+  offset: 0, 0
+  index: -1
+snout
+  rotate: false
+  xy: 302, 2
+  size: 32, 28
+  orig: 36, 37
+  offset: 0, 1
+  index: -1
+tail_01
+  rotate: true
+  xy: 400, 47
+  size: 59, 110
+  orig: 60, 110
+  offset: 1, 0
+  index: -1
+tail_02
+  rotate: true
+  xy: 353, 42
+  size: 64, 45
+  orig: 64, 45
+  offset: 0, 0
+  index: -1

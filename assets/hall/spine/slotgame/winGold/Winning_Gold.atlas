@@ -1,0 +1,216 @@
+
+Winning_Gold.png
+size: 401,561
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Winning_Gold_1
+  rotate: false
+  xy: 2, 463
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+Winning_Gold_10
+  rotate: true
+  xy: 198, 17
+  size: 52, 97
+  orig: 100, 100
+  offset: 28, 2
+  index: -1
+Winning_Gold_11
+  rotate: true
+  xy: 2, 2
+  size: 67, 96
+  orig: 100, 100
+  offset: 22, 2
+  index: -1
+Winning_Gold_12
+  rotate: false
+  xy: 91, 71
+  size: 78, 96
+  orig: 100, 100
+  offset: 17, 2
+  index: -1
+Winning_Gold_13
+  rotate: false
+  xy: 2, 71
+  size: 87, 96
+  orig: 100, 100
+  offset: 11, 2
+  index: -1
+Winning_Gold_14
+  rotate: false
+  xy: 2, 169
+  size: 92, 96
+  orig: 100, 100
+  offset: 7, 2
+  index: -1
+Winning_Gold_15
+  rotate: false
+  xy: 100, 463
+  size: 95, 96
+  orig: 100, 100
+  offset: 4, 2
+  index: -1
+Winning_Gold_16
+  rotate: false
+  xy: 2, 267
+  size: 95, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+Winning_Gold_17
+  rotate: false
+  xy: 99, 267
+  size: 92, 96
+  orig: 100, 100
+  offset: 1, 2
+  index: -1
+Winning_Gold_18
+  rotate: false
+  xy: 193, 267
+  size: 87, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+Winning_Gold_19
+  rotate: false
+  xy: 282, 267
+  size: 78, 96
+  orig: 100, 100
+  offset: 5, 2
+  index: -1
+Winning_Gold_2
+  rotate: false
+  xy: 100, 365
+  size: 94, 96
+  orig: 100, 100
+  offset: 1, 2
+  index: -1
+Winning_Gold_20
+  rotate: true
+  xy: 100, 2
+  size: 67, 96
+  orig: 100, 100
+  offset: 11, 2
+  index: -1
+Winning_Gold_21
+  rotate: false
+  xy: 308, 69
+  size: 52, 96
+  orig: 100, 100
+  offset: 20, 2
+  index: -1
+Winning_Gold_22
+  rotate: false
+  xy: 362, 165
+  size: 35, 98
+  orig: 100, 100
+  offset: 30, 1
+  index: -1
+Winning_Gold_23
+  rotate: false
+  xy: 362, 67
+  size: 27, 96
+  orig: 100, 100
+  offset: 38, 2
+  index: -1
+Winning_Gold_24
+  rotate: true
+  xy: 297, 22
+  size: 43, 98
+  orig: 100, 100
+  offset: 32, 1
+  index: -1
+Winning_Gold_25
+  rotate: false
+  xy: 246, 71
+  size: 60, 96
+  orig: 100, 100
+  offset: 25, 2
+  index: -1
+Winning_Gold_26
+  rotate: false
+  xy: 171, 71
+  size: 73, 96
+  orig: 100, 100
+  offset: 19, 2
+  index: -1
+Winning_Gold_27
+  rotate: false
+  xy: 96, 169
+  size: 82, 96
+  orig: 100, 100
+  offset: 14, 2
+  index: -1
+Winning_Gold_28
+  rotate: false
+  xy: 293, 463
+  size: 90, 96
+  orig: 100, 100
+  offset: 9, 2
+  index: -1
+Winning_Gold_29
+  rotate: false
+  xy: 197, 463
+  size: 94, 96
+  orig: 100, 100
+  offset: 5, 2
+  index: -1
+Winning_Gold_3
+  rotate: false
+  xy: 196, 365
+  size: 90, 96
+  orig: 100, 100
+  offset: 1, 2
+  index: -1
+Winning_Gold_30
+  rotate: false
+  xy: 2, 365
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+Winning_Gold_4
+  rotate: false
+  xy: 288, 365
+  size: 82, 96
+  orig: 100, 100
+  offset: 4, 2
+  index: -1
+Winning_Gold_5
+  rotate: false
+  xy: 180, 169
+  size: 73, 96
+  orig: 100, 100
+  offset: 8, 2
+  index: -1
+Winning_Gold_6
+  rotate: false
+  xy: 255, 169
+  size: 60, 96
+  orig: 100, 100
+  offset: 15, 2
+  index: -1
+Winning_Gold_7
+  rotate: false
+  xy: 317, 167
+  size: 43, 98
+  orig: 100, 100
+  offset: 25, 1
+  index: -1
+Winning_Gold_8
+  rotate: false
+  xy: 372, 365
+  size: 27, 96
+  orig: 100, 100
+  offset: 35, 2
+  index: -1
+Winning_Gold_9
+  rotate: false
+  xy: 362, 265
+  size: 35, 98
+  orig: 100, 100
+  offset: 35, 1
+  index: -1

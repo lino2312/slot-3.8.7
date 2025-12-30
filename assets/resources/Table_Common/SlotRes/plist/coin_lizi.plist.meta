@@ -1,0 +1,64 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "4789c7af-c448-41a4-8ccd-763e75f0f510",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "83a20": {
+      "importer": "sprite-frame",
+      "uuid": "4789c7af-c448-41a4-8ccd-763e75f0f510@83a20",
+      "displayName": "",
+      "id": "83a20",
+      "name": "coin_lizi",
+      "userData": {
+        "importer": "sprite-frame",
+        "atlasUuid": "4789c7af-c448-41a4-8ccd-763e75f0f510",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 665,
+        "height": 822,
+        "rawWidth": 665,
+        "rawHeight": 822,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3c2fc9b3-751a-4419-b746-0c50628c01c2@6c48a"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "coin_lizi.png",
+    "format": 2,
+    "textureUuid": "3c2fc9b3-751a-4419-b746-0c50628c01c2@6c48a",
+    "uuid": "4789c7af-c448-41a4-8ccd-763e75f0f510"
+  }
+}

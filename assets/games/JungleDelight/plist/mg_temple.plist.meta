@@ -1,0 +1,64 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "8679d981-7621-43e5-aea1-ce2531803da3",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "7636f": {
+      "importer": "sprite-frame",
+      "uuid": "8679d981-7621-43e5-aea1-ce2531803da3@7636f",
+      "displayName": "",
+      "id": "7636f",
+      "name": "mg_temple",
+      "userData": {
+        "importer": "sprite-frame",
+        "atlasUuid": "8679d981-7621-43e5-aea1-ce2531803da3",
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 873,
+        "height": 826,
+        "rawWidth": 873,
+        "rawHeight": 826,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "bbde97ea-7df7-43ce-983c-769c9bf0eac8@6c48a"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "mg_temple.png",
+    "format": 2,
+    "textureUuid": "bbde97ea-7df7-43ce-983c-769c9bf0eac8@6c48a",
+    "uuid": "8679d981-7621-43e5-aea1-ce2531803da3"
+  }
+}

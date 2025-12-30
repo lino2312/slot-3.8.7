@@ -1,0 +1,55 @@
+{
+  "ver": "1.0.6",
+  "importer": "bitmap-font",
+  "imported": true,
+  "uuid": "cca48a5e-5ef5-46aa-a395-d79e8f91bfaf",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "_fntConfig": {
+      "commonHeight": 61,
+      "fontSize": 42,
+      "atlasName": "time_down_yellow.png",
+      "fontDefDictionary": {
+        "52": {
+          "rect": {
+            "x": 39,
+            "y": 0,
+            "width": 42,
+            "height": 61
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 42
+        },
+        "53": {
+          "rect": {
+            "x": 81,
+            "y": 0,
+            "width": 40,
+            "height": 61
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 40
+        },
+        "54": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 39,
+            "height": 61
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 39
+        }
+      },
+      "kerningDict": {}
+    },
+    "fontSize": 42,
+    "textureUuid": "267abb99-d533-46cf-bc67-e832d10f0771"
+  }
+}
